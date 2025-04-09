@@ -132,9 +132,7 @@ module.exports = [
         output: {
             path: path.resolve(__dirname, "dist"),
             filename: "[name].js",
-            libraryTarget: "umd", // 'commonjs2' 대신 'umd'로 변경
-            library: "ScratchPaint", // UMD 빌드시 라이브러리 이름 추가
-            globalObject: "this",
+            libraryTarget: "commonjs2",
         },
     }),
 ];
