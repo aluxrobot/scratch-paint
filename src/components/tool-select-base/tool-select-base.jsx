@@ -6,7 +6,7 @@ import { injectIntl } from "react-intl";
 
 import Button from "../button/button.jsx";
 
-import styles from "./tool-select-base.css";
+import styles from "./tool-select-base.module.css";
 
 const ToolSelectComponent = (props) => (
     <Button

@@ -23939,10 +23939,10 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button-group/button-group.css":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/button-group/button-group.css ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button-group/button-group.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/button-group/button-group.module.css ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23950,21 +23950,21 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.button-group_button-group_3_c2R {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    padding: 0 .25rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.button-group-module_button-group_1kiRp {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    padding: 0 .25rem;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"button-group": "button-group_button-group_3_c2R",
-	"buttonGroup": "button-group_button-group_3_c2R"
+	"button-group": "button-group-module_button-group_1kiRp",
+	"buttonGroup": "button-group-module_button-group_1kiRp"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button/button.css":
-/*!*************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/button/button.css ***!
-  \*************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button/button.module.css":
+/*!********************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/button/button.module.css ***!
+  \********************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23972,23 +23972,23 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button_button_lmpwR {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button_button_lmpwR:active {\n    background-color: hsla(260, 60%, 60%, 0.35);\n}\n\n.button_highlighted_2c0Ir.button_button_lmpwR {\n    background-color: hsla(260, 60%, 60%, 0.35);\n}\n\n.button_mod-disabled_CFsZ2 {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button_mod-disabled_CFsZ2:active {\n    background: none;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.button-module_button_2z6oN {\n    background: none;\n    cursor: pointer;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.button-module_button_2z6oN:active {\n    background-color: hsla(260, 60%, 60%, 0.35);\n}\n\n.button-module_highlighted_1sTPH.button-module_button_2z6oN {\n    background-color: hsla(260, 60%, 60%, 0.35);\n}\n\n.button-module_mod-disabled_KW9tK {\n    cursor: auto;\n    opacity: .5;\n}\n\n.button-module_mod-disabled_KW9tK:active {\n    background: none;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"button": "button_button_lmpwR",
-	"highlighted": "button_highlighted_2c0Ir",
-	"mod-disabled": "button_mod-disabled_CFsZ2",
-	"modDisabled": "button_mod-disabled_CFsZ2"
+	"button": "button-module_button_2z6oN",
+	"highlighted": "button-module_highlighted_1sTPH",
+	"mod-disabled": "button-module_mod-disabled_KW9tK",
+	"modDisabled": "button-module_mod-disabled_KW9tK"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-button/color-button.css":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/color-button/color-button.css ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-button/color-button.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/color-button/color-button.module.css ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23996,29 +23996,29 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".color-button_color-button_2-mXT {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button_color-button-swatch_6Xhs3 {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[dir=\"ltr\"] .color-button_color-button-swatch_6Xhs3 {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button_color-button-swatch_6Xhs3 {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button_color-button-arrow_1b654 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid rgba(0, 0, 0, 0.25);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #575e75;\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button_color-button-arrow_1b654 {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button_color-button-arrow_1b654 {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button_swatch-icon_2gc40 {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button_outline-swatch_2ifeG:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
+exports.push([module.i, ".color-button-module_color-button_2ee5G {\n    height: 2rem;\n    width: 3rem;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n}\n\n.color-button-module_color-button-swatch_1ti1b {\n    position: relative;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    cursor: pointer;\n    -webkit-flex-basis: 2rem;\n        -ms-flex-preferred-size: 2rem;\n            flex-basis: 2rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n}\n\n[dir=\"ltr\"] .color-button-module_color-button-swatch_1ti1b {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n}\n\n[dir=\"rtl\"] .color-button-module_color-button-swatch_1ti1b {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n}\n\n.color-button-module_color-button-arrow_B_38f {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: pointer;\n    -webkit-flex-basis: 1rem;\n        -ms-flex-preferred-size: 1rem;\n            flex-basis: 1rem;\n    -webkit-flex-shrink: 0;\n        -ms-flex-negative: 0;\n            flex-shrink: 0;\n    height: 100%;\n\n    border: 1px solid rgba(0, 0, 0, 0.25);\n\n    -webkit-box-align: center;\n\n    -webkit-align-items: center;\n\n        -ms-flex-align: center;\n\n            align-items: center;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    color: #575e75;\n    font-size: 0.75rem;\n}\n\n[dir=\"ltr\"] .color-button-module_color-button-arrow_B_38f {\n    border-top-right-radius: 4px;\n    border-bottom-right-radius: 4px;\n    border-left: none;\n}\n\n[dir=\"rtl\"] .color-button-module_color-button-arrow_B_38f {\n    border-top-left-radius: 4px;\n    border-bottom-left-radius: 4px;\n    border-right: none;\n}\n\n.color-button-module_swatch-icon_XRKvW {\n    width: 1.75rem;\n    margin: auto;\n    /* Make sure it appears above the outline box */\n    z-index: 2;\n}\n\n.color-button-module_outline-swatch_3G8Uf:after {\n    content: \"\";\n    position: absolute;\n    top: calc(0.5rem);\n    left: calc(0.5rem);\n    width: 0.75rem;\n    height: 0.75rem;\n    background: white;\n    border: 1px solid rgba(0, 0, 0, 0.25);\n    /* Make sure it appears below the transparent icon */\n    z-index: 1;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"color-button": "color-button_color-button_2-mXT",
-	"colorButton": "color-button_color-button_2-mXT",
-	"color-button-swatch": "color-button_color-button-swatch_6Xhs3",
-	"colorButtonSwatch": "color-button_color-button-swatch_6Xhs3",
-	"color-button-arrow": "color-button_color-button-arrow_1b654",
-	"colorButtonArrow": "color-button_color-button-arrow_1b654",
-	"swatch-icon": "color-button_swatch-icon_2gc40",
-	"swatchIcon": "color-button_swatch-icon_2gc40",
-	"outline-swatch": "color-button_outline-swatch_2ifeG",
-	"outlineSwatch": "color-button_outline-swatch_2ifeG"
+	"color-button": "color-button-module_color-button_2ee5G",
+	"colorButton": "color-button-module_color-button_2ee5G",
+	"color-button-swatch": "color-button-module_color-button-swatch_1ti1b",
+	"colorButtonSwatch": "color-button-module_color-button-swatch_1ti1b",
+	"color-button-arrow": "color-button-module_color-button-arrow_B_38f",
+	"colorButtonArrow": "color-button-module_color-button-arrow_B_38f",
+	"swatch-icon": "color-button-module_swatch-icon_XRKvW",
+	"swatchIcon": "color-button-module_swatch-icon_XRKvW",
+	"outline-swatch": "color-button-module_outline-swatch_3G8Uf",
+	"outlineSwatch": "color-button-module_outline-swatch_3G8Uf"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-picker/color-picker.css":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/color-picker/color-picker.css ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-picker/color-picker.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/color-picker/color-picker.module.css ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24026,47 +24026,47 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* Popover styles */\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker_clickable_1qAhZ {\n    cursor: pointer;\n}\n\n.color-picker_swatch-row_3ygSb {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker_row-header_23YDh {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: #575E75;\n    margin: 8px;\n}\n\n[dir=\"ltr\"] .color-picker_label-readout_efqFT {\n    margin-left: 10px;\n}\n\n[dir=\"rtl\"] .color-picker_label-readout_efqFT {\n    margin-right: 10px;\n}\n\n.color-picker_label-name_3kaOv {\n    font-weight: bold;\n}\n\n.color-picker_divider_3Hq7P {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n.color-picker_swap-button_knDOR {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker_swatches_3P15b {\n    margin: 8px;\n}\n\n.color-picker_swatch_3zRbd {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker_large-swatch-icon_2EdzJ {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker_large-swatch_2tprq {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker_active-swatch_2U6UP {\n    border: 1px solid #855CD6;\n    -webkit-box-shadow: 0px 0px 0px 3px hsla(260, 60%, 60%, 0.35);\n            box-shadow: 0px 0px 0px 3px hsla(260, 60%, 60%, 0.35);\n}\n\n.color-picker_swatch-icon_1GWhH {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker_inactive-gradient_3LMcb {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker_gradient-picker-row_2ZOSs {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker_gradient-picker-row_2ZOSs > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-picker-row_2ZOSs > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker_gradient-swatches-row_1laEb {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* Popover styles */\n\n.Popover-body {\n    background: white;\n    border: 1px solid #ddd;\n    padding: 4px;\n    border-radius: 4px;\n    padding: 4px;\n    -webkit-box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n            box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, .3);\n}\n\n.Popover-tipShape {\n    fill: white;\n    stroke: #ddd;\n}\n\n.color-picker-module_clickable_3uGVL {\n    cursor: pointer;\n}\n\n.color-picker-module_swatch-row_1gsiA {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.color-picker-module_row-header_2VnqJ {\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n    font-size: 0.65rem;\n    color: #575E75;\n    margin: 8px;\n}\n\n[dir=\"ltr\"] .color-picker-module_label-readout_2GmUg {\n    margin-left: 10px;\n}\n\n[dir=\"rtl\"] .color-picker-module_label-readout_2GmUg {\n    margin-right: 10px;\n}\n\n.color-picker-module_label-name_19tBt {\n    font-weight: bold;\n}\n\n.color-picker-module_divider_1kB39 {\n    border-top: 1px solid #ddd;\n    margin: 8px;\n}\n\n.color-picker-module_swap-button_2WFmv {\n    margin-left: 8px;\n    margin-right: 8px;\n}\n\n.color-picker-module_swatches_1_DO5 {\n    margin: 8px;\n}\n\n.color-picker-module_swatch_1nRGk {\n    width: 1.5rem;\n    height: 1.5rem;\n    border: 1px solid #ddd;\n    border-radius: 4px;\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.color-picker-module_large-swatch-icon_Kwzzj {\n    width: 1.75rem;\n    margin: auto;\n}\n\n.color-picker-module_large-swatch_17Iy4 {\n    width: 2rem;\n    height: 2rem;\n}\n\n.color-picker-module_active-swatch_1G5K_ {\n    border: 1px solid #855CD6;\n    -webkit-box-shadow: 0px 0px 0px 3px hsla(260, 60%, 60%, 0.35);\n            box-shadow: 0px 0px 0px 3px hsla(260, 60%, 60%, 0.35);\n}\n\n.color-picker-module_swatch-icon_15j9F {\n    width: 1.5rem;\n    height: 1.5rem;\n}\n\n.color-picker-module_inactive-gradient_8yc4N {\n    -webkit-filter: saturate(0%);\n            filter: saturate(0%);\n}\n\n.color-picker-module_gradient-picker-row_3IS6q {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n    margin: 8px;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n[dir=\"ltr\"] .color-picker-module_gradient-picker-row_3IS6q > img + img {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker-module_gradient-picker-row_3IS6q > img + img {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .color-picker-module_gradient-swatches-row_2Q343 {\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"clickable": "color-picker_clickable_1qAhZ",
-	"swatch-row": "color-picker_swatch-row_3ygSb",
-	"swatchRow": "color-picker_swatch-row_3ygSb",
-	"row-header": "color-picker_row-header_23YDh",
-	"rowHeader": "color-picker_row-header_23YDh",
-	"label-readout": "color-picker_label-readout_efqFT",
-	"labelReadout": "color-picker_label-readout_efqFT",
-	"label-name": "color-picker_label-name_3kaOv",
-	"labelName": "color-picker_label-name_3kaOv",
-	"divider": "color-picker_divider_3Hq7P",
-	"swap-button": "color-picker_swap-button_knDOR",
-	"swapButton": "color-picker_swap-button_knDOR",
-	"swatches": "color-picker_swatches_3P15b",
-	"swatch": "color-picker_swatch_3zRbd",
-	"large-swatch-icon": "color-picker_large-swatch-icon_2EdzJ",
-	"largeSwatchIcon": "color-picker_large-swatch-icon_2EdzJ",
-	"large-swatch": "color-picker_large-swatch_2tprq",
-	"largeSwatch": "color-picker_large-swatch_2tprq",
-	"active-swatch": "color-picker_active-swatch_2U6UP",
-	"activeSwatch": "color-picker_active-swatch_2U6UP",
-	"swatch-icon": "color-picker_swatch-icon_1GWhH",
-	"swatchIcon": "color-picker_swatch-icon_1GWhH",
-	"inactive-gradient": "color-picker_inactive-gradient_3LMcb",
-	"inactiveGradient": "color-picker_inactive-gradient_3LMcb",
-	"gradient-picker-row": "color-picker_gradient-picker-row_2ZOSs",
-	"gradientPickerRow": "color-picker_gradient-picker-row_2ZOSs",
-	"gradient-swatches-row": "color-picker_gradient-swatches-row_1laEb",
-	"gradientSwatchesRow": "color-picker_gradient-swatches-row_1laEb"
+	"clickable": "color-picker-module_clickable_3uGVL",
+	"swatch-row": "color-picker-module_swatch-row_1gsiA",
+	"swatchRow": "color-picker-module_swatch-row_1gsiA",
+	"row-header": "color-picker-module_row-header_2VnqJ",
+	"rowHeader": "color-picker-module_row-header_2VnqJ",
+	"label-readout": "color-picker-module_label-readout_2GmUg",
+	"labelReadout": "color-picker-module_label-readout_2GmUg",
+	"label-name": "color-picker-module_label-name_19tBt",
+	"labelName": "color-picker-module_label-name_19tBt",
+	"divider": "color-picker-module_divider_1kB39",
+	"swap-button": "color-picker-module_swap-button_2WFmv",
+	"swapButton": "color-picker-module_swap-button_2WFmv",
+	"swatches": "color-picker-module_swatches_1_DO5",
+	"swatch": "color-picker-module_swatch_1nRGk",
+	"large-swatch-icon": "color-picker-module_large-swatch-icon_Kwzzj",
+	"largeSwatchIcon": "color-picker-module_large-swatch-icon_Kwzzj",
+	"large-swatch": "color-picker-module_large-swatch_17Iy4",
+	"largeSwatch": "color-picker-module_large-swatch_17Iy4",
+	"active-swatch": "color-picker-module_active-swatch_1G5K_",
+	"activeSwatch": "color-picker-module_active-swatch_1G5K_",
+	"swatch-icon": "color-picker-module_swatch-icon_15j9F",
+	"swatchIcon": "color-picker-module_swatch-icon_15j9F",
+	"inactive-gradient": "color-picker-module_inactive-gradient_8yc4N",
+	"inactiveGradient": "color-picker-module_inactive-gradient_8yc4N",
+	"gradient-picker-row": "color-picker-module_gradient-picker-row_3IS6q",
+	"gradientPickerRow": "color-picker-module_gradient-picker-row_3IS6q",
+	"gradient-swatches-row": "color-picker-module_gradient-swatches-row_2Q343",
+	"gradientSwatchesRow": "color-picker-module_gradient-swatches-row_2Q343"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/dropdown/dropdown.css":
-/*!*****************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/dropdown/dropdown.css ***!
-  \*****************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/dropdown/dropdown.module.css":
+/*!************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/dropdown/dropdown.module.css ***!
+  \************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24074,26 +24074,26 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.dropdown_dropdown_2cQyf {\n    border: 1px solid #E9EEF2;\n    border-radius: 5px;\n    overflow: visible;\n    min-width: 3.5rem;\n    color: #855CD6;\n    padding: .5rem;\n}\n\n.dropdown_mod-open_1QOjG {\n    background-color: #E9EEF2;\n}\n\n.dropdown_dropdown-icon_13LnP {\n    width: .5rem;\n    height: .5rem;\n    vertical-align: middle;\n    padding-bottom: .2rem;\n}\n\n[dir=\"ltr\"] .dropdown_dropdown-icon_13LnP {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .dropdown_dropdown-icon_13LnP {\n    margin-right: .5rem;\n}\n\n.dropdown_mod-caret-up_1v809 {\n    -webkit-transform: rotate(180deg);\n        -ms-transform: rotate(180deg);\n            transform: rotate(180deg);\n    padding-bottom: 0;\n    padding-top: .2rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.dropdown-module_dropdown_2jxuj {\n    border: 1px solid #E9EEF2;\n    border-radius: 5px;\n    overflow: visible;\n    min-width: 3.5rem;\n    color: #855CD6;\n    padding: .5rem;\n}\n\n.dropdown-module_mod-open_2D3NA {\n    background-color: #E9EEF2;\n}\n\n.dropdown-module_dropdown-icon_IjxUZ {\n    width: .5rem;\n    height: .5rem;\n    vertical-align: middle;\n    padding-bottom: .2rem;\n}\n\n[dir=\"ltr\"] .dropdown-module_dropdown-icon_IjxUZ {\n    margin-left: .5rem;\n}\n\n[dir=\"rtl\"] .dropdown-module_dropdown-icon_IjxUZ {\n    margin-right: .5rem;\n}\n\n.dropdown-module_mod-caret-up_BKdMZ {\n    -webkit-transform: rotate(180deg);\n        -ms-transform: rotate(180deg);\n            transform: rotate(180deg);\n    padding-bottom: 0;\n    padding-top: .2rem;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"dropdown": "dropdown_dropdown_2cQyf",
-	"mod-open": "dropdown_mod-open_1QOjG",
-	"modOpen": "dropdown_mod-open_1QOjG",
-	"dropdown-icon": "dropdown_dropdown-icon_13LnP",
-	"dropdownIcon": "dropdown_dropdown-icon_13LnP",
-	"mod-caret-up": "dropdown_mod-caret-up_1v809",
-	"modCaretUp": "dropdown_mod-caret-up_1v809"
+	"dropdown": "dropdown-module_dropdown_2jxuj",
+	"mod-open": "dropdown-module_mod-open_2D3NA",
+	"modOpen": "dropdown-module_mod-open_2D3NA",
+	"dropdown-icon": "dropdown-module_dropdown-icon_IjxUZ",
+	"dropdownIcon": "dropdown-module_dropdown-icon_IjxUZ",
+	"mod-caret-up": "dropdown-module_mod-caret-up_BKdMZ",
+	"modCaretUp": "dropdown-module_mod-caret-up_BKdMZ"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/fixed-tools/fixed-tools.css":
-/*!***********************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/fixed-tools/fixed-tools.css ***!
-  \***********************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/fixed-tools/fixed-tools.module.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/fixed-tools/fixed-tools.module.css ***!
+  \******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24101,44 +24101,44 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools_row_2PVw6 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools_costume-input_3ax5t {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_mod-dashed-border_1AyX1 {\n    border-right: 1px dashed #D9D9D9;\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_mod-dashed-border_1AyX1 {\n    border-left: 1px dashed #D9D9D9;\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools_mod-unselect_1Xf-j {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools_button-group-button_2DTEM {\n    display: inline-block;\n    border: 1px solid #D9D9D9;\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2DTEM {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2DTEM {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2DTEM:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2DTEM:first-of-type {\n    border-left: 1px solid #D9D9D9;\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2DTEM:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2DTEM:first-of-type {\n    border-right: 1px solid #D9D9D9;\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2DTEM.fixed-tools_mod-start-border_1OTDn {\n    border-left: 1px solid #D9D9D9;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2DTEM.fixed-tools_mod-start-border_1OTDn {\n    border-right: 1px solid #D9D9D9;\n}\n\n[dir=\"ltr\"] .fixed-tools_button-group-button_2DTEM.fixed-tools_mod-no-end-border_20uuv {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button_2DTEM.fixed-tools_mod-no-end-border_20uuv {\n    border-left: none;\n}\n\n.fixed-tools_button-group-button-icon_3shFH {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools_button-group-button-icon_3shFH {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools_mod-context-menu_JvI5y {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools_mod-top-divider_oxfsG {\n    border-top: 1px solid #D9D9D9;\n}\n\n.fixed-tools_mod-menu-item_1eQQZ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools_mod-disabled_UJyp0 {\n    cursor: auto;\n}\n\n.fixed-tools_mod-menu-item_1eQQZ:hover {\n    background: hsla(260, 60%, 60%, 0.35);\n}\n\n.fixed-tools_mod-disabled_UJyp0:hover {\n    background-color: transparent;\n}\n\n.fixed-tools_menu-item-icon_2DtJ1 {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools_menu-item-icon_2DtJ1 {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.fixed-tools-module_row_C7-E2 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.fixed-tools-module_costume-input_2nBDJ {\n    width: 8rem;\n}\n\n[dir=\"ltr\"] .fixed-tools-module_mod-dashed-border_2b3po {\n    border-right: 1px dashed #D9D9D9;\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools-module_mod-dashed-border_2b3po {\n    border-left: 1px dashed #D9D9D9;\n    padding-left: calc(2 * .25rem);\n}\n\n.fixed-tools-module_mod-unselect_2KlX2 {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.fixed-tools-module_button-group-button_zJDfe {\n    display: inline-block;\n    border: 1px solid #D9D9D9;\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .fixed-tools-module_button-group-button_zJDfe {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .fixed-tools-module_button-group-button_zJDfe {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .fixed-tools-module_button-group-button_zJDfe:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools-module_button-group-button_zJDfe:first-of-type {\n    border-left: 1px solid #D9D9D9;\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools-module_button-group-button_zJDfe:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .fixed-tools-module_button-group-button_zJDfe:first-of-type {\n    border-right: 1px solid #D9D9D9;\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .fixed-tools-module_button-group-button_zJDfe.fixed-tools-module_mod-start-border_1m0SA {\n    border-left: 1px solid #D9D9D9;\n}\n\n[dir=\"rtl\"] .fixed-tools-module_button-group-button_zJDfe.fixed-tools-module_mod-start-border_1m0SA {\n    border-right: 1px solid #D9D9D9;\n}\n\n[dir=\"ltr\"] .fixed-tools-module_button-group-button_zJDfe.fixed-tools-module_mod-no-end-border_3jH-X {\n    border-right: none;\n}\n\n[dir=\"rtl\"] .fixed-tools-module_button-group-button_zJDfe.fixed-tools-module_mod-no-end-border_3jH-X {\n    border-left: none;\n}\n\n.fixed-tools-module_button-group-button-icon_VIykG {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n[dir=\"rtl\"] .fixed-tools-module_button-group-button-icon_VIykG {\n    -webkit-transform: scaleX(-1);\n        -ms-transform: scaleX(-1);\n            transform: scaleX(-1);\n}\n\n.fixed-tools-module_mod-context-menu_1oLPg {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.fixed-tools-module_mod-top-divider_32jyw {\n    border-top: 1px solid #D9D9D9;\n}\n\n.fixed-tools-module_mod-menu-item_3QAXN {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(3 * .25rem);\n    white-space: nowrap;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    font-family: \"Helvetica Neue\", Helvetica, sans-serif;\n}\n\n.fixed-tools-module_mod-disabled_1S8KP {\n    cursor: auto;\n}\n\n.fixed-tools-module_mod-menu-item_3QAXN:hover {\n    background: hsla(260, 60%, 60%, 0.35);\n}\n\n.fixed-tools-module_mod-disabled_1S8KP:hover {\n    background-color: transparent;\n}\n\n.fixed-tools-module_menu-item-icon_3hWFq {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .fixed-tools-module_menu-item-icon_3hWFq {\n    margin-right: 0;\n    margin-left: calc(2 * .25rem);\n}\n", ""]);
 // Exports
 exports.locals = {
-	"row": "fixed-tools_row_2PVw6",
-	"costume-input": "fixed-tools_costume-input_3ax5t",
-	"costumeInput": "fixed-tools_costume-input_3ax5t",
-	"mod-dashed-border": "fixed-tools_mod-dashed-border_1AyX1",
-	"modDashedBorder": "fixed-tools_mod-dashed-border_1AyX1",
-	"mod-unselect": "fixed-tools_mod-unselect_1Xf-j",
-	"modUnselect": "fixed-tools_mod-unselect_1Xf-j",
-	"button-group-button": "fixed-tools_button-group-button_2DTEM",
-	"buttonGroupButton": "fixed-tools_button-group-button_2DTEM",
-	"mod-start-border": "fixed-tools_mod-start-border_1OTDn",
-	"modStartBorder": "fixed-tools_mod-start-border_1OTDn",
-	"mod-no-end-border": "fixed-tools_mod-no-end-border_20uuv",
-	"modNoEndBorder": "fixed-tools_mod-no-end-border_20uuv",
-	"button-group-button-icon": "fixed-tools_button-group-button-icon_3shFH",
-	"buttonGroupButtonIcon": "fixed-tools_button-group-button-icon_3shFH",
-	"mod-context-menu": "fixed-tools_mod-context-menu_JvI5y",
-	"modContextMenu": "fixed-tools_mod-context-menu_JvI5y",
-	"mod-top-divider": "fixed-tools_mod-top-divider_oxfsG",
-	"modTopDivider": "fixed-tools_mod-top-divider_oxfsG",
-	"mod-menu-item": "fixed-tools_mod-menu-item_1eQQZ",
-	"modMenuItem": "fixed-tools_mod-menu-item_1eQQZ",
-	"mod-disabled": "fixed-tools_mod-disabled_UJyp0",
-	"modDisabled": "fixed-tools_mod-disabled_UJyp0",
-	"menu-item-icon": "fixed-tools_menu-item-icon_2DtJ1",
-	"menuItemIcon": "fixed-tools_menu-item-icon_2DtJ1"
+	"row": "fixed-tools-module_row_C7-E2",
+	"costume-input": "fixed-tools-module_costume-input_2nBDJ",
+	"costumeInput": "fixed-tools-module_costume-input_2nBDJ",
+	"mod-dashed-border": "fixed-tools-module_mod-dashed-border_2b3po",
+	"modDashedBorder": "fixed-tools-module_mod-dashed-border_2b3po",
+	"mod-unselect": "fixed-tools-module_mod-unselect_2KlX2",
+	"modUnselect": "fixed-tools-module_mod-unselect_2KlX2",
+	"button-group-button": "fixed-tools-module_button-group-button_zJDfe",
+	"buttonGroupButton": "fixed-tools-module_button-group-button_zJDfe",
+	"mod-start-border": "fixed-tools-module_mod-start-border_1m0SA",
+	"modStartBorder": "fixed-tools-module_mod-start-border_1m0SA",
+	"mod-no-end-border": "fixed-tools-module_mod-no-end-border_3jH-X",
+	"modNoEndBorder": "fixed-tools-module_mod-no-end-border_3jH-X",
+	"button-group-button-icon": "fixed-tools-module_button-group-button-icon_VIykG",
+	"buttonGroupButtonIcon": "fixed-tools-module_button-group-button-icon_VIykG",
+	"mod-context-menu": "fixed-tools-module_mod-context-menu_1oLPg",
+	"modContextMenu": "fixed-tools-module_mod-context-menu_1oLPg",
+	"mod-top-divider": "fixed-tools-module_mod-top-divider_32jyw",
+	"modTopDivider": "fixed-tools-module_mod-top-divider_32jyw",
+	"mod-menu-item": "fixed-tools-module_mod-menu-item_3QAXN",
+	"modMenuItem": "fixed-tools-module_mod-menu-item_3QAXN",
+	"mod-disabled": "fixed-tools-module_mod-disabled_1S8KP",
+	"modDisabled": "fixed-tools-module_mod-disabled_1S8KP",
+	"menu-item-icon": "fixed-tools-module_menu-item-icon_3hWFq",
+	"menuItemIcon": "fixed-tools-module_menu-item-icon_3hWFq"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/font-dropdown/font-dropdown.css":
-/*!***************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/font-dropdown/font-dropdown.css ***!
-  \***************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/font-dropdown/font-dropdown.module.css":
+/*!**********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/font-dropdown/font-dropdown.module.css ***!
+  \**********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24146,39 +24146,39 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown_mod-menu-item_hwOca {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    white-space: nowrap;\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.font-dropdown_mod-menu-item_hwOca:hover {\n    background: #855CD6;\n    color: white;\n}\n\n.font-dropdown_mod-context-menu_3llFm {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown_mod-unselect_130OF {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown_displayed-font-name_3cU-U {\n    font-size: .8rem;\n}\n\n.font-dropdown_font-dropdown_3vjc6 {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: #575e75;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n\n.font-dropdown_serif_tMSQM {\n    font-family: 'Serif';\n}\n\n.font-dropdown_sans-serif_24kX9 {\n    font-family: 'Sans Serif';\n}\n\n.font-dropdown_serif_tMSQM {\n    font-family: 'Serif';\n}\n\n.font-dropdown_handwriting_Y7s5d {\n    font-family: 'Handwriting';\n}\n\n.font-dropdown_marker_3AmLD {\n    font-family: 'Marker';\n}\n\n.font-dropdown_curly_1UQYh {\n    font-family: 'Curly';\n}\n\n.font-dropdown_pixel_3aRC6 {\n    font-family: 'Pixel';\n}\n\n.font-dropdown_chinese_zV1Hj {\n    font-family: \"Microsoft YaHei\", \"微软雅黑\", STXihei, \"华文细黑\";\n}\n\n.font-dropdown_japanese_2SlYs {\n    font-family: \"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro\", Osaka, \"メイリオ\", Meiryo, \"ＭＳ Ｐゴシック\", \"MS PGothic\";\n}\n\n.font-dropdown_korean_1Fx37 {\n    font-family: \"Malgun Gothic\";\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.font-dropdown-module_mod-menu-item_1uPtW {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    margin: 0 -.25rem;\n    min-width: 6.25rem;\n    padding: calc(2 * .25rem);\n    padding-left: calc(3 * .25rem);\n    padding-right: calc(3 * .25rem);\n    white-space: nowrap;\n    width: 8.5rem;\n    cursor: pointer;\n    -webkit-transition: 0.1s ease;\n    transition: 0.1s ease;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.font-dropdown-module_mod-menu-item_1uPtW:hover {\n    background: #855CD6;\n    color: white;\n}\n\n.font-dropdown-module_mod-context-menu_2iK6A {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n}\n\n.font-dropdown-module_mod-unselect_3zdCJ {\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n}\n\n.font-dropdown-module_displayed-font-name_kHEkk {\n    font-size: .8rem;\n}\n\n.font-dropdown-module_font-dropdown_1qq3o {\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n    color: #575e75;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    font-size: 1rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n    width: 8.5rem;\n    height: 2rem;\n}\n\n.font-dropdown-module_serif_22o8B {\n    font-family: 'Serif';\n}\n\n.font-dropdown-module_sans-serif_XG8K9 {\n    font-family: 'Sans Serif';\n}\n\n.font-dropdown-module_serif_22o8B {\n    font-family: 'Serif';\n}\n\n.font-dropdown-module_handwriting_6FSKV {\n    font-family: 'Handwriting';\n}\n\n.font-dropdown-module_marker_2ZQ_r {\n    font-family: 'Marker';\n}\n\n.font-dropdown-module_curly_3F60V {\n    font-family: 'Curly';\n}\n\n.font-dropdown-module_pixel_1kn1l {\n    font-family: 'Pixel';\n}\n\n.font-dropdown-module_chinese_2NUb9 {\n    font-family: \"Microsoft YaHei\", \"微软雅黑\", STXihei, \"华文细黑\";\n}\n\n.font-dropdown-module_japanese_3oV6G {\n    font-family: \"ヒラギノ角ゴ Pro W3\", \"Hiragino Kaku Gothic Pro\", Osaka, \"メイリオ\", Meiryo, \"ＭＳ Ｐゴシック\", \"MS PGothic\";\n}\n\n.font-dropdown-module_korean_2ygUT {\n    font-family: \"Malgun Gothic\";\n}\n", ""]);
 // Exports
 exports.locals = {
-	"mod-menu-item": "font-dropdown_mod-menu-item_hwOca",
-	"modMenuItem": "font-dropdown_mod-menu-item_hwOca",
-	"mod-context-menu": "font-dropdown_mod-context-menu_3llFm",
-	"modContextMenu": "font-dropdown_mod-context-menu_3llFm",
-	"mod-unselect": "font-dropdown_mod-unselect_130OF",
-	"modUnselect": "font-dropdown_mod-unselect_130OF",
-	"displayed-font-name": "font-dropdown_displayed-font-name_3cU-U",
-	"displayedFontName": "font-dropdown_displayed-font-name_3cU-U",
-	"font-dropdown": "font-dropdown_font-dropdown_3vjc6",
-	"fontDropdown": "font-dropdown_font-dropdown_3vjc6",
-	"serif": "font-dropdown_serif_tMSQM",
-	"sans-serif": "font-dropdown_sans-serif_24kX9",
-	"sansSerif": "font-dropdown_sans-serif_24kX9",
-	"handwriting": "font-dropdown_handwriting_Y7s5d",
-	"marker": "font-dropdown_marker_3AmLD",
-	"curly": "font-dropdown_curly_1UQYh",
-	"pixel": "font-dropdown_pixel_3aRC6",
-	"chinese": "font-dropdown_chinese_zV1Hj",
-	"japanese": "font-dropdown_japanese_2SlYs",
-	"korean": "font-dropdown_korean_1Fx37"
+	"mod-menu-item": "font-dropdown-module_mod-menu-item_1uPtW",
+	"modMenuItem": "font-dropdown-module_mod-menu-item_1uPtW",
+	"mod-context-menu": "font-dropdown-module_mod-context-menu_2iK6A",
+	"modContextMenu": "font-dropdown-module_mod-context-menu_2iK6A",
+	"mod-unselect": "font-dropdown-module_mod-unselect_3zdCJ",
+	"modUnselect": "font-dropdown-module_mod-unselect_3zdCJ",
+	"displayed-font-name": "font-dropdown-module_displayed-font-name_kHEkk",
+	"displayedFontName": "font-dropdown-module_displayed-font-name_kHEkk",
+	"font-dropdown": "font-dropdown-module_font-dropdown_1qq3o",
+	"fontDropdown": "font-dropdown-module_font-dropdown_1qq3o",
+	"serif": "font-dropdown-module_serif_22o8B",
+	"sans-serif": "font-dropdown-module_sans-serif_XG8K9",
+	"sansSerif": "font-dropdown-module_sans-serif_XG8K9",
+	"handwriting": "font-dropdown-module_handwriting_6FSKV",
+	"marker": "font-dropdown-module_marker_2ZQ_r",
+	"curly": "font-dropdown-module_curly_3F60V",
+	"pixel": "font-dropdown-module_pixel_1kn1l",
+	"chinese": "font-dropdown-module_chinese_2NUb9",
+	"japanese": "font-dropdown-module_japanese_3oV6G",
+	"korean": "font-dropdown-module_korean_2ygUT"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/input.css":
-/*!***********************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/forms/input.css ***!
-  \***********************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/input.module.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/forms/input.module.css ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24186,25 +24186,25 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input_input-form_l9eYg {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: #575e75;\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: #E9EEF2;\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n.input_input-form_l9eYg:focus {\n    border-color: #855CD6;\n    -webkit-box-shadow: 0 0 0 .25rem hsla(260, 60%, 60%, 0.35);\n            box-shadow: 0 0 0 .25rem hsla(260, 60%, 60%, 0.35);\n}\n\n.input_input-small_2qj1C {\n    width: 3rem;\n    text-align: center;\n}\n\n.input_input-small-range_2GQzZ {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* NOTE:\nEdited to add input-range-small\n*/\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.input-module_input-form_2DlGh {\n    height: 2rem;\n    padding: 0 0.75rem;\n\n    font-family: \"Helvetica Neue\", Helvetica, Arial, sans-serif;\n    font-size: 0.75rem;\n    font-weight: bold;\n    color: #575e75;\n\n    border-width: 1px;\n    border-style: solid;\n    border-color: #E9EEF2;\n    border-radius: 2rem;\n\n    outline: none;\n    cursor: text;\n    -webkit-transition: 0.25s ease-out;\n    transition: 0.25s ease-out; /* @todo: standardize with var */\n    -webkit-box-shadow: none;\n            box-shadow: none;\n\n    /*\n        For truncating overflowing text gracefully\n        Min-width is for a bug: https://css-tricks.com/flexbox-truncated-text\n        @todo: move this out into a mixin or a helper component\n    */\n    overflow: hidden;\n    text-overflow: ellipsis;\n    white-space: nowrap;\n    min-width: 0;\n}\n\n.input-module_input-form_2DlGh:focus {\n    border-color: #855CD6;\n    -webkit-box-shadow: 0 0 0 .25rem hsla(260, 60%, 60%, 0.35);\n            box-shadow: 0 0 0 .25rem hsla(260, 60%, 60%, 0.35);\n}\n\n.input-module_input-small_1u_1y {\n    width: 3rem;\n    text-align: center;\n}\n\n.input-module_input-small-range_PhXkL {\n    width: 4rem;\n    text-align: center;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"input-form": "input_input-form_l9eYg",
-	"inputForm": "input_input-form_l9eYg",
-	"input-small": "input_input-small_2qj1C",
-	"inputSmall": "input_input-small_2qj1C",
-	"input-small-range": "input_input-small-range_2GQzZ",
-	"inputSmallRange": "input_input-small-range_2GQzZ"
+	"input-form": "input-module_input-form_2DlGh",
+	"inputForm": "input-module_input-form_2DlGh",
+	"input-small": "input-module_input-small_1u_1y",
+	"inputSmall": "input-module_input-small_1u_1y",
+	"input-small-range": "input-module_input-small-range_PhXkL",
+	"inputSmallRange": "input-module_input-small-range_PhXkL"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/label.css":
-/*!***********************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/forms/label.css ***!
-  \***********************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/label.module.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/forms/label.module.css ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24212,26 +24212,26 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.label_input-group_2vTky {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .label_input-group_2vTky + .label_input-group_2vTky {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-group_2vTky + .label_input-group_2vTky {\n    margin-right: calc(2 * .25rem);\n}\n\n.label_disabled_1HlGv {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n\n.label_input-label_3KjCa, .label_input-label-secondary_3QDNV {\n    font-size: 0.625rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: default;\n}\n\n[dir=\"ltr\"] .label_input-label_3KjCa, [dir=\"ltr\"] .label_input-label-secondary_3QDNV{\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label_input-label_3KjCa, [dir=\"ltr\"] .label_input-label-secondary_3QDNV{\n    margin-left: calc(2 * .25rem);\n}\n\n.label_input-label_3KjCa {\n    font-weight: bold;\n}\n\n@media only screen and (max-width: 1256px) {\n    .label_input-group_2vTky {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-align: start;\n        -webkit-align-items: flex-start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        margin-top: -1rem; /* To align with the non-labeled inputs */\n    }\n\n    .label_input-label_3KjCa {\n        font-weight: normal;\n        margin-bottom: 0.25rem;\n    }\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n.label-module_input-group_3az1u {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .label-module_input-group_3az1u + .label-module_input-group_3az1u {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label-module_input-group_3az1u + .label-module_input-group_3az1u {\n    margin-right: calc(2 * .25rem);\n}\n\n.label-module_disabled_1W7mj {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n\n.label-module_input-label_1vEbY, .label-module_input-label-secondary_1ApA1 {\n    font-size: 0.625rem;\n    -webkit-user-select: none;\n       -moz-user-select: none;\n        -ms-user-select: none;\n            user-select: none;\n    cursor: default;\n}\n\n[dir=\"ltr\"] .label-module_input-label_1vEbY, [dir=\"ltr\"] .label-module_input-label-secondary_1ApA1{\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .label-module_input-label_1vEbY, [dir=\"ltr\"] .label-module_input-label-secondary_1ApA1{\n    margin-left: calc(2 * .25rem);\n}\n\n.label-module_input-label_1vEbY {\n    font-weight: bold;\n}\n\n@media only screen and (max-width: 1256px) {\n    .label-module_input-group_3az1u {\n        display: -webkit-box;\n        display: -webkit-flex;\n        display: -ms-flexbox;\n        display: flex;\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-align: start;\n        -webkit-align-items: flex-start;\n            -ms-flex-align: start;\n                align-items: flex-start;\n        margin-top: -1rem; /* To align with the non-labeled inputs */\n    }\n\n    .label-module_input-label_1vEbY {\n        font-weight: normal;\n        margin-bottom: 0.25rem;\n    }\n}\n", ""]);
 // Exports
 exports.locals = {
-	"input-group": "label_input-group_2vTky",
-	"inputGroup": "label_input-group_2vTky",
-	"disabled": "label_disabled_1HlGv",
-	"input-label": "label_input-label_3KjCa",
-	"inputLabel": "label_input-label_3KjCa",
-	"input-label-secondary": "label_input-label-secondary_3QDNV",
-	"inputLabelSecondary": "label_input-label-secondary_3QDNV"
+	"input-group": "label-module_input-group_3az1u",
+	"inputGroup": "label-module_input-group_3az1u",
+	"disabled": "label-module_disabled_1W7mj",
+	"input-label": "label-module_input-label_1vEbY",
+	"inputLabel": "label-module_input-label_1vEbY",
+	"input-label-secondary": "label-module_input-label-secondary_1ApA1",
+	"inputLabelSecondary": "label-module_input-label-secondary_1ApA1"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/slider.css":
-/*!************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/forms/slider.css ***!
-  \************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/slider.module.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/forms/slider.module.css ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24239,22 +24239,22 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".slider_container_2U0n6 {\n    margin: 8px;\n    height: 22px;\n    width: 150px;\n    position: relative;\n    outline: none;\n    border-radius: 11px;\n    margin-bottom: 20px;\n}\n\n.slider_last_3coMi {\n    margin-bottom: 4px;\n}\n\n.slider_handle_2M_mA {\n    left: 100px;\n    width: 26px;\n    height: 26px;\n    margin-top: -2px;\n    position: absolute;\n    background-color: white;\n    border-radius: 100%;\n    -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n            box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n    -ms-touch-action: none;\n        touch-action: none;\n}\n", ""]);
+exports.push([module.i, ".slider-module_container_2QL2s {\n    margin: 8px;\n    height: 22px;\n    width: 150px;\n    position: relative;\n    outline: none;\n    border-radius: 11px;\n    margin-bottom: 20px;\n}\n\n.slider-module_last_2Vqwt {\n    margin-bottom: 4px;\n}\n\n.slider-module_handle_25055 {\n    left: 100px;\n    width: 26px;\n    height: 26px;\n    margin-top: -2px;\n    position: absolute;\n    background-color: white;\n    border-radius: 100%;\n    -webkit-box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n            box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.15);\n    -ms-touch-action: none;\n        touch-action: none;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"container": "slider_container_2U0n6",
-	"last": "slider_last_3coMi",
-	"handle": "slider_handle_2M_mA"
+	"container": "slider-module_container_2QL2s",
+	"last": "slider-module_last_2Vqwt",
+	"handle": "slider-module_handle_25055"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/input-group/input-group.css":
-/*!***********************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/input-group/input-group.css ***!
-  \***********************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/input-group/input-group.module.css":
+/*!******************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/input-group/input-group.module.css ***!
+  \******************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24262,22 +24262,22 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.input-group_input-group_3FzNB {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .input-group_input-group_3FzNB + .input-group_input-group_3FzNB {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .input-group_input-group_3FzNB + .input-group_input-group_3FzNB {\n    margin-right: calc(2 * .25rem);\n}\n\n.input-group_disabled_3fp6_ {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.input-group-module_input-group_1pc7p {\n    display: -webkit-inline-box;\n    display: -webkit-inline-flex;\n    display: -ms-inline-flexbox;\n    display: inline-flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n[dir=\"ltr\"] .input-group-module_input-group_1pc7p + .input-group-module_input-group_1pc7p {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .input-group-module_input-group_1pc7p + .input-group-module_input-group_1pc7p {\n    margin-right: calc(2 * .25rem);\n}\n\n.input-group-module_disabled_2DvxT {\n    opacity: 0.3;\n    /* Prevent any user actions */\n    pointer-events: none;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"input-group": "input-group_input-group_3FzNB",
-	"inputGroup": "input-group_input-group_3FzNB",
-	"disabled": "input-group_disabled_3fp6_"
+	"input-group": "input-group-module_input-group_1pc7p",
+	"inputGroup": "input-group-module_input-group_1pc7p",
+	"disabled": "input-group-module_disabled_2DvxT"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/labeled-icon-button/labeled-icon-button.css":
-/*!***************************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/labeled-icon-button/labeled-icon-button.css ***!
-  \***************************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/labeled-icon-button/labeled-icon-button.module.css":
+/*!**********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/labeled-icon-button/labeled-icon-button.module.css ***!
+  \**********************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24285,25 +24285,25 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.labeled-icon-button_mod-edit-field_Z3eav {\n    background: none;\n    border: none;\n    display: inline-block;\n    padding: .25rem .325rem;\n    outline: none;\n    border-radius: 0.25rem;\n    min-width: 3rem;\n    font-size: 0.85rem;\n    text-align: center;\n}\n\n.labeled-icon-button_edit-field-icon_1BGdr {\n    width: 1.5rem;\n    height: 1.5rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.labeled-icon-button_edit-field-title_32vCQ {\n    display: block;\n    margin-top: .125rem;\n    font-size: .625rem;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.labeled-icon-button-module_mod-edit-field_Ja4dD {\n    background: none;\n    border: none;\n    display: inline-block;\n    padding: .25rem .325rem;\n    outline: none;\n    border-radius: 0.25rem;\n    min-width: 3rem;\n    font-size: 0.85rem;\n    text-align: center;\n}\n\n.labeled-icon-button-module_edit-field-icon_1GOto {\n    width: 1.5rem;\n    height: 1.5rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.labeled-icon-button-module_edit-field-title_3kOu_ {\n    display: block;\n    margin-top: .125rem;\n    font-size: .625rem;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"mod-edit-field": "labeled-icon-button_mod-edit-field_Z3eav",
-	"modEditField": "labeled-icon-button_mod-edit-field_Z3eav",
-	"edit-field-icon": "labeled-icon-button_edit-field-icon_1BGdr",
-	"editFieldIcon": "labeled-icon-button_edit-field-icon_1BGdr",
-	"edit-field-title": "labeled-icon-button_edit-field-title_32vCQ",
-	"editFieldTitle": "labeled-icon-button_edit-field-title_32vCQ"
+	"mod-edit-field": "labeled-icon-button-module_mod-edit-field_Ja4dD",
+	"modEditField": "labeled-icon-button-module_mod-edit-field_Ja4dD",
+	"edit-field-icon": "labeled-icon-button-module_edit-field-icon_1GOto",
+	"editFieldIcon": "labeled-icon-button-module_edit-field-icon_1GOto",
+	"edit-field-title": "labeled-icon-button-module_edit-field-title_3kOu_",
+	"editFieldTitle": "labeled-icon-button-module_edit-field-title_3kOu_"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/loupe/loupe.css":
-/*!***********************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/loupe/loupe.css ***!
-  \***********************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/loupe/loupe.module.css":
+/*!******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/loupe/loupe.module.css ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24311,21 +24311,21 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".loupe_eye-dropper_39EHg {\n    position: absolute;\n    border-radius: 100%;\n    border: 1px solid #222;\n}\n", ""]);
+exports.push([module.i, ".loupe-module_eye-dropper_2nCpq {\n    position: absolute;\n    border-radius: 100%;\n    border: 1px solid #222;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"eye-dropper": "loupe_eye-dropper_39EHg",
-	"eyeDropper": "loupe_eye-dropper_39EHg"
+	"eye-dropper": "loupe-module_eye-dropper_2nCpq",
+	"eyeDropper": "loupe-module_eye-dropper_2nCpq"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/mode-tools/mode-tools.css":
-/*!*********************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/mode-tools/mode-tools.css ***!
-  \*********************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/mode-tools/mode-tools.module.css":
+/*!****************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/mode-tools/mode-tools.module.css ***!
+  \****************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24333,27 +24333,27 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools_mode-tools_UREem {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools_mode-tools-icon_3yoZ2 {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[dir=\"ltr\"] .mode-tools_mod-dashed-border_3Bmy_ {\n    border-right: 1px dashed #D9D9D9;\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools_mod-dashed-border_3Bmy_ {\n    border-left: 1px dashed #D9D9D9;\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools_mod-labeled-icon-height_kRA3W {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.mode-tools-module_mode-tools_2uZNe {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    min-height: 3rem;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.mode-tools-module_mode-tools-icon_18drj {\n    margin-right: calc(2 * .25rem);\n    width: 2rem;\n    height: 2rem;\n}\n\n[dir=\"ltr\"] .mode-tools-module_mod-dashed-border_3wwMs {\n    border-right: 1px dashed #D9D9D9;\n    padding-right: calc(3 * .25rem);\n}\n\n[dir=\"rtl\"] .mode-tools-module_mod-dashed-border_3wwMs {\n    border-left: 1px dashed #D9D9D9;\n    padding-left: calc(3 * .25rem);\n}\n\n.mode-tools-module_mod-labeled-icon-height_JM-u2 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"mode-tools": "mode-tools_mode-tools_UREem",
-	"modeTools": "mode-tools_mode-tools_UREem",
-	"mode-tools-icon": "mode-tools_mode-tools-icon_3yoZ2",
-	"modeToolsIcon": "mode-tools_mode-tools-icon_3yoZ2",
-	"mod-dashed-border": "mode-tools_mod-dashed-border_3Bmy_",
-	"modDashedBorder": "mode-tools_mod-dashed-border_3Bmy_",
-	"mod-labeled-icon-height": "mode-tools_mod-labeled-icon-height_kRA3W",
-	"modLabeledIconHeight": "mode-tools_mod-labeled-icon-height_kRA3W"
+	"mode-tools": "mode-tools-module_mode-tools_2uZNe",
+	"modeTools": "mode-tools-module_mode-tools_2uZNe",
+	"mode-tools-icon": "mode-tools-module_mode-tools-icon_18drj",
+	"modeToolsIcon": "mode-tools-module_mode-tools-icon_18drj",
+	"mod-dashed-border": "mode-tools-module_mod-dashed-border_3wwMs",
+	"modDashedBorder": "mode-tools-module_mod-dashed-border_3wwMs",
+	"mod-labeled-icon-height": "mode-tools-module_mod-labeled-icon-height_JM-u2",
+	"modLabeledIconHeight": "mode-tools-module_mod-labeled-icon-height_JM-u2"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/paint-editor/paint-editor.css":
-/*!*************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/paint-editor/paint-editor.css ***!
-  \*************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/paint-editor/paint-editor.module.css":
+/*!********************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/paint-editor/paint-editor.module.css ***!
+  \********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24361,62 +24361,62 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor_editor-container_3ajxi {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n.paint-editor_row_1psvV {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor_editor-container-top_23HHq {\n    border-bottom: 1px dashed #D9D9D9;\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor_top-align-row_2Ky-F {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor_row_1psvV + .paint-editor_row_1psvV {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-dashed-border_1xeKo {\n    border-right: 1px dashed #D9D9D9;\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-dashed-border_1xeKo {\n    border-left: 1px dashed #D9D9D9;\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor_mod-labeled-icon-height_3hBCl {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor_button-group-button_1gq5A {\n    display: inline-block;\n    border: 1px solid #D9D9D9;\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1gq5A {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1gq5A {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1gq5A:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1gq5A:first-of-type {\n    border-left: 1px solid #D9D9D9;\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1gq5A:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1gq5A:first-of-type {\n    border-right: 1px solid #D9D9D9;\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor_button-group-button_1gq5A.paint-editor_mod-start-border_jVIRO {\n    border-left: 1px solid #D9D9D9;\n}\n\n[dir=\"rtl\"] .paint-editor_button-group-button_1gq5A.paint-editor_mod-start-border_jVIRO {\n    border-right: 1px solid #D9D9D9;\n}\n\n[dir=\"ltr\"].paint-editor_button-group-button_1gq5A.paint-editor_mod-no-end-border_XiRoc {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor_button-group-button_1gq5A.paint-editor_mod-no-end-border_XiRoc {\n    border-left: none;\n}\n\n.paint-editor_button-group-button-icon_3BPxO {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n.paint-editor_mod-mode-tools_1IXSj {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor_mod-margin-after_1OgHf {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_mod-margin-after_1OgHf {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor_controls-container_3HDxz {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor_canvas-container_2rN98 {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n.paint-editor_mode-selector_1edhd {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_zoom-controls_3Qe-- {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor_color-picker-wrapper_1IC0W {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor_canvas-controls_e2K-q {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor_bitmap-button_GsX3L {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: #855CD6;\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor_bitmap-button-icon_wPoPh {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor_bitmap-button-icon_wPoPh {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor_editor-container_3ajxi {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor_mode-selector_1edhd {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor_controls-container_3HDxz {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor_text-area_3VRLj {\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor_button-text_2sm18 {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.paint-editor-module_editor-container_2IdAq {\n    width: 100%;\n    height: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: column;\n        -ms-flex-direction: column;\n            flex-direction: column;\n    padding: calc(3 * .25rem);\n}\n\n.paint-editor-module_row_3ZRp6 {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-box-align: center;\n    -webkit-align-items: center;\n        -ms-flex-align: center;\n            align-items: center;\n}\n\n.paint-editor-module_editor-container-top_1kJAb {\n    border-bottom: 1px dashed #D9D9D9;\n    padding-bottom: calc(2 * .25rem);\n}\n\n.paint-editor-module_top-align-row_2OEWQ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    height: 100%;\n    padding-top: calc(5 * .25rem);\n    min-width: 524px;\n}\n\n.paint-editor-module_row_3ZRp6 + .paint-editor-module_row_3ZRp6 {\n    margin-top: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor-module_mod-dashed-border_2Zpdh {\n    border-right: 1px dashed #D9D9D9;\n    padding-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor-module_mod-dashed-border_2Zpdh {\n    border-left: 1px dashed #D9D9D9;\n    padding-left: calc(2 * .25rem);\n}\n\n.paint-editor-module_mod-labeled-icon-height_2_TC1 {\n    height: 2.85rem; /* for the second row so the dashed borders are equal in size */\n}\n\n.paint-editor-module_button-group-button_1XCnc {\n    display: inline-block;\n    border: 1px solid #D9D9D9;\n    border-radius: 0;\n    padding: .35rem;\n}\n\n[dir=\"ltr\"] .paint-editor-module_button-group-button_1XCnc {\n    border-left: none;\n}\n\n[dir=\"rtl\"] .paint-editor-module_button-group-button_1XCnc {\n    border-right: none;\n}\n\n[dir=\"ltr\"] .paint-editor-module_button-group-button_1XCnc:last-of-type {\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor-module_button-group-button_1XCnc:first-of-type {\n    border-left: 1px solid #D9D9D9;\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor-module_button-group-button_1XCnc:last-of-type {\n    border-top-left-radius: 0.25rem;\n    border-bottom-left-radius: 0.25rem;\n}\n\n[dir=\"rtl\"] .paint-editor-module_button-group-button_1XCnc:first-of-type {\n    border-right: 1px solid #D9D9D9;\n    border-top-right-radius: 0.25rem;\n    border-bottom-right-radius: 0.25rem;\n}\n\n[dir=\"ltr\"] .paint-editor-module_button-group-button_1XCnc.paint-editor-module_mod-start-border_1zN1X {\n    border-left: 1px solid #D9D9D9;\n}\n\n[dir=\"rtl\"] .paint-editor-module_button-group-button_1XCnc.paint-editor-module_mod-start-border_1zN1X {\n    border-right: 1px solid #D9D9D9;\n}\n\n[dir=\"ltr\"].paint-editor-module_button-group-button_1XCnc.paint-editor-module_mod-no-end-border_2OfIR {\n    border-right: none;\n}\n\n[dir=\"rtl\"].paint-editor-module_button-group-button_1XCnc.paint-editor-module_mod-no-end-border_2OfIR {\n    border-left: none;\n}\n\n.paint-editor-module_button-group-button-icon_3c33U {\n    width: 1.25rem;\n    height: 1.25rem;\n    vertical-align: middle;\n}\n\n.paint-editor-module_mod-mode-tools_25peZ {\n    margin-left: calc(2 * .25rem);\n}\n\n[dir=\"ltr\"] .paint-editor-module_mod-margin-after_1EAT5 {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor-module_mod-margin-after_1EAT5 {\n    margin-left: calc(2 * .25rem);\n}\n\n.paint-editor-module_controls-container_irxUW {\n    width: 100%;\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: vertical;\n    -webkit-box-direction: normal;\n    -webkit-flex-flow: column;\n        -ms-flex-flow: column;\n            flex-flow: column;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    margin-left: calc(2 * .25rem);\n    margin-right: calc(2 * .25rem);\n}\n\n.paint-editor-module_canvas-container_GeOvQ {\n    width: 100%;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    min-width: 402px; /* Leave room for the border */\n    -webkit-box-sizing: content-box;\n            box-sizing: content-box;\n    border: 1px solid #e8edf1;\n    border-radius: .25rem;\n    position: relative;\n    overflow: visible;\n}\n\n.paint-editor-module_mode-selector_16xSz {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    max-width: 7.5rem;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: normal;\n    -webkit-flex-direction: row;\n        -ms-flex-direction: row;\n            flex-direction: row;\n    -webkit-flex-wrap: wrap;\n        -ms-flex-wrap: wrap;\n            flex-wrap: wrap;\n    -webkit-box-align: start;\n    -webkit-align-items: flex-start;\n        -ms-flex-align: start;\n            align-items: flex-start;\n    -webkit-align-content: flex-start;\n        -ms-flex-line-pack: start;\n            align-content: flex-start;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor-module_zoom-controls_35TqT {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    -webkit-box-orient: horizontal;\n    -webkit-box-direction: reverse;\n    -webkit-flex-direction: row-reverse;\n        -ms-flex-direction: row-reverse;\n            flex-direction: row-reverse;\n}\n\n.paint-editor-module_color-picker-wrapper_3p05E {\n    position: absolute;\n    top: 0;\n    left: 0;\n    width: 100%;\n    height: 100%;\n    pointer-events: none;\n}\n\n.paint-editor-module_canvas-controls_q0vqS {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    height: 36px;\n    margin-top: .25rem;\n    -webkit-box-pack: justify;\n    -webkit-justify-content: space-between;\n        -ms-flex-pack: justify;\n            justify-content: space-between;\n}\n\n.paint-editor-module_bitmap-button_ee6V_ {\n    display: -webkit-box;\n    display: -webkit-flex;\n    display: -ms-flexbox;\n    display: flex;\n    border-radius: 5px;\n    background-color: #855CD6;\n    padding: calc(2 * .25rem);\n    line-height: 1.5rem;\n    font-size: calc(3 * .25rem);\n    font-weight: bold;\n    color: white;\n    -webkit-box-pack: center;\n    -webkit-justify-content: center;\n        -ms-flex-pack: center;\n            justify-content: center;\n}\n\n[dir=\"ltr\"] .paint-editor-module_bitmap-button-icon_1x_5n {\n    margin-right: calc(2 * .25rem);\n}\n\n[dir=\"rtl\"] .paint-editor-module_bitmap-button-icon_1x_5n {\n    margin-left: calc(2 * .25rem);\n}\n\n@media only screen and (max-width: 1256px) {\n    .paint-editor-module_editor-container_2IdAq {\n        padding: calc(3 * .25rem) .25rem;\n    }\n\n    .paint-editor-module_mode-selector_16xSz {\n        -webkit-box-orient: vertical;\n        -webkit-box-direction: normal;\n        -webkit-flex-direction: column;\n            -ms-flex-direction: column;\n                flex-direction: column;\n        -webkit-box-pack: start;\n        -webkit-justify-content: flex-start;\n            -ms-flex-pack: start;\n                justify-content: flex-start;\n    }\n\n    .paint-editor-module_controls-container_irxUW {\n        margin-right: .25rem;\n        margin-left: .25rem;\n    }\n}\n\n.paint-editor-module_text-area_i9pJQ {\n    background: transparent;\n    border: none;\n    display: none;\n    margin: 0px;\n    opacity: .8;\n    outline: none;\n    overflow: hidden;\n    padding: 0px;\n    position: absolute;\n    resize: none;\n    -webkit-text-fill-color: transparent;\n    text-fill-color: transparent;\n}\n\n.paint-editor-module_button-text_XjXBM {\n    width: 100%; /* Fixes button text wrapping in Edge */\n}\n", ""]);
 // Exports
 exports.locals = {
-	"editor-container": "paint-editor_editor-container_3ajxi",
-	"editorContainer": "paint-editor_editor-container_3ajxi",
-	"row": "paint-editor_row_1psvV",
-	"editor-container-top": "paint-editor_editor-container-top_23HHq",
-	"editorContainerTop": "paint-editor_editor-container-top_23HHq",
-	"top-align-row": "paint-editor_top-align-row_2Ky-F",
-	"topAlignRow": "paint-editor_top-align-row_2Ky-F",
-	"mod-dashed-border": "paint-editor_mod-dashed-border_1xeKo",
-	"modDashedBorder": "paint-editor_mod-dashed-border_1xeKo",
-	"mod-labeled-icon-height": "paint-editor_mod-labeled-icon-height_3hBCl",
-	"modLabeledIconHeight": "paint-editor_mod-labeled-icon-height_3hBCl",
-	"button-group-button": "paint-editor_button-group-button_1gq5A",
-	"buttonGroupButton": "paint-editor_button-group-button_1gq5A",
-	"mod-start-border": "paint-editor_mod-start-border_jVIRO",
-	"modStartBorder": "paint-editor_mod-start-border_jVIRO",
-	"mod-no-end-border": "paint-editor_mod-no-end-border_XiRoc",
-	"modNoEndBorder": "paint-editor_mod-no-end-border_XiRoc",
-	"button-group-button-icon": "paint-editor_button-group-button-icon_3BPxO",
-	"buttonGroupButtonIcon": "paint-editor_button-group-button-icon_3BPxO",
-	"mod-mode-tools": "paint-editor_mod-mode-tools_1IXSj",
-	"modModeTools": "paint-editor_mod-mode-tools_1IXSj",
-	"mod-margin-after": "paint-editor_mod-margin-after_1OgHf",
-	"modMarginAfter": "paint-editor_mod-margin-after_1OgHf",
-	"controls-container": "paint-editor_controls-container_3HDxz",
-	"controlsContainer": "paint-editor_controls-container_3HDxz",
-	"canvas-container": "paint-editor_canvas-container_2rN98",
-	"canvasContainer": "paint-editor_canvas-container_2rN98",
-	"mode-selector": "paint-editor_mode-selector_1edhd",
-	"modeSelector": "paint-editor_mode-selector_1edhd",
-	"zoom-controls": "paint-editor_zoom-controls_3Qe--",
-	"zoomControls": "paint-editor_zoom-controls_3Qe--",
-	"color-picker-wrapper": "paint-editor_color-picker-wrapper_1IC0W",
-	"colorPickerWrapper": "paint-editor_color-picker-wrapper_1IC0W",
-	"canvas-controls": "paint-editor_canvas-controls_e2K-q",
-	"canvasControls": "paint-editor_canvas-controls_e2K-q",
-	"bitmap-button": "paint-editor_bitmap-button_GsX3L",
-	"bitmapButton": "paint-editor_bitmap-button_GsX3L",
-	"bitmap-button-icon": "paint-editor_bitmap-button-icon_wPoPh",
-	"bitmapButtonIcon": "paint-editor_bitmap-button-icon_wPoPh",
-	"text-area": "paint-editor_text-area_3VRLj",
-	"textArea": "paint-editor_text-area_3VRLj",
-	"button-text": "paint-editor_button-text_2sm18",
-	"buttonText": "paint-editor_button-text_2sm18"
+	"editor-container": "paint-editor-module_editor-container_2IdAq",
+	"editorContainer": "paint-editor-module_editor-container_2IdAq",
+	"row": "paint-editor-module_row_3ZRp6",
+	"editor-container-top": "paint-editor-module_editor-container-top_1kJAb",
+	"editorContainerTop": "paint-editor-module_editor-container-top_1kJAb",
+	"top-align-row": "paint-editor-module_top-align-row_2OEWQ",
+	"topAlignRow": "paint-editor-module_top-align-row_2OEWQ",
+	"mod-dashed-border": "paint-editor-module_mod-dashed-border_2Zpdh",
+	"modDashedBorder": "paint-editor-module_mod-dashed-border_2Zpdh",
+	"mod-labeled-icon-height": "paint-editor-module_mod-labeled-icon-height_2_TC1",
+	"modLabeledIconHeight": "paint-editor-module_mod-labeled-icon-height_2_TC1",
+	"button-group-button": "paint-editor-module_button-group-button_1XCnc",
+	"buttonGroupButton": "paint-editor-module_button-group-button_1XCnc",
+	"mod-start-border": "paint-editor-module_mod-start-border_1zN1X",
+	"modStartBorder": "paint-editor-module_mod-start-border_1zN1X",
+	"mod-no-end-border": "paint-editor-module_mod-no-end-border_2OfIR",
+	"modNoEndBorder": "paint-editor-module_mod-no-end-border_2OfIR",
+	"button-group-button-icon": "paint-editor-module_button-group-button-icon_3c33U",
+	"buttonGroupButtonIcon": "paint-editor-module_button-group-button-icon_3c33U",
+	"mod-mode-tools": "paint-editor-module_mod-mode-tools_25peZ",
+	"modModeTools": "paint-editor-module_mod-mode-tools_25peZ",
+	"mod-margin-after": "paint-editor-module_mod-margin-after_1EAT5",
+	"modMarginAfter": "paint-editor-module_mod-margin-after_1EAT5",
+	"controls-container": "paint-editor-module_controls-container_irxUW",
+	"controlsContainer": "paint-editor-module_controls-container_irxUW",
+	"canvas-container": "paint-editor-module_canvas-container_GeOvQ",
+	"canvasContainer": "paint-editor-module_canvas-container_GeOvQ",
+	"mode-selector": "paint-editor-module_mode-selector_16xSz",
+	"modeSelector": "paint-editor-module_mode-selector_16xSz",
+	"zoom-controls": "paint-editor-module_zoom-controls_35TqT",
+	"zoomControls": "paint-editor-module_zoom-controls_35TqT",
+	"color-picker-wrapper": "paint-editor-module_color-picker-wrapper_3p05E",
+	"colorPickerWrapper": "paint-editor-module_color-picker-wrapper_3p05E",
+	"canvas-controls": "paint-editor-module_canvas-controls_q0vqS",
+	"canvasControls": "paint-editor-module_canvas-controls_q0vqS",
+	"bitmap-button": "paint-editor-module_bitmap-button_ee6V_",
+	"bitmapButton": "paint-editor-module_bitmap-button_ee6V_",
+	"bitmap-button-icon": "paint-editor-module_bitmap-button-icon_1x_5n",
+	"bitmapButtonIcon": "paint-editor-module_bitmap-button-icon_1x_5n",
+	"text-area": "paint-editor-module_text-area_i9pJQ",
+	"textArea": "paint-editor-module_text-area_i9pJQ",
+	"button-text": "paint-editor-module_button-text_XjXBM",
+	"buttonText": "paint-editor-module_button-text_XjXBM"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/scrollable-canvas/scrollable-canvas.css":
-/*!***********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/scrollable-canvas/scrollable-canvas.css ***!
-  \***********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/scrollable-canvas/scrollable-canvas.module.css":
+/*!******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/scrollable-canvas/scrollable-canvas.module.css ***!
+  \******************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24424,31 +24424,31 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".scrollable-canvas_vertical-scrollbar_gyXyM, .scrollable-canvas_horizontal-scrollbar_OBOUt {\n    background: rgba(190, 190, 190, 0.8);\n    border-radius: calc(8px / 2);\n    width: 100%;\n    height: 100%;\n}\n.scrollable-canvas_vertical-scrollbar-wrapper_1cMNm {\n    position: absolute;\n    width: calc(8px + 4px);\n    right: 0;\n    top: 4px;\n    height: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas_horizontal-scrollbar-wrapper_2BUMa {\n    position: absolute;\n    height: calc(8px + 4px);\n    left: 4px;\n    bottom: 0;\n    width: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas_vertical-scrollbar-hitbox_2QprH, .scrollable-canvas_horizontal-scrollbar-hitbox_EBg8r {\n    position: absolute;\n    cursor: pointer;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n.scrollable-canvas_vertical-scrollbar-hitbox_2QprH {\n    width: calc(8px + 4px);\n    padding-right: 4px;\n}\n.scrollable-canvas_horizontal-scrollbar-hitbox_EBg8r {\n    height: calc(8px + 4px);\n    padding-bottom: 4px;\n}\n", ""]);
+exports.push([module.i, ".scrollable-canvas-module_vertical-scrollbar_BS-_2, .scrollable-canvas-module_horizontal-scrollbar_UQH14 {\n    background: rgba(190, 190, 190, 0.8);\n    border-radius: calc(8px / 2);\n    width: 100%;\n    height: 100%;\n}\n.scrollable-canvas-module_vertical-scrollbar-wrapper_3F6aY {\n    position: absolute;\n    width: calc(8px + 4px);\n    right: 0;\n    top: 4px;\n    height: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas-module_horizontal-scrollbar-wrapper_GFA9Q {\n    position: absolute;\n    height: calc(8px + 4px);\n    left: 4px;\n    bottom: 0;\n    width: calc(100% - 8px - 2 * 4px);\n}\n.scrollable-canvas-module_vertical-scrollbar-hitbox_gcuHc, .scrollable-canvas-module_horizontal-scrollbar-hitbox_3Oykn {\n    position: absolute;\n    cursor: pointer;\n    -webkit-box-sizing: border-box;\n            box-sizing: border-box;\n}\n.scrollable-canvas-module_vertical-scrollbar-hitbox_gcuHc {\n    width: calc(8px + 4px);\n    padding-right: 4px;\n}\n.scrollable-canvas-module_horizontal-scrollbar-hitbox_3Oykn {\n    height: calc(8px + 4px);\n    padding-bottom: 4px;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"vertical-scrollbar": "scrollable-canvas_vertical-scrollbar_gyXyM",
-	"verticalScrollbar": "scrollable-canvas_vertical-scrollbar_gyXyM",
-	"horizontal-scrollbar": "scrollable-canvas_horizontal-scrollbar_OBOUt",
-	"horizontalScrollbar": "scrollable-canvas_horizontal-scrollbar_OBOUt",
-	"vertical-scrollbar-wrapper": "scrollable-canvas_vertical-scrollbar-wrapper_1cMNm",
-	"verticalScrollbarWrapper": "scrollable-canvas_vertical-scrollbar-wrapper_1cMNm",
-	"horizontal-scrollbar-wrapper": "scrollable-canvas_horizontal-scrollbar-wrapper_2BUMa",
-	"horizontalScrollbarWrapper": "scrollable-canvas_horizontal-scrollbar-wrapper_2BUMa",
-	"vertical-scrollbar-hitbox": "scrollable-canvas_vertical-scrollbar-hitbox_2QprH",
-	"verticalScrollbarHitbox": "scrollable-canvas_vertical-scrollbar-hitbox_2QprH",
-	"horizontal-scrollbar-hitbox": "scrollable-canvas_horizontal-scrollbar-hitbox_EBg8r",
-	"horizontalScrollbarHitbox": "scrollable-canvas_horizontal-scrollbar-hitbox_EBg8r"
+	"vertical-scrollbar": "scrollable-canvas-module_vertical-scrollbar_BS-_2",
+	"verticalScrollbar": "scrollable-canvas-module_vertical-scrollbar_BS-_2",
+	"horizontal-scrollbar": "scrollable-canvas-module_horizontal-scrollbar_UQH14",
+	"horizontalScrollbar": "scrollable-canvas-module_horizontal-scrollbar_UQH14",
+	"vertical-scrollbar-wrapper": "scrollable-canvas-module_vertical-scrollbar-wrapper_3F6aY",
+	"verticalScrollbarWrapper": "scrollable-canvas-module_vertical-scrollbar-wrapper_3F6aY",
+	"horizontal-scrollbar-wrapper": "scrollable-canvas-module_horizontal-scrollbar-wrapper_GFA9Q",
+	"horizontalScrollbarWrapper": "scrollable-canvas-module_horizontal-scrollbar-wrapper_GFA9Q",
+	"vertical-scrollbar-hitbox": "scrollable-canvas-module_vertical-scrollbar-hitbox_gcuHc",
+	"verticalScrollbarHitbox": "scrollable-canvas-module_vertical-scrollbar-hitbox_gcuHc",
+	"horizontal-scrollbar-hitbox": "scrollable-canvas-module_horizontal-scrollbar-hitbox_3Oykn",
+	"horizontalScrollbarHitbox": "scrollable-canvas-module_horizontal-scrollbar-hitbox_3Oykn"
 };
 module.exports = exports;
 
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tool-select-base/tool-select-base.css":
-/*!*********************************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tool-select-base/tool-select-base.css ***!
-  \*********************************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tool-select-base/tool-select-base.module.css":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/components/tool-select-base/tool-select-base.module.css ***!
+  \****************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24456,15 +24456,15 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base_mod-tool-select_1RQKn {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base_mod-tool-select_1RQKn.tool-select-base_is-selected_3Le38 {\n    background-color: #855CD6;\n}\n\n.tool-select-base_mod-tool-select_1RQKn:focus {\n    outline: none;\n}\n\nimg.tool-select-base_tool-select-icon_2TT3t {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.tool-select-base_mod-tool-select_1RQKn.tool-select-base_is-selected_3Le38 .tool-select-base_tool-select-icon_2TT3t {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base_mod-tool-select_1RQKn {\n        margin: 0;\n    }\n}\n", ""]);
+exports.push([module.i, "/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* 35% transparent version of looks-secondary */\n\n/* DO NOT EDIT\n@todo This file is copied from GUI and should be pulled out into a shared library.\nSee https://github.com/LLK/scratch-paint/issues/13 */\n\n/* ACTUALLY, THIS IS EDITED ;)\nTHIS WAS CHANGED ON 10/25/2017 BY @mewtaylor TO ADD A VARIABLE FOR THE SMALLEST\nGRID UNITS.\n\nALSO EDITED ON 11/13/2017 TO ADD IN CONTANTS FOR LAYOUT FROM `layout-contents.js`*/\n\n/* layout contants from `layout-constants.js`, minus 1px */\n\n.tool-select-base-module_mod-tool-select_B1GRe {\n    display: inline-block;\n    margin: .25rem;\n    border: none;\n    border-radius: .25rem;\n    outline: none;\n    background: none;\n    padding: .25rem;\n    font-size: 0.85rem;\n    -webkit-transition: 0.2s;\n    transition: 0.2s;\n}\n\n.tool-select-base-module_mod-tool-select_B1GRe.tool-select-base-module_is-selected_LZbsX {\n    background-color: #855CD6;\n}\n\n.tool-select-base-module_mod-tool-select_B1GRe:focus {\n    outline: none;\n}\n\nimg.tool-select-base-module_tool-select-icon_3QvSC {\n    width: 2rem;\n    height: 2rem;\n    -webkit-box-flex: 1;\n    -webkit-flex-grow: 1;\n        -ms-flex-positive: 1;\n            flex-grow: 1;\n    vertical-align: middle;\n}\n\n.tool-select-base-module_mod-tool-select_B1GRe.tool-select-base-module_is-selected_LZbsX .tool-select-base-module_tool-select-icon_3QvSC {\n    /* Make the tool icons white while selected by making them black and inverting */\n    -webkit-filter: brightness(0) invert(1);\n            filter: brightness(0) invert(1);\n}\n\n@media only screen and (max-width: 1256px) {\n    .tool-select-base-module_mod-tool-select_B1GRe {\n        margin: 0;\n    }\n}\n", ""]);
 // Exports
 exports.locals = {
-	"mod-tool-select": "tool-select-base_mod-tool-select_1RQKn",
-	"modToolSelect": "tool-select-base_mod-tool-select_1RQKn",
-	"is-selected": "tool-select-base_is-selected_3Le38",
-	"isSelected": "tool-select-base_is-selected_3Le38",
-	"tool-select-icon": "tool-select-base_tool-select-icon_2TT3t",
-	"toolSelectIcon": "tool-select-base_tool-select-icon_2TT3t"
+	"mod-tool-select": "tool-select-base-module_mod-tool-select_B1GRe",
+	"modToolSelect": "tool-select-base-module_mod-tool-select_B1GRe",
+	"is-selected": "tool-select-base-module_is-selected_LZbsX",
+	"isSelected": "tool-select-base-module_is-selected_LZbsX",
+	"tool-select-icon": "tool-select-base-module_tool-select-icon_3QvSC",
+	"toolSelectIcon": "tool-select-base-module_tool-select-icon_3QvSC"
 };
 module.exports = exports;
 
@@ -29699,35 +29699,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/button-group/button-group.css":
-/*!******************************************************!*\
-  !*** ./src/components/button-group/button-group.css ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./button-group.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button-group/button-group.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/button-group/button-group.jsx":
 /*!******************************************************!*\
   !*** ./src/components/button-group/button-group.jsx ***!
@@ -29743,15 +29714,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _button_group_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./button-group.css */ "./src/components/button-group/button-group.css");
-/* harmony import */ var _button_group_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_button_group_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _button_group_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./button-group.module.css */ "./src/components/button-group/button-group.module.css");
+/* harmony import */ var _button_group_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_button_group_module_css__WEBPACK_IMPORTED_MODULE_3__);
 
 
 
 
 var ButtonGroup = function ButtonGroup(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _button_group_css__WEBPACK_IMPORTED_MODULE_3___default.a.buttonGroup)
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _button_group_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.buttonGroup)
   }, props.children);
 };
 ButtonGroup.propTypes = {
@@ -29762,15 +29733,15 @@ ButtonGroup.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/button/button.css":
-/*!******************************************!*\
-  !*** ./src/components/button/button.css ***!
-  \******************************************/
+/***/ "./src/components/button-group/button-group.module.css":
+/*!*************************************************************!*\
+  !*** ./src/components/button-group/button-group.module.css ***!
+  \*************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./button.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button/button.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./button-group.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button-group/button-group.module.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -29806,8 +29777,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _button_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./button.css */ "./src/components/button/button.css");
-/* harmony import */ var _button_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_button_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _button_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./button.module.css */ "./src/components/button/button.module.css");
+/* harmony import */ var _button_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_button_module_css__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 var _excluded = ["className", "highlighted", "onClick", "children"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -29840,7 +29811,7 @@ var ButtonComponent = function ButtonComponent(_ref) {
     props.onClick = onClick;
   }
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_button_css__WEBPACK_IMPORTED_MODULE_3___default.a.button, className, _defineProperty(_defineProperty({}, _button_css__WEBPACK_IMPORTED_MODULE_3___default.a.modDisabled, disabled), _button_css__WEBPACK_IMPORTED_MODULE_3___default.a.highlighted, highlighted)),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_button_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.button, className, _defineProperty(_defineProperty({}, _button_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.modDisabled, disabled), _button_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.highlighted, highlighted)),
     role: "button"
   }, props), children);
 };
@@ -29855,15 +29826,15 @@ ButtonComponent.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/color-button/color-button.css":
-/*!******************************************************!*\
-  !*** ./src/components/color-button/color-button.css ***!
-  \******************************************************/
+/***/ "./src/components/button/button.module.css":
+/*!*************************************************!*\
+  !*** ./src/components/button/button.module.css ***!
+  \*************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./color-button.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-button/color-button.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./button.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/button/button.module.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -29904,8 +29875,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _no_fill_svg__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_no_fill_svg__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _mixed_fill_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./mixed-fill.svg */ "./src/components/color-button/mixed-fill.svg");
 /* harmony import */ var _mixed_fill_svg__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _color_button_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./color-button.css */ "./src/components/color-button/color-button.css");
-/* harmony import */ var _color_button_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_color_button_css__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _color_button_module_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./color-button.module.css */ "./src/components/color-button/color-button.module.css");
+/* harmony import */ var _color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_color_button_module_css__WEBPACK_IMPORTED_MODULE_6__);
 /* harmony import */ var _lib_gradient_types__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../../lib/gradient-types */ "./src/lib/gradient-types.js");
 /* harmony import */ var _log_log__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../log/log */ "./src/log/log.js");
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
@@ -29922,9 +29893,9 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 
 
 var colorToBackground = function colorToBackground(color, color2, gradientType) {
-  if (color === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"] || gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_7__["default"].SOLID && color2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"]) return 'white';
-  if (color === null) color = 'white';
-  if (color2 === null) color2 = 'white';
+  if (color === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"] || gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_7__["default"].SOLID && color2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"]) return "white";
+  if (color === null) color = "white";
+  if (color2 === null) color2 = "white";
   switch (gradientType) {
     case _lib_gradient_types__WEBPACK_IMPORTED_MODULE_7__["default"].SOLID:
       return color;
@@ -29940,23 +29911,23 @@ var colorToBackground = function colorToBackground(color, color2, gradientType) 
 };
 var ColorButtonComponent = function ColorButtonComponent(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _color_button_css__WEBPACK_IMPORTED_MODULE_6___default.a.colorButton,
+    className: _color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.colorButton,
     onClick: props.onClick
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_color_button_css__WEBPACK_IMPORTED_MODULE_6___default.a.colorButtonSwatch, _defineProperty({}, _color_button_css__WEBPACK_IMPORTED_MODULE_6___default.a.outlineSwatch, props.outline && !(props.color === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"]))),
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.colorButtonSwatch, _defineProperty({}, _color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.outlineSwatch, props.outline && !(props.color === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"]))),
     style: {
       background: colorToBackground(props.color, props.color2, props.gradientType)
     }
   }, props.color === null && (props.gradientType === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_7__["default"].SOLID || props.color2 === null) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: _color_button_css__WEBPACK_IMPORTED_MODULE_6___default.a.swatchIcon,
+    className: _color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.swatchIcon,
     draggable: false,
     src: _no_fill_svg__WEBPACK_IMPORTED_MODULE_4___default.a
   }) : props.color === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"] || props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_7__["default"].SOLID && props.color2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_3__["MIXED"] ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    className: _color_button_css__WEBPACK_IMPORTED_MODULE_6___default.a.swatchIcon,
+    className: _color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.swatchIcon,
     draggable: false,
     src: _mixed_fill_svg__WEBPACK_IMPORTED_MODULE_5___default.a
   }) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _color_button_css__WEBPACK_IMPORTED_MODULE_6___default.a.colorButtonArrow
+    className: _color_button_module_css__WEBPACK_IMPORTED_MODULE_6___default.a.colorButtonArrow
   }, "\u25BE"));
 };
 ColorButtonComponent.propTypes = {
@@ -29970,6 +29941,35 @@ ColorButtonComponent.defaultProps = {
   outline: false
 };
 /* harmony default export */ __webpack_exports__["default"] = (ColorButtonComponent);
+
+/***/ }),
+
+/***/ "./src/components/color-button/color-button.module.css":
+/*!*************************************************************!*\
+  !*** ./src/components/color-button/color-button.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./color-button.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-button/color-button.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -30070,35 +30070,6 @@ ColorIndicatorComponent.propTypes = {
 
 /***/ }),
 
-/***/ "./src/components/color-picker/color-picker.css":
-/*!******************************************************!*\
-  !*** ./src/components/color-picker/color-picker.css ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./color-picker.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-picker/color-picker.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/color-picker/color-picker.jsx":
 /*!******************************************************!*\
   !*** ./src/components/color-picker/color-picker.jsx ***!
@@ -30120,8 +30091,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var parse_color__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(parse_color__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _forms_slider_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../forms/slider.jsx */ "./src/components/forms/slider.jsx");
 /* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./src/components/labeled-icon-button/labeled-icon-button.jsx");
-/* harmony import */ var _color_picker_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./color-picker.css */ "./src/components/color-picker/color-picker.css");
-/* harmony import */ var _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_color_picker_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./color-picker.module.css */ "./src/components/color-picker/color-picker.module.css");
+/* harmony import */ var _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_color_picker_module_css__WEBPACK_IMPORTED_MODULE_7__);
 /* harmony import */ var _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../../lib/gradient-types */ "./src/lib/gradient-types.js");
 /* harmony import */ var _helper_style_path__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../helper/style-path */ "./src/helper/style-path.js");
 /* harmony import */ var _icons_eye_dropper_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./icons/eye-dropper.svg */ "./src/components/color-picker/icons/eye-dropper.svg");
@@ -30228,141 +30199,141 @@ var ColorPickerComponent = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.colorPickerContainer,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.colorPickerContainer,
         dir: this.props.rtl ? "rtl" : "ltr"
       }, this.props.shouldShowGradientTools ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientPickerRow
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientPickerRow
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
         draggable: false,
         src: _icons_fill_solid_enabled_svg__WEBPACK_IMPORTED_MODULE_15___default.a,
         onClick: this.props.onChangeGradientTypeSolid
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].HORIZONTAL), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].HORIZONTAL), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
         draggable: false,
         src: _icons_fill_horz_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_13___default.a,
         onClick: this.props.onChangeGradientTypeHorizontal
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].VERTICAL), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].VERTICAL), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
         draggable: false,
         src: _icons_fill_vert_gradient_enabled_svg__WEBPACK_IMPORTED_MODULE_16___default.a,
         onClick: this.props.onChangeGradientTypeVertical
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].RADIAL), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.inactiveGradient, this.props.gradientType !== _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].RADIAL), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true)),
         draggable: false,
         src: _icons_fill_radial_enabled_svg__WEBPACK_IMPORTED_MODULE_14___default.a,
         onClick: this.props.onChangeGradientTypeRadial
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.divider
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.divider
       }), this.props.gradientType === _lib_gradient_types__WEBPACK_IMPORTED_MODULE_8__["default"].SOLID ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientPickerRow, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientSwatchesRow)
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientPickerRow, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.gradientSwatchesRow)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatch, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.colorIndex === 0)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatch, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.colorIndex === 0)),
         style: {
           backgroundColor: this.props.color === null || this.props.color === _helper_style_path__WEBPACK_IMPORTED_MODULE_9__["MIXED"] ? "white" : this.props.color
         },
         onClick: this.props.onSelectColor
       }, this.props.color === null ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
         draggable: false,
         src: _color_button_no_fill_svg__WEBPACK_IMPORTED_MODULE_11___default.a
       }) : this.props.color === _helper_style_path__WEBPACK_IMPORTED_MODULE_9__["MIXED"] ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
         draggable: false,
         src: _color_button_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_12___default.a
       }) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swapButton,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swapButton,
         imgSrc: _icons_swap_svg__WEBPACK_IMPORTED_MODULE_17___default.a,
         title: this.props.intl.formatMessage(messages.swap),
         onClick: this.props.onSwap
       }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatch, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.colorIndex === 1)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatch, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.colorIndex === 1)),
         style: {
           backgroundColor: this.props.color2 === null || this.props.color2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_9__["MIXED"] ? "white" : this.props.color2
         },
         onClick: this.props.onSelectColor2
       }, this.props.color2 === null ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
         draggable: false,
         src: _color_button_no_fill_svg__WEBPACK_IMPORTED_MODULE_11___default.a
       }) : this.props.color2 === _helper_style_path__WEBPACK_IMPORTED_MODULE_9__["MIXED"] ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.largeSwatchIcon,
         draggable: false,
         src: _color_button_mixed_fill_svg__WEBPACK_IMPORTED_MODULE_12___default.a
       }) : null)))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowHeader
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowHeader
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelName
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelName
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
         defaultMessage: "Color",
         id: "paint.paintEditor.hue"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelReadout
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelReadout
       }, Math.round(this.props.hue))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowSlider
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowSlider
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_forms_slider_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
         background: this._makeBackground("hue"),
         value: this.props.hue,
         onChange: this.props.onHueChange
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowHeader
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowHeader
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelName
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelName
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
         defaultMessage: "Saturation",
         id: "paint.paintEditor.saturation"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelReadout
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelReadout
       }, Math.round(this.props.saturation))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowSlider
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowSlider
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_forms_slider_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
         background: this._makeBackground("saturation"),
         value: this.props.saturation,
         onChange: this.props.onSaturationChange
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.row
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowHeader
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowHeader
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelName
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelName
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_intl__WEBPACK_IMPORTED_MODULE_2__["FormattedMessage"], {
         defaultMessage: "Brightness",
         id: "paint.paintEditor.brightness"
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("span", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelReadout
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.labelReadout
       }, Math.round(this.props.brightness))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowSlider
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.rowSlider
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_forms_slider_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
         lastSlider: true,
         background: this._makeBackground("brightness"),
         value: this.props.brightness,
         onChange: this.props.onBrightnessChange
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchRow
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchRow
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatches
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatches
       }, this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_18__["default"].BIT_LINE || this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_18__["default"].BIT_RECT || this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_18__["default"].BIT_OVAL || this.props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_18__["default"].BIT_TEXT ? null : /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.colorIndex === 0 && this.props.color === null || this.props.colorIndex === 1 && this.props.color2 === null)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.colorIndex === 0 && this.props.color === null || this.props.colorIndex === 1 && this.props.color2 === null)),
         onClick: this.props.onTransparent
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchIcon,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchIcon,
         draggable: false,
         src: _color_button_no_fill_svg__WEBPACK_IMPORTED_MODULE_11___default.a
       }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatches
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatches
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.isEyeDropping)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty(_defineProperty({}, _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.clickable, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatch, true), _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.activeSwatch, this.props.isEyeDropping)),
         onClick: this.props.onActivateEyeDropper
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-        className: _color_picker_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchIcon,
+        className: _color_picker_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.swatchIcon,
         draggable: false,
         src: _icons_eye_dropper_svg__WEBPACK_IMPORTED_MODULE_10___default.a
       })))));
@@ -30396,6 +30367,35 @@ ColorPickerComponent.propTypes = {
   shouldShowGradientTools: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["injectIntl"])(ColorPickerComponent));
+
+/***/ }),
+
+/***/ "./src/components/color-picker/color-picker.module.css":
+/*!*************************************************************!*\
+  !*** ./src/components/color-picker/color-picker.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./color-picker.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/color-picker/color-picker.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -30476,35 +30476,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/dropdown/dropdown.css":
-/*!**********************************************!*\
-  !*** ./src/components/dropdown/dropdown.css ***!
-  \**********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./dropdown.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/dropdown/dropdown.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/dropdown/dropdown.jsx":
 /*!**********************************************!*\
   !*** ./src/components/dropdown/dropdown.jsx ***!
@@ -30524,8 +30495,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _dropdown_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dropdown.css */ "./src/components/dropdown/dropdown.css");
-/* harmony import */ var _dropdown_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_dropdown_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _dropdown_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./dropdown.module.css */ "./src/components/dropdown/dropdown.module.css");
+/* harmony import */ var _dropdown_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_dropdown_module_css__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./dropdown-caret.svg */ "./src/components/dropdown/dropdown-caret.svg");
 /* harmony import */ var _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
@@ -30555,7 +30526,7 @@ var Dropdown = /*#__PURE__*/function (_React$Component) {
     var _this;
     _classCallCheck(this, Dropdown);
     _this = _callSuper(this, Dropdown, [props]);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(_this, ['handleClosePopover', 'handleToggleOpenState', 'isOpen']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(_this, ["handleClosePopover", "handleToggleOpenState", "isOpen"]);
     _this.state = {
       isOpen: false
     };
@@ -30594,10 +30565,10 @@ var Dropdown = /*#__PURE__*/function (_React$Component) {
         preferPlace: "below",
         onOuterAction: this.props.onOuterAction ? this.props.onOuterAction : this.handleClosePopover
       }, this.props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.dropdown, this.props.className, _defineProperty(_defineProperty({}, _dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.modOpen, this.state.isOpen), _dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.modClosed, !this.state.isOpen)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_dropdown_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.dropdown, this.props.className, _defineProperty(_defineProperty({}, _dropdown_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.modOpen, this.state.isOpen), _dropdown_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.modClosed, !this.state.isOpen)),
         onClick: this.handleToggleOpenState
       }, this.props.children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_4___default.a.createElement("img", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.dropdownIcon, _defineProperty({}, _dropdown_css__WEBPACK_IMPORTED_MODULE_5___default.a.modCaretUp, this.state.isOpen)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_dropdown_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.dropdownIcon, _defineProperty({}, _dropdown_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.modCaretUp, this.state.isOpen)),
         draggable: false,
         src: _dropdown_caret_svg__WEBPACK_IMPORTED_MODULE_6___default.a
       })));
@@ -30612,6 +30583,35 @@ Dropdown.propTypes = {
   popoverContent: prop_types__WEBPACK_IMPORTED_MODULE_3___default.a.node.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Dropdown);
+
+/***/ }),
+
+/***/ "./src/components/dropdown/dropdown.module.css":
+/*!*****************************************************!*\
+  !*** ./src/components/dropdown/dropdown.module.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./dropdown.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/dropdown/dropdown.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -30713,35 +30713,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/fixed-tools/fixed-tools.css":
-/*!****************************************************!*\
-  !*** ./src/components/fixed-tools/fixed-tools.css ***!
-  \****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./fixed-tools.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/fixed-tools/fixed-tools.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/fixed-tools/fixed-tools.jsx":
 /*!****************************************************!*\
   !*** ./src/components/fixed-tools/fixed-tools.jsx ***!
@@ -30776,8 +30747,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../labeled-icon-button/labeled-icon-button.jsx */ "./src/components/labeled-icon-button/labeled-icon-button.jsx");
 /* harmony import */ var _lib_layout_constants__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../lib/layout-constants */ "./src/lib/layout-constants.js");
 /* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../lib/hide-label */ "./src/lib/hide-label.js");
-/* harmony import */ var _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./fixed-tools.css */ "./src/components/fixed-tools/fixed-tools.css");
-/* harmony import */ var _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./fixed-tools.module.css */ "./src/components/fixed-tools/fixed-tools.module.css");
+/* harmony import */ var _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19__);
 /* harmony import */ var _icons_group_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./icons/group.svg */ "./src/components/fixed-tools/icons/group.svg");
 /* harmony import */ var _icons_group_svg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_icons_group_svg__WEBPACK_IMPORTED_MODULE_20__);
 /* harmony import */ var _icons_redo_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./icons/redo.svg */ "./src/components/fixed-tools/icons/redo.svg");
@@ -30873,43 +30844,43 @@ var FixedToolsComponent = function FixedToolsComponent(props) {
   var redoDisabled = !props.canRedo();
   var undoDisabled = !props.canUndo();
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.row
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.row
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
     minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_17__["default"].fullSizeEditorMinWidth
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_forms_label_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
     text: props.intl.formatMessage(messages.costume)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(BufferedInput, {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.costumeInput,
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.costumeInput,
     type: "text",
     value: props.name,
     onSubmit: props.onUpdateName
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
     maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_17__["default"].fullSizeEditorMinWidth - 1
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(BufferedInput, {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.costumeInput,
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.costumeInput,
     type: "text",
     value: props.name,
     onSubmit: props.onUpdateName
   }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButton, _defineProperty({}, _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modNoEndBorder, !redoDisabled)),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButton, _defineProperty({}, _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modNoEndBorder, !redoDisabled)),
     disabled: undoDisabled,
     onClick: props.onUndo
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
     alt: props.intl.formatMessage(messages.undo),
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButtonIcon, _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.undoIcon),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButtonIcon, _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.undoIcon),
     draggable: false,
     src: _icons_undo_svg__WEBPACK_IMPORTED_MODULE_26___default.a
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButton, _defineProperty({}, _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modStartBorder, !redoDisabled)),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButton, _defineProperty({}, _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modStartBorder, !redoDisabled)),
     disabled: redoDisabled,
     onClick: props.onRedo
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
     alt: props.intl.formatMessage(messages.redo),
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButtonIcon,
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.buttonGroupButtonIcon,
     draggable: false,
     src: _icons_redo_svg__WEBPACK_IMPORTED_MODULE_21___default.a
   })))), Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_group__WEBPACK_IMPORTED_MODULE_5__["shouldShowGroup"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
@@ -30923,7 +30894,7 @@ var FixedToolsComponent = function FixedToolsComponent(props) {
     title: props.intl.formatMessage(messages.ungroup),
     onClick: props.onUngroup
   })) : null, Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
@@ -30939,7 +30910,7 @@ var FixedToolsComponent = function FixedToolsComponent(props) {
   })) : null, Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
     minWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_17__["default"].fullSizeEditorMinWidth
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.row
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.row
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], {
     disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])(),
     hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
@@ -30955,25 +30926,25 @@ var FixedToolsComponent = function FixedToolsComponent(props) {
   }))) : null, Object(_lib_format__WEBPACK_IMPORTED_MODULE_12__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(react_responsive__WEBPACK_IMPORTED_MODULE_4___default.a, {
     maxWidth: _lib_layout_constants__WEBPACK_IMPORTED_MODULE_17__["default"].fullSizeEditorMinWidth - 1
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_10__["default"], {
-    className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modUnselect,
+    className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modUnselect,
     enterExitTransitionDurationMs: 20,
     popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-      className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modContextMenu,
+      className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modContextMenu,
       rtl: props.rtl
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modMenuItem, _defineProperty({}, _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDisabled, !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])())),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modMenuItem, _defineProperty({}, _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDisabled, !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])())),
       disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowBringForward"])(),
       onClick: props.onSendToFront
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-      className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.menuItemIcon,
+      className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.menuItemIcon,
       draggable: false,
       src: _icons_send_front_svg__WEBPACK_IMPORTED_MODULE_25___default.a
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, props.intl.formatMessage(messages.front))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modMenuItem, _defineProperty({}, _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDisabled, !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])())),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modMenuItem, _defineProperty({}, _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDisabled, !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])())),
       disabled: !Object(_helper_order__WEBPACK_IMPORTED_MODULE_6__["shouldShowSendBackward"])(),
       onClick: props.onSendToBack
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-      className: _fixed_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.menuItemIcon,
+      className: _fixed_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.menuItemIcon,
       draggable: false,
       src: _icons_send_back_svg__WEBPACK_IMPORTED_MODULE_22___default.a
     }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", null, props.intl.formatMessage(messages.back)))),
@@ -31006,6 +30977,35 @@ var mapStateToProps = function mapStateToProps(state) {
   };
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_11__["injectIntl"])(FixedToolsComponent)));
+
+/***/ }),
+
+/***/ "./src/components/fixed-tools/fixed-tools.module.css":
+/*!***********************************************************!*\
+  !*** ./src/components/fixed-tools/fixed-tools.module.css ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./fixed-tools.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/fixed-tools/fixed-tools.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -31097,35 +31097,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/font-dropdown/font-dropdown.css":
-/*!********************************************************!*\
-  !*** ./src/components/font-dropdown/font-dropdown.css ***!
-  \********************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./font-dropdown.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/font-dropdown/font-dropdown.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/font-dropdown/font-dropdown.jsx":
 /*!********************************************************!*\
   !*** ./src/components/font-dropdown/font-dropdown.jsx ***!
@@ -31145,8 +31116,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../dropdown/dropdown.jsx */ "./src/components/dropdown/dropdown.jsx");
 /* harmony import */ var _input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../input-group/input-group.jsx */ "./src/components/input-group/input-group.jsx");
 /* harmony import */ var _lib_fonts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../../lib/fonts */ "./src/lib/fonts.js");
-/* harmony import */ var _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./font-dropdown.css */ "./src/components/font-dropdown/font-dropdown.css");
-/* harmony import */ var _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./font-dropdown.module.css */ "./src/components/font-dropdown/font-dropdown.module.css");
+/* harmony import */ var _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
@@ -31157,71 +31128,71 @@ __webpack_require__.r(__webpack_exports__);
 
 var ModeToolsComponent = function ModeToolsComponent(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_dropdown_dropdown_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modUnselect, _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.fontDropdown),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modUnselect, _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.fontDropdown),
     enterExitTransitionDurationMs: 60,
     popoverContent: /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modContextMenu
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modContextMenu
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverSansSerif
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.sansSerif
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.sansSerif
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SANS_SERIF))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverSerif
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.serif
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.serif
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SERIF))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverHandwriting
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.handwriting
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.handwriting
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].HANDWRITING))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverMarker
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.marker
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.marker
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].MARKER))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverCurly
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.curly
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.curly
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CURLY))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverPixel
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.pixel
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.pixel
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].PIXEL))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverChinese
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.chinese
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.chinese
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CHINESE))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverJapanese
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.japanese
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.japanese
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], {
-      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
+      className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.modMenuItem),
       onClick: props.onChoose,
       onMouseOver: props.onHoverKorean
     }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-      className: _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.korean
+      className: _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.korean
     }, props.getFontName(_lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].KOREAN)))),
     ref: props.componentRef,
-    tipSize: .01,
+    tipSize: 0.01,
     onOpen: props.onOpenDropdown,
     onOuterAction: props.onClickOutsideDropdown
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("span", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.getFontStyle(props.font), _font_dropdown_css__WEBPACK_IMPORTED_MODULE_7___default.a.displayedFontName)
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.getFontStyle(props.font), _font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_7___default.a.displayedFontName)
   }, props.getFontName(props.font)));
 };
 ModeToolsComponent.propTypes = {
@@ -31243,6 +31214,35 @@ ModeToolsComponent.propTypes = {
   onOpenDropdown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func
 };
 /* harmony default export */ __webpack_exports__["default"] = (ModeToolsComponent);
+
+/***/ }),
+
+/***/ "./src/components/font-dropdown/font-dropdown.module.css":
+/*!***************************************************************!*\
+  !*** ./src/components/font-dropdown/font-dropdown.module.css ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./font-dropdown.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/font-dropdown/font-dropdown.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -31350,35 +31350,6 @@ See https://github.com/LLK/scratch-paint/issues/13 */
 
 /***/ }),
 
-/***/ "./src/components/forms/input.css":
-/*!****************************************!*\
-  !*** ./src/components/forms/input.css ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./input.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/input.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/forms/input.jsx":
 /*!****************************************!*\
   !*** ./src/components/forms/input.jsx ***!
@@ -31394,8 +31365,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _input_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./input.css */ "./src/components/forms/input.css");
-/* harmony import */ var _input_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_input_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _input_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./input.module.css */ "./src/components/forms/input.module.css");
+/* harmony import */ var _input_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_input_module_css__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 var _excluded = ["small", "range"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -31421,7 +31392,7 @@ var Input = function Input(props) {
     range = props.range,
     componentProps = _objectWithoutProperties(props, _excluded);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("input", _extends({}, componentProps, {
-    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_input_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputForm, props.className, _defineProperty(_defineProperty({}, _input_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputSmall, small && !range), _input_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputSmallRange, small && range))
+    className: classnames__WEBPACK_IMPORTED_MODULE_2___default()(_input_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputForm, props.className, _defineProperty(_defineProperty({}, _input_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputSmall, small && !range), _input_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputSmallRange, small && range))
   }));
 };
 Input.propTypes = {
@@ -31437,15 +31408,15 @@ Input.defaultProps = {
 
 /***/ }),
 
-/***/ "./src/components/forms/label.css":
-/*!****************************************!*\
-  !*** ./src/components/forms/label.css ***!
-  \****************************************/
+/***/ "./src/components/forms/input.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/forms/input.module.css ***!
+  \***********************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./label.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/label.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./input.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/input.module.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31479,8 +31450,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _label_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./label.css */ "./src/components/forms/label.css");
-/* harmony import */ var _label_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_label_css__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _label_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./label.module.css */ "./src/components/forms/label.module.css");
+/* harmony import */ var _label_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_label_module_css__WEBPACK_IMPORTED_MODULE_2__);
 /* DO NOT EDIT
 @todo This file is copied from GUI and should be pulled out into a shared library.
 See https://github.com/LLK/scratch-paint/issues/13 */
@@ -31490,9 +31461,9 @@ See https://github.com/LLK/scratch-paint/issues/13 */
 
 var Label = function Label(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
-    className: _label_css__WEBPACK_IMPORTED_MODULE_2___default.a.inputGroup
+    className: _label_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.inputGroup
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: props.secondary ? _label_css__WEBPACK_IMPORTED_MODULE_2___default.a.inputLabelSecondary : _label_css__WEBPACK_IMPORTED_MODULE_2___default.a.inputLabel
+    className: props.secondary ? _label_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.inputLabelSecondary : _label_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.inputLabel
   }, props.text), props.children);
 };
 Label.propTypes = {
@@ -31504,6 +31475,35 @@ Label.defaultProps = {
   secondary: false
 };
 /* harmony default export */ __webpack_exports__["default"] = (Label);
+
+/***/ }),
+
+/***/ "./src/components/forms/label.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/forms/label.module.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./label.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/label.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -31616,35 +31616,6 @@ function _setPrototypeOf(t, e) { return _setPrototypeOf = Object.setPrototypeOf 
 
 /***/ }),
 
-/***/ "./src/components/forms/slider.css":
-/*!*****************************************!*\
-  !*** ./src/components/forms/slider.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./slider.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/slider.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/forms/slider.jsx":
 /*!*****************************************!*\
   !*** ./src/components/forms/slider.jsx ***!
@@ -31665,8 +31636,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! classnames */ "./node_modules/classnames/index.js");
 /* harmony import */ var classnames__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(classnames__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _lib_touch_utils__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../lib/touch-utils */ "./src/lib/touch-utils.js");
-/* harmony import */ var _slider_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./slider.css */ "./src/components/forms/slider.css");
-/* harmony import */ var _slider_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_slider_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _slider_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./slider.module.css */ "./src/components/forms/slider.module.css");
+/* harmony import */ var _slider_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_slider_module_css__WEBPACK_IMPORTED_MODULE_5__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
@@ -31694,7 +31665,7 @@ var SliderComponent = /*#__PURE__*/function (_React$Component) {
     var _this;
     _classCallCheck(this, SliderComponent);
     _this = _callSuper(this, SliderComponent, [props]);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(_this, ['handleMouseDown', 'handleMouseUp', 'handleMouseMove', 'handleClickBackground', 'setBackground', 'setHandle']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(_this, ["handleMouseDown", "handleMouseUp", "handleMouseMove", "handleClickBackground", "setBackground", "setHandle"]);
 
     // Distance from the left edge of the slider handle to the mouse down/click event
     _this.handleClickOffset = 0;
@@ -31704,23 +31675,23 @@ var SliderComponent = /*#__PURE__*/function (_React$Component) {
   return _createClass(SliderComponent, [{
     key: "handleMouseDown",
     value: function handleMouseDown(event) {
-      document.addEventListener('mousemove', this.handleMouseMove);
-      document.addEventListener('mouseup', this.handleMouseUp);
-      document.addEventListener('touchmove', this.handleMouseMove, {
+      document.addEventListener("mousemove", this.handleMouseMove);
+      document.addEventListener("mouseup", this.handleMouseUp);
+      document.addEventListener("touchmove", this.handleMouseMove, {
         passive: false
       });
-      document.addEventListener('touchend', this.handleMouseUp);
+      document.addEventListener("touchend", this.handleMouseUp);
       this.handleClickOffset = Object(_lib_touch_utils__WEBPACK_IMPORTED_MODULE_4__["getEventXY"])(event).x - this.handle.getBoundingClientRect().left;
     }
   }, {
     key: "handleMouseUp",
     value: function handleMouseUp() {
-      document.removeEventListener('mousemove', this.handleMouseMove);
-      document.removeEventListener('mouseup', this.handleMouseUp);
-      document.removeEventListener('touchmove', this.handleMouseMove, {
+      document.removeEventListener("mousemove", this.handleMouseMove);
+      document.removeEventListener("mouseup", this.handleMouseUp);
+      document.removeEventListener("touchmove", this.handleMouseMove, {
         passive: false
       });
-      document.removeEventListener('touchend', this.handleMouseUp);
+      document.removeEventListener("touchend", this.handleMouseUp);
     }
   }, {
     key: "handleMouseMove",
@@ -31765,14 +31736,14 @@ var SliderComponent = /*#__PURE__*/function (_React$Component) {
       var pixelMax = CONTAINER_WIDTH - halfHandleWidth;
       var handleOffset = pixelMin + (pixelMax - pixelMin) * (this.props.value / 100) - halfHandleWidth;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _slider_css__WEBPACK_IMPORTED_MODULE_5___default.a.container, true), _slider_css__WEBPACK_IMPORTED_MODULE_5___default.a.last, this.props.lastSlider)),
+        className: classnames__WEBPACK_IMPORTED_MODULE_3___default()(_defineProperty(_defineProperty({}, _slider_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.container, true), _slider_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.last, this.props.lastSlider)),
         ref: this.setBackground,
         style: {
           backgroundImage: this.props.background
         },
         onClick: this.handleClickBackground
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-        className: _slider_css__WEBPACK_IMPORTED_MODULE_5___default.a.handle,
+        className: _slider_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.handle,
         ref: this.setHandle,
         style: {
           left: "".concat(handleOffset, "px")
@@ -31790,22 +31761,22 @@ SliderComponent.propTypes = {
   value: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number.isRequired
 };
 SliderComponent.defaultProps = {
-  background: 'yellow'
+  background: "yellow"
 };
 /* harmony default export */ __webpack_exports__["default"] = (SliderComponent);
 
 
 /***/ }),
 
-/***/ "./src/components/input-group/input-group.css":
-/*!****************************************************!*\
-  !*** ./src/components/input-group/input-group.css ***!
-  \****************************************************/
+/***/ "./src/components/forms/slider.module.css":
+/*!************************************************!*\
+  !*** ./src/components/forms/slider.module.css ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./input-group.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/input-group/input-group.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./slider.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/forms/slider.module.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31841,8 +31812,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _input_group_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./input-group.css */ "./src/components/input-group/input-group.css");
-/* harmony import */ var _input_group_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_input_group_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _input_group_module_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./input-group.module.css */ "./src/components/input-group/input-group.module.css");
+/* harmony import */ var _input_group_module_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_input_group_module_css__WEBPACK_IMPORTED_MODULE_3__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
@@ -31853,8 +31824,8 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 
 var InputGroup = function InputGroup(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _input_group_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputGroup, _defineProperty({}, _input_group_css__WEBPACK_IMPORTED_MODULE_3___default.a.disabled, props.disabled)),
-    dir: props.rtl ? 'rtl' : ''
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _input_group_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.inputGroup, _defineProperty({}, _input_group_module_css__WEBPACK_IMPORTED_MODULE_3___default.a.disabled, props.disabled)),
+    dir: props.rtl ? "rtl" : ""
   }, props.children);
 };
 InputGroup.propTypes = {
@@ -31863,19 +31834,19 @@ InputGroup.propTypes = {
   disabled: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
   rtl: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool
 };
-/* harmony default export */ __webpack_exports__["default"] = (InputGroup);
+/* harmony default export */ __webpack_exports__["default"] = (InputGro);
 
 /***/ }),
 
-/***/ "./src/components/labeled-icon-button/labeled-icon-button.css":
-/*!********************************************************************!*\
-  !*** ./src/components/labeled-icon-button/labeled-icon-button.css ***!
-  \********************************************************************/
+/***/ "./src/components/input-group/input-group.module.css":
+/*!***********************************************************!*\
+  !*** ./src/components/input-group/input-group.module.css ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./labeled-icon-button.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/labeled-icon-button/labeled-icon-button.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./input-group.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/input-group/input-group.module.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -31912,8 +31883,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "prop-types");
 /* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../button/button.jsx */ "./src/components/button/button.jsx");
-/* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./labeled-icon-button.css */ "./src/components/labeled-icon-button/labeled-icon-button.css");
-/* harmony import */ var _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _labeled_icon_button_module_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./labeled-icon-button.module.css */ "./src/components/labeled-icon-button/labeled-icon-button.module.css");
+/* harmony import */ var _labeled_icon_button_module_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_labeled_icon_button_module_css__WEBPACK_IMPORTED_MODULE_4__);
 var _excluded = ["className", "hideLabel", "imgAlt", "imgSrc", "onClick", "title"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 function _objectWithoutProperties(e, t) { if (null == e) return {}; var o, r, i = _objectWithoutPropertiesLoose(e, t); if (Object.getOwnPropertySymbols) { var n = Object.getOwnPropertySymbols(e); for (r = 0; r < n.length; r++) o = n[r], -1 === t.indexOf(o) && {}.propertyIsEnumerable.call(e, o) && (i[o] = e[o]); } return i; }
@@ -31936,16 +31907,16 @@ var LabeledIconButton = function LabeledIconButton(_ref) {
     title = _ref.title,
     props = _objectWithoutProperties(_ref, _excluded);
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default.a.modEditField),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(className, _labeled_icon_button_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.modEditField),
     onClick: onClick
   }, props), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     alt: imgAlt || title,
-    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default.a.editFieldIcon,
+    className: _labeled_icon_button_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.editFieldIcon,
     draggable: false,
     src: imgSrc,
     title: title
   }), !hideLabel && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: _labeled_icon_button_css__WEBPACK_IMPORTED_MODULE_4___default.a.editFieldTitle
+    className: _labeled_icon_button_module_css__WEBPACK_IMPORTED_MODULE_4___default.a.editFieldTitle
   }, title));
 };
 LabeledIconButton.propTypes = {
@@ -31958,6 +31929,35 @@ LabeledIconButton.propTypes = {
   title: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (LabeledIconButton);
+
+/***/ }),
+
+/***/ "./src/components/labeled-icon-button/labeled-icon-button.module.css":
+/*!***************************************************************************!*\
+  !*** ./src/components/labeled-icon-button/labeled-icon-button.module.css ***!
+  \***************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./labeled-icon-button.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/labeled-icon-button/labeled-icon-button.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -32010,35 +32010,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/loupe/loupe.css":
-/*!****************************************!*\
-  !*** ./src/components/loupe/loupe.css ***!
-  \****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./loupe.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/loupe/loupe.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/loupe/loupe.jsx":
 /*!****************************************!*\
   !*** ./src/components/loupe/loupe.jsx ***!
@@ -32056,8 +32027,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(lodash_bindall__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _box_box_jsx__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../box/box.jsx */ "./src/components/box/box.jsx");
 /* harmony import */ var _helper_tools_eye_dropper__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../helper/tools/eye-dropper */ "./src/helper/tools/eye-dropper.js");
-/* harmony import */ var _loupe_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loupe.css */ "./src/components/loupe/loupe.css");
-/* harmony import */ var _loupe_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_loupe_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _loupe_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./loupe.module.css */ "./src/components/loupe/loupe.module.css");
+/* harmony import */ var _loupe_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_loupe_module_css__WEBPACK_IMPORTED_MODULE_5__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 var _excluded = ["colorInfo", "pixelRatio"];
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
@@ -32086,7 +32057,7 @@ var LoupeComponent = /*#__PURE__*/function (_React$Component) {
     var _this;
     _classCallCheck(this, LoupeComponent);
     _this = _callSuper(this, LoupeComponent, [props]);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(_this, ['setCanvas']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(_this, ["setCanvas"]);
     return _this;
   }
   _inherits(LoupeComponent, _React$Component);
@@ -32104,17 +32075,17 @@ var LoupeComponent = /*#__PURE__*/function (_React$Component) {
       var loupeRadius = _helper_tools_eye_dropper__WEBPACK_IMPORTED_MODULE_4__["ZOOM_SCALE"] * _helper_tools_eye_dropper__WEBPACK_IMPORTED_MODULE_4__["LOUPE_RADIUS"];
       var loupeDiameter = loupeRadius * 2;
       var color = this.props.colorInfo.color;
-      var ctx = this.canvas.getContext('2d');
+      var ctx = this.canvas.getContext("2d");
       this.canvas.width = loupeDiameter;
       this.canvas.height = loupeDiameter;
-      ctx.fillStyle = 'white';
+      ctx.fillStyle = "white";
       ctx.fillRect(0, 0, loupeDiameter, loupeDiameter);
 
       // In order to scale the image data, must draw to a tmp canvas first
-      var tmpCanvas = document.createElement('canvas');
+      var tmpCanvas = document.createElement("canvas");
       tmpCanvas.width = loupeDiameter;
       tmpCanvas.height = loupeDiameter;
-      var tmpCtx = tmpCanvas.getContext('2d');
+      var tmpCtx = tmpCanvas.getContext("2d");
       var imageData = tmpCtx.createImageData(loupeDiameter, loupeDiameter);
 
       // Since the color info comes from elsewhere there is no guarantee
@@ -32123,7 +32094,7 @@ var LoupeComponent = /*#__PURE__*/function (_React$Component) {
       if (this.props.colorInfo.data.length === imageData.data.length) {
         imageData.data.set(this.props.colorInfo.data);
       } else {
-        console.warn('Image data size mismatch drawing loupe'); // eslint-disable-line no-console
+        console.warn("Image data size mismatch drawing loupe"); // eslint-disable-line no-console
       }
       tmpCtx.putImageData(imageData, 0, 0);
 
@@ -32132,7 +32103,7 @@ var LoupeComponent = /*#__PURE__*/function (_React$Component) {
 
       // Draw an outlined square at the cursor position (cursor is hidden)
       ctx.lineWidth = boxLineWidth;
-      ctx.strokeStyle = 'black';
+      ctx.strokeStyle = "black";
       ctx.fillStyle = "rgba(".concat(color[0], ", ").concat(color[1], ", ").concat(color[2], ", ").concat(color[3], ")");
       ctx.beginPath();
       ctx.rect(loupeRadius - boxSize / 2, loupeRadius - boxSize / 2, boxSize, boxSize);
@@ -32166,7 +32137,7 @@ var LoupeComponent = /*#__PURE__*/function (_React$Component) {
         boxProps = _objectWithoutProperties(_this$props, _excluded);
       var loupeDiameter = _helper_tools_eye_dropper__WEBPACK_IMPORTED_MODULE_4__["ZOOM_SCALE"] * _helper_tools_eye_dropper__WEBPACK_IMPORTED_MODULE_4__["LOUPE_RADIUS"] * 2;
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_3__["default"], _extends({}, boxProps, {
-        className: _loupe_css__WEBPACK_IMPORTED_MODULE_5___default.a.eyeDropper,
+        className: _loupe_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.eyeDropper,
         componentRef: this.setCanvas,
         element: "canvas",
         height: _helper_tools_eye_dropper__WEBPACK_IMPORTED_MODULE_4__["LOUPE_RADIUS"] * 2,
@@ -32192,6 +32163,35 @@ LoupeComponent.propTypes = {
   pixelRatio: prop_types__WEBPACK_IMPORTED_MODULE_0___default.a.number.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (LoupeComponent);
+
+/***/ }),
+
+/***/ "./src/components/loupe/loupe.module.css":
+/*!***********************************************!*\
+  !*** ./src/components/loupe/loupe.module.css ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./loupe.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/loupe/loupe.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -32272,35 +32272,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/mode-tools/mode-tools.css":
-/*!**************************************************!*\
-  !*** ./src/components/mode-tools/mode-tools.css ***!
-  \**************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./mode-tools.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/mode-tools/mode-tools.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/mode-tools/mode-tools.jsx":
 /*!**************************************************!*\
   !*** ./src/components/mode-tools/mode-tools.jsx ***!
@@ -32334,8 +32305,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_modes__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../../lib/modes */ "./src/lib/modes.js");
 /* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../../lib/format */ "./src/lib/format.js");
 /* harmony import */ var _lib_hide_label__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../../lib/hide-label */ "./src/lib/hide-label.js");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./mode-tools.css */ "./src/components/mode-tools/mode-tools.css");
-/* harmony import */ var _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./mode-tools.module.css */ "./src/components/mode-tools/mode-tools.module.css");
+/* harmony import */ var _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19__);
 /* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./icons/copy.svg */ "./src/components/mode-tools/icons/copy.svg");
 /* harmony import */ var _icons_copy_svg__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(_icons_copy_svg__WEBPACK_IMPORTED_MODULE_20__);
 /* harmony import */ var _icons_paste_svg__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./icons/paste.svg */ "./src/components/mode-tools/icons/paste.svg");
@@ -32470,10 +32441,10 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
         var changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.onBitBrushSliderChange : props.onBrushSliderChange;
         var currentMessage = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_LINE ? messages.thickness : messages.brushSize;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(currentMessage),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeToolsIcon,
+          className: _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeToolsIcon,
           draggable: false,
           src: currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
@@ -32494,10 +32465,10 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
         var currentEraserValue = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.bitEraserSize : props.eraserValue;
         var _changeFunction = Object(_lib_format__WEBPACK_IMPORTED_MODULE_17__["isBitmap"])(props.format) ? props.onBitEraserSliderChange : props.onEraserSliderChange;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
           alt: props.intl.formatMessage(messages.eraserSize),
-          className: _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeToolsIcon,
+          className: _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeToolsIcon,
           draggable: false,
           src: _currentIcon
         })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(LiveInput, {
@@ -32512,9 +32483,9 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
       }
     case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].RESHAPE:
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
         disabled: !props.hasSelectedUncurvedPoints,
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
@@ -32528,7 +32499,7 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
         title: props.intl.formatMessage(messages.pointed),
         onClick: props.onPointPoints
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
         imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_22___default.a,
@@ -32539,9 +32510,9 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
     /* falls through */
     case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].SELECT:
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
         imgSrc: _icons_copy_svg__WEBPACK_IMPORTED_MODULE_20___default.a,
@@ -32554,14 +32525,14 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
         title: props.intl.formatMessage(messages.paste),
         onClick: props.onPasteFromClipboard
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modDashedBorder, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
         hideLabel: Object(_lib_hide_label__WEBPACK_IMPORTED_MODULE_18__["hideLabel"])(props.intl.locale),
         imgSrc: _icons_delete_svg__WEBPACK_IMPORTED_MODULE_22___default.a,
         title: props.intl.formatMessage(messages.delete),
         onClick: props.onDelete
       })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(_mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modLabeledIconHeight)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
         hideLabel: props.intl.locale !== "en",
         imgSrc: _icons_flip_horizontal_svg__WEBPACK_IMPORTED_MODULE_29___default.a,
@@ -32577,7 +32548,7 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
     /* falls through */
     case _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].TEXT:
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
       }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_font_dropdown_jsx__WEBPACK_IMPORTED_MODULE_9__["default"], {
         onUpdateImage: props.onUpdateImage
       })));
@@ -32588,7 +32559,7 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
         var fillIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_RECT ? _bit_rect_mode_rectangle_svg__WEBPACK_IMPORTED_MODULE_33___default.a : _bit_oval_mode_oval_svg__WEBPACK_IMPORTED_MODULE_32___default.a;
         var outlineIcon = props.mode === _lib_modes__WEBPACK_IMPORTED_MODULE_16__["default"].BIT_RECT ? _bit_rect_mode_rectangle_outlined_svg__WEBPACK_IMPORTED_MODULE_35___default.a : _bit_oval_mode_oval_outlined_svg__WEBPACK_IMPORTED_MODULE_34___default.a;
         return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+          className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
         }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_labeled_icon_button_labeled_icon_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
           highlighted: props.fillBitmapShapes,
           imgSrc: fillIcon,
@@ -32614,7 +32585,7 @@ var ModeToolsComponent = function ModeToolsComponent(props) {
     default:
       // Leave empty for now, if mode not supported
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
+        className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _mode_tools_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.modeTools)
       });
   }
 };
@@ -32681,6 +32652,35 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   };
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_1__["connect"])(mapStateToProps, mapDispatchToProps)(Object(react_intl__WEBPACK_IMPORTED_MODULE_12__["injectIntl"])(ModeToolsComponent)));
+
+/***/ }),
+
+/***/ "./src/components/mode-tools/mode-tools.module.css":
+/*!*********************************************************!*\
+  !*** ./src/components/mode-tools/mode-tools.module.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./mode-tools.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/mode-tools/mode-tools.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -32777,35 +32777,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0'?%3E %3Csvg xmlns='htt
 
 /***/ }),
 
-/***/ "./src/components/paint-editor/paint-editor.css":
-/*!******************************************************!*\
-  !*** ./src/components/paint-editor/paint-editor.css ***!
-  \******************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./paint-editor.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/paint-editor/paint-editor.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/paint-editor/paint-editor.jsx":
 /*!******************************************************!*\
   !*** ./src/components/paint-editor/paint-editor.jsx ***!
@@ -32854,8 +32825,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_31__ = __webpack_require__(/*! ../../containers/stroke-width-indicator.jsx */ "./src/containers/stroke-width-indicator.jsx");
 /* harmony import */ var _containers_text_mode_jsx__WEBPACK_IMPORTED_MODULE_32__ = __webpack_require__(/*! ../../containers/text-mode.jsx */ "./src/containers/text-mode.jsx");
 /* harmony import */ var _lib_format__WEBPACK_IMPORTED_MODULE_33__ = __webpack_require__(/*! ../../lib/format */ "./src/lib/format.js");
-/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./paint-editor.css */ "./src/components/paint-editor/paint-editor.css");
-/* harmony import */ var _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_paint_editor_css__WEBPACK_IMPORTED_MODULE_34__);
+/* harmony import */ var _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34__ = __webpack_require__(/*! ./paint-editor.module.css */ "./src/components/paint-editor/paint-editor.module.css");
+/* harmony import */ var _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default = /*#__PURE__*/__webpack_require__.n(_paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34__);
 /* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35__ = __webpack_require__(/*! ./icons/bitmap.svg */ "./src/components/paint-editor/icons/bitmap.svg");
 /* harmony import */ var _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35___default = /*#__PURE__*/__webpack_require__.n(_icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35__);
 /* harmony import */ var _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_36__ = __webpack_require__(/*! ./icons/zoom-in.svg */ "./src/components/paint-editor/icons/zoom-in.svg");
@@ -32915,15 +32886,15 @@ var messages = Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["defineMessages"])
 });
 var PaintEditorComponent = function PaintEditorComponent(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.editorContainer,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.editorContainer,
     dir: props.rtl ? "rtl" : "ltr"
   }, props.canvas !== null ?
   /*#__PURE__*/
   // eslint-disable-line no-negated-condition
   react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.editorContainerTop
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.editorContainerTop
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fixed_tools_jsx__WEBPACK_IMPORTED_MODULE_24__["default"], {
     canRedo: props.canRedo,
     canUndo: props.canUndo,
@@ -32933,38 +32904,38 @@ var PaintEditorComponent = function PaintEditorComponent(props) {
     onUpdateImage: props.onUpdateImage,
     onUpdateName: props.onUpdateName
   })), Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modLabeledIconHeight)
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.row, _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modDashedBorder, _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modLabeledIconHeight)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modMarginAfter,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modMarginAfter,
     onUpdateImage: props.onUpdateImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_stroke_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_30__["default"], {
     onUpdateImage: props.onUpdateImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_stroke_width_indicator_jsx__WEBPACK_IMPORTED_MODULE_31__["default"], {
     onUpdateImage: props.onUpdateImage
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modModeTools
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modModeTools
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
     onUpdateImage: props.onUpdateImage
   }))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.row
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.row, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modDashedBorder, _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modLabeledIconHeight)
+    className: classnames__WEBPACK_IMPORTED_MODULE_1___default()(_paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.row, _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modDashedBorder, _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modLabeledIconHeight)
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_fill_color_indicator_jsx__WEBPACK_IMPORTED_MODULE_19__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modMarginAfter,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modMarginAfter,
     onUpdateImage: props.onUpdateImage
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modModeTools
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modModeTools
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_mode_tools_jsx__WEBPACK_IMPORTED_MODULE_25__["default"], {
     onUpdateImage: props.onUpdateImage
   }))) : null) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.topAlignRow
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.topAlignRow
   }, props.canvas !== null && Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isVector"])(props.format) ?
   /*#__PURE__*/
   // eslint-disable-line no-negated-condition
   react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modeSelector
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modeSelector
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_select_mode_jsx__WEBPACK_IMPORTED_MODULE_29__["default"], {
     onUpdateImage: props.onUpdateImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_reshape_mode_jsx__WEBPACK_IMPORTED_MODULE_28__["default"], {
@@ -32988,7 +32959,7 @@ var PaintEditorComponent = function PaintEditorComponent(props) {
   /*#__PURE__*/
   // eslint-disable-line no-negated-condition
   react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.modeSelector
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.modeSelector
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_brush_mode_jsx__WEBPACK_IMPORTED_MODULE_7__["default"], {
     onUpdateImage: props.onUpdateImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_line_mode_jsx__WEBPACK_IMPORTED_MODULE_8__["default"], {
@@ -33008,11 +32979,11 @@ var PaintEditorComponent = function PaintEditorComponent(props) {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_bit_select_mode_jsx__WEBPACK_IMPORTED_MODULE_13__["default"], {
     onUpdateImage: props.onUpdateImage
   })) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.controlsContainer
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.controlsContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_scrollable_canvas_jsx__WEBPACK_IMPORTED_MODULE_6__["default"], {
     canvas: props.canvas,
     hideScrollbars: props.isEyeDropping,
-    style: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.canvasContainer
+    style: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.canvasContainer
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_containers_paper_canvas_jsx__WEBPACK_IMPORTED_MODULE_5__["default"], {
     canvasRef: props.setCanvas,
     image: props.image,
@@ -33023,58 +32994,58 @@ var PaintEditorComponent = function PaintEditorComponent(props) {
     zoomLevelId: props.zoomLevelId,
     onUpdateImage: props.onUpdateImage
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("textarea", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.textArea,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.textArea,
     ref: props.setTextArea,
     spellCheck: false
   }), props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_box_box_jsx__WEBPACK_IMPORTED_MODULE_14__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.colorPickerWrapper
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.colorPickerWrapper
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_loupe_loupe_jsx__WEBPACK_IMPORTED_MODULE_23__["default"], {
     colorInfo: props.colorInfo,
     pixelRatio: _scratch_paper__WEBPACK_IMPORTED_MODULE_0___default.a.project.view.pixelRatio
   })) : null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("div", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.canvasControls
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.canvasControls
   }, Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isVector"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButton,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButton,
     onClick: props.onSwitchToBitmap
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButtonIcon,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButtonIcon,
     draggable: false,
     src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonText
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonText
   }, props.intl.formatMessage(messages.bitmap))) : Object(_lib_format__WEBPACK_IMPORTED_MODULE_33__["isBitmap"])(props.format) ? /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButton,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButton,
     onClick: props.onSwitchToVector
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButtonIcon,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.bitmapButtonIcon,
     draggable: false,
     src: _icons_bitmap_svg__WEBPACK_IMPORTED_MODULE_35___default.a
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("span", {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonText
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonText
   }, props.intl.formatMessage(messages.vector))) : null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_input_group_input_group_jsx__WEBPACK_IMPORTED_MODULE_21__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.zoomControls
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.zoomControls
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_group_button_group_jsx__WEBPACK_IMPORTED_MODULE_16__["default"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
     onClick: props.onZoomOut
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
     alt: "Zoom Out",
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
     draggable: false,
     src: _icons_zoom_out_svg__WEBPACK_IMPORTED_MODULE_37___default.a
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
     onClick: props.onZoomReset
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
     alt: "Zoom Reset",
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
     draggable: false,
     src: _icons_zoom_reset_svg__WEBPACK_IMPORTED_MODULE_38___default.a
   })), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_15__["default"], {
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButton,
     onClick: props.onZoomIn
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement("img", {
     alt: "Zoom In",
-    className: _paint_editor_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
+    className: _paint_editor_module_css__WEBPACK_IMPORTED_MODULE_34___default.a.buttonGroupButtonIcon,
     draggable: false,
     src: _icons_zoom_in_svg__WEBPACK_IMPORTED_MODULE_36___default.a
   }))))))));
@@ -33109,6 +33080,35 @@ PaintEditorComponent.propTypes = {
   zoomLevelId: prop_types__WEBPACK_IMPORTED_MODULE_4___default.a.string
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_2__["injectIntl"])(PaintEditorComponent));
+
+/***/ }),
+
+/***/ "./src/components/paint-editor/paint-editor.module.css":
+/*!*************************************************************!*\
+  !*** ./src/components/paint-editor/paint-editor.module.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./paint-editor.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/paint-editor/paint-editor.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -33210,15 +33210,87 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/scrollable-canvas/scrollable-canvas.css":
+/***/ "./src/components/scrollable-canvas/scrollable-canvas.jsx":
 /*!****************************************************************!*\
-  !*** ./src/components/scrollable-canvas/scrollable-canvas.css ***!
+  !*** ./src/components/scrollable-canvas/scrollable-canvas.jsx ***!
   \****************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scrollable-canvas.module.css */ "./src/components/scrollable-canvas/scrollable-canvas.module.css");
+/* harmony import */ var _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2__);
+
+
+
+var ScrollableCanvasComponent = function ScrollableCanvasComponent(props) {
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: props.style
+  }, props.children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.horizontalScrollbarWrapper,
+    style: {
+      pointerEvents: "none"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.horizontalScrollbarHitbox,
+    style: {
+      width: "".concat(props.horizontalScrollLengthPercent, "%"),
+      left: "".concat(props.horizontalScrollStartPercent, "%"),
+      pointerEvents: "auto",
+      display: "".concat(props.hideScrollbars || Math.abs(props.horizontalScrollLengthPercent - 100) < 1e-8 ? "none" : "block")
+    },
+    onMouseDown: props.onHorizontalScrollbarMouseDown,
+    onTouchStart: props.onHorizontalScrollbarMouseDown
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.horizontalScrollbar
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.verticalScrollbarWrapper,
+    style: {
+      pointerEvents: "none"
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.verticalScrollbarHitbox,
+    style: {
+      height: "".concat(props.verticalScrollLengthPercent, "%"),
+      top: "".concat(props.verticalScrollStartPercent, "%"),
+      pointerEvents: "auto",
+      display: "".concat(props.hideScrollbars || Math.abs(props.verticalScrollLengthPercent - 100) < 1e-8 ? "none" : "block")
+    },
+    onMouseDown: props.onVerticalScrollbarMouseDown,
+    onTouchStart: props.onVerticalScrollbarMouseDown
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: _scrollable_canvas_module_css__WEBPACK_IMPORTED_MODULE_2___default.a.verticalScrollbar
+  }))));
+};
+ScrollableCanvasComponent.propTypes = {
+  children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node.isRequired,
+  hideScrollbars: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
+  horizontalScrollLengthPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  horizontalScrollStartPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  onHorizontalScrollbarMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  onVerticalScrollbarMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
+  style: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
+  verticalScrollLengthPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
+  verticalScrollStartPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
+};
+/* harmony default export */ __webpack_exports__["default"] = (ScrollableCanvasComponent);
+
+/***/ }),
+
+/***/ "./src/components/scrollable-canvas/scrollable-canvas.module.css":
+/*!***********************************************************************!*\
+  !*** ./src/components/scrollable-canvas/scrollable-canvas.module.css ***!
+  \***********************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./scrollable-canvas.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/scrollable-canvas/scrollable-canvas.css");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./scrollable-canvas.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/scrollable-canvas/scrollable-canvas.module.css");
 
             content = content.__esModule ? content.default : content;
 
@@ -33236,78 +33308,6 @@ var update = api(content, options);
 
 
 module.exports = content.locals || {};
-
-/***/ }),
-
-/***/ "./src/components/scrollable-canvas/scrollable-canvas.jsx":
-/*!****************************************************************!*\
-  !*** ./src/components/scrollable-canvas/scrollable-canvas.jsx ***!
-  \****************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! prop-types */ "prop-types");
-/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./scrollable-canvas.css */ "./src/components/scrollable-canvas/scrollable-canvas.css");
-/* harmony import */ var _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2__);
-
-
-
-var ScrollableCanvasComponent = function ScrollableCanvasComponent(props) {
-  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: props.style
-  }, props.children, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default.a.horizontalScrollbarWrapper,
-    style: {
-      pointerEvents: 'none'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default.a.horizontalScrollbarHitbox,
-    style: {
-      width: "".concat(props.horizontalScrollLengthPercent, "%"),
-      left: "".concat(props.horizontalScrollStartPercent, "%"),
-      pointerEvents: 'auto',
-      display: "".concat(props.hideScrollbars || Math.abs(props.horizontalScrollLengthPercent - 100) < 1e-8 ? 'none' : 'block')
-    },
-    onMouseDown: props.onHorizontalScrollbarMouseDown,
-    onTouchStart: props.onHorizontalScrollbarMouseDown
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default.a.horizontalScrollbar
-  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default.a.verticalScrollbarWrapper,
-    style: {
-      pointerEvents: 'none'
-    }
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default.a.verticalScrollbarHitbox,
-    style: {
-      height: "".concat(props.verticalScrollLengthPercent, "%"),
-      top: "".concat(props.verticalScrollStartPercent, "%"),
-      pointerEvents: 'auto',
-      display: "".concat(props.hideScrollbars || Math.abs(props.verticalScrollLengthPercent - 100) < 1e-8 ? 'none' : 'block')
-    },
-    onMouseDown: props.onVerticalScrollbarMouseDown,
-    onTouchStart: props.onVerticalScrollbarMouseDown
-  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: _scrollable_canvas_css__WEBPACK_IMPORTED_MODULE_2___default.a.verticalScrollbar
-  }))));
-};
-ScrollableCanvasComponent.propTypes = {
-  children: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.node.isRequired,
-  hideScrollbars: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.bool,
-  horizontalScrollLengthPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  horizontalScrollStartPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  onHorizontalScrollbarMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
-  onVerticalScrollbarMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.func.isRequired,
-  style: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.string,
-  verticalScrollLengthPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number,
-  verticalScrollStartPercent: prop_types__WEBPACK_IMPORTED_MODULE_1___default.a.number
-};
-/* harmony default export */ __webpack_exports__["default"] = (ScrollableCanvasComponent);
 
 /***/ }),
 
@@ -33456,35 +33456,6 @@ module.exports = "data:image/svg+xml,%3C?xml version='1.0' encoding='UTF-8' stan
 
 /***/ }),
 
-/***/ "./src/components/tool-select-base/tool-select-base.css":
-/*!**************************************************************!*\
-  !*** ./src/components/tool-select-base/tool-select-base.css ***!
-  \**************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./tool-select-base.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tool-select-base/tool-select-base.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/components/tool-select-base/tool-select-base.jsx":
 /*!**************************************************************!*\
   !*** ./src/components/tool-select-base/tool-select-base.jsx ***!
@@ -33503,8 +33474,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-intl */ "react-intl");
 /* harmony import */ var react_intl__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_intl__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var _button_button_jsx__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../button/button.jsx */ "./src/components/button/button.jsx");
-/* harmony import */ var _tool_select_base_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./tool-select-base.css */ "./src/components/tool-select-base/tool-select-base.css");
-/* harmony import */ var _tool_select_base_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_tool_select_base_css__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _tool_select_base_module_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./tool-select-base.module.css */ "./src/components/tool-select-base/tool-select-base.module.css");
+/* harmony import */ var _tool_select_base_module_css__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_tool_select_base_module_css__WEBPACK_IMPORTED_MODULE_5__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _defineProperty(e, r, t) { return (r = _toPropertyKey(r)) in e ? Object.defineProperty(e, r, { value: t, enumerable: !0, configurable: !0, writable: !0 }) : e[r] = t, e; }
 function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
@@ -33517,13 +33488,13 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 
 var ToolSelectComponent = function ToolSelectComponent(props) {
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_button_button_jsx__WEBPACK_IMPORTED_MODULE_4__["default"], {
-    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _tool_select_base_css__WEBPACK_IMPORTED_MODULE_5___default.a.modToolSelect, _defineProperty({}, _tool_select_base_css__WEBPACK_IMPORTED_MODULE_5___default.a.isSelected, props.isSelected)),
+    className: classnames__WEBPACK_IMPORTED_MODULE_0___default()(props.className, _tool_select_base_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.modToolSelect, _defineProperty({}, _tool_select_base_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.isSelected, props.isSelected)),
     disabled: props.disabled,
     title: props.intl.formatMessage(props.imgDescriptor),
     onClick: props.onMouseDown
   }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
     alt: props.intl.formatMessage(props.imgDescriptor),
-    className: _tool_select_base_css__WEBPACK_IMPORTED_MODULE_5___default.a.toolSelectIcon,
+    className: _tool_select_base_module_css__WEBPACK_IMPORTED_MODULE_5___default.a.toolSelectIcon,
     draggable: false,
     src: props.imgSrc
   }));
@@ -33542,6 +33513,35 @@ ToolSelectComponent.propTypes = {
   onMouseDown: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func.isRequired
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_intl__WEBPACK_IMPORTED_MODULE_3__["injectIntl"])(ToolSelectComponent));
+
+/***/ }),
+
+/***/ "./src/components/tool-select-base/tool-select-base.module.css":
+/*!*********************************************************************!*\
+  !*** ./src/components/tool-select-base/tool-select-base.module.css ***!
+  \*********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../../node_modules/postcss-loader/src??postcss!./tool-select-base.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/components/tool-select-base/tool-select-base.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
@@ -36007,8 +36007,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_fonts__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../lib/fonts */ "./src/lib/fonts.js");
 /* harmony import */ var _reducers_font__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../reducers/font */ "./src/reducers/font.js");
 /* harmony import */ var _helper_selection__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../helper/selection */ "./src/helper/selection.js");
-/* harmony import */ var _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/font-dropdown/font-dropdown.css */ "./src/components/font-dropdown/font-dropdown.css");
-/* harmony import */ var _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/font-dropdown/font-dropdown.module.css */ "./src/components/font-dropdown/font-dropdown.module.css");
+/* harmony import */ var _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _createForOfIteratorHelper(r, e) { var t = "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (!t) { if (Array.isArray(r) || (t = _unsupportedIterableToArray(r)) || e && r && "number" == typeof r.length) { t && (r = t); var _n = 0, F = function F() {}; return { s: F, n: function n() { return _n >= r.length ? { done: !0 } : { done: !1, value: r[_n++] }; }, e: function e(r) { throw r; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var o, a = !0, u = !1; return { s: function s() { t = t.call(r); }, n: function n() { var r = t.next(); return a = r.done, r; }, e: function e(r) { u = !0, o = r; }, f: function f() { try { a || null == t.return || t.return(); } finally { if (u) throw o; } } }; }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -36040,7 +36040,7 @@ var FontDropdown = /*#__PURE__*/function (_React$Component) {
     var _this;
     _classCallCheck(this, FontDropdown);
     _this = _callSuper(this, FontDropdown, [props]);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(_this, ['getFontStyle', 'getFontName', 'handleChangeFontSerif', 'handleChangeFontSansSerif', 'handleChangeFontHandwriting', 'handleChangeFontMarker', 'handleChangeFontCurly', 'handleChangeFontPixel', 'handleChangeFontChinese', 'handleChangeFontJapanese', 'handleChangeFontKorean', 'handleOpenDropdown', 'handleClickOutsideDropdown', 'setDropdown', 'handleChoose']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_2___default()(_this, ["getFontStyle", "getFontName", "handleChangeFontSerif", "handleChangeFontSansSerif", "handleChangeFontHandwriting", "handleChangeFontMarker", "handleChangeFontCurly", "handleChangeFontPixel", "handleChangeFontChinese", "handleChangeFontJapanese", "handleChangeFontKorean", "handleOpenDropdown", "handleClickOutsideDropdown", "setDropdown", "handleChoose"]);
     return _this;
   }
   _inherits(FontDropdown, _React$Component);
@@ -36049,25 +36049,25 @@ var FontDropdown = /*#__PURE__*/function (_React$Component) {
     value: function getFontStyle(font) {
       switch (font) {
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SERIF:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.serif;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.serif;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].SANS_SERIF:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.sansSerif;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.sansSerif;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].HANDWRITING:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.handwriting;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.handwriting;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].MARKER:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.marker;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.marker;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CURLY:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.curly;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.curly;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].PIXEL:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.pixel;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.pixel;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CHINESE:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.chinese;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.chinese;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.japanese;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.japanese;
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].KOREAN:
-          return _components_font_dropdown_font_dropdown_css__WEBPACK_IMPORTED_MODULE_9___default.a.korean;
+          return _components_font_dropdown_font_dropdown_module_css__WEBPACK_IMPORTED_MODULE_9___default.a.korean;
         default:
-          return '';
+          return "";
       }
     }
   }, {
@@ -36075,11 +36075,11 @@ var FontDropdown = /*#__PURE__*/function (_React$Component) {
     value: function getFontName(font) {
       switch (font) {
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].CHINESE:
-          return '中文';
+          return "中文";
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].KOREAN:
-          return '한국어';
+          return "한국어";
         case _lib_fonts__WEBPACK_IMPORTED_MODULE_6__["default"].JAPANESE:
-          return '日本語';
+          return "日本語";
         default:
           return font;
       }

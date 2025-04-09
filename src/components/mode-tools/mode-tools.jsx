@@ -12,14 +12,14 @@ import { setShapesFilled } from "../../reducers/fill-bitmap-shapes";
 import FontDropdown from "../../containers/font-dropdown.jsx";
 import LiveInputHOC from "../forms/live-input-hoc.jsx";
 import Label from "../forms/label.jsx";
-import { defineMessages, injectIntl, intlShape } from "react-intl";
+import { defineMessages, injectIntl } from "react-intl";
 import Input from "../forms/input.jsx";
 import InputGroup from "../input-group/input-group.jsx";
 import LabeledIconButton from "../labeled-icon-button/labeled-icon-button.jsx";
 import Modes from "../../lib/modes";
 import Formats, { isBitmap, isVector } from "../../lib/format";
 import { hideLabel } from "../../lib/hide-label";
-import styles from "./mode-tools.css";
+import styles from "./mode-tools.module.css";
 
 import copyIcon from "./icons/copy.svg";
 import pasteIcon from "./icons/paste.svg";

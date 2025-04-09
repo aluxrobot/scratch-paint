@@ -1,18 +1,13 @@
 import React from "react";
 import PropTypes from "prop-types";
-import {
-    defineMessages,
-    FormattedMessage,
-    injectIntl,
-    intlShape,
-} from "react-intl";
+import { defineMessages, FormattedMessage, injectIntl } from "react-intl";
 
 import classNames from "classnames";
 import parseColor from "parse-color";
 
 import Slider, { CONTAINER_WIDTH, HANDLE_WIDTH } from "../forms/slider.jsx";
 import LabeledIconButton from "../labeled-icon-button/labeled-icon-button.jsx";
-import styles from "./color-picker.css";
+import styles from "./color-picker.module.css";
 import GradientTypes from "../../lib/gradient-types";
 import { MIXED } from "../../helper/style-path";
 

@@ -35,7 +35,7 @@ import StrokeWidthIndicatorComponent from "../../containers/stroke-width-indicat
 import TextMode from "../../containers/text-mode.jsx";
 
 import Formats, { isBitmap, isVector } from "../../lib/format";
-import styles from "./paint-editor.css";
+import styles from "./paint-editor.module.css";
 
 import bitmapIcon from "./icons/bitmap.svg";
 import zoomInIcon from "./icons/zoom-in.svg";
