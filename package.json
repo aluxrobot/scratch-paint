@@ -9,7 +9,8 @@
     ".": {
       "import": "./dist/scratch-paint.es.js",
       "require": "./dist/scratch-paint.cjs.js"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "browser": "./src/index.js",
   "scripts": {
@@ -17,12 +18,9 @@
     "build": "vite build",
     "preview": "vite preview",
     "clean": "rimraf ./dist",
-    "i18n:push": "tx-push-src scratch-editor paint-editor ./translations/en.json",
-    "i18n:src": "rimraf ./translations/messages && babel src > tmp.js && rimraf tmp.js && ./scripts/build-i18n-source.js ./translations/messages/ ./translations/",
     "lint": "eslint . --ext .js,.jsx",
-    "test": "vitest run",
-    "test:watch": "vitest",
-    "test:ui": "vitest --ui"
+    "i18n:push": "tx-push-src scratch-editor paint-editor ./translations/en.json",
+    "i18n:extract": "formatjs extract 'src/**/*.{js,jsx}' --out-file ./translations/en.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'"
   },
   "author": "Massachusetts Institute of Technology",
   "license": "AGPL-3.0-only",
@@ -32,6 +30,7 @@
     "url": "https://github.com/scratchfoundation/scratch-paint.git"
   },
   "dependencies": {
+    "@babel/runtime": "^7.23.9",
     "@scratch/paper": "^0.11.20221201200345",
     "classnames": "^2.5.1",
     "keymirror": "^0.1.1",
@@ -42,28 +41,28 @@
     "prop-types": "^15.8.1"
   },
   "peerDependencies": {
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0",
     "react-intl": "^6",
     "react-intl-redux": "^0.7 || ^2.0.0",
     "react-popover": "^0.5",
     "react-redux": "^8",
-    "react-responsive": "^5",
+    "react-responsive": "^8.0.0 || ^9.0.0",
     "react-style-proptype": "^3",
     "react-tooltip": "^4",
     "redux": "^4",
     "scratch-render-fonts": "^1.0.0"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^6.4.2",
-    "@testing-library/react": "^14.3.0",
+    "@babel/core": "^7.11.0",
+    "@babel/eslint-parser": "^7.11.0",
+    "@formatjs/cli": "^6.2.0",
     "@vitejs/plugin-react": "^4.2.1",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.1",
     "eslint-config-scratch": "9.0.9",
     "eslint-plugin-import": "^2.31.0",
     "eslint-plugin-react": "^7.37.5",
-    "jsdom": "^24.0.0",
     "postcss": "^8.4.38",
     "postcss-import": "^16.0.1",
     "postcss-simple-vars": "^7.0.1",
@@ -74,19 +73,16 @@
     "react-intl-redux": "^2.4.1",
     "react-popover": "^0.5.10",
     "react-redux": "^8.1.3",
-    "react-responsive": "^5.0.0",
+    "react-responsive": "^9.0.2",
     "react-style-proptype": "^3.2.2",
     "react-tooltip": "^4.5.1",
     "redux": "^4.2.1",
-    "redux-mock-store": "^1.5.5",
-    "redux-throttle": "^0.1.1",
     "rimraf": "^5.0.5",
     "scratch-l10n": "^5.0.197",
     "scratch-render-fonts": "^1.0.182",
     "terser": "^5.30.0",
     "vite": "^5.1.6",
-    "vitest": "^1.2.2",
-    "vitest-canvas-mock": "^0.3.3"
+    "vite-plugin-css-injected-by-js": "^3.4.0"
   },
   "browserslist": [
     "last 3 versions",

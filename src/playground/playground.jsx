@@ -1,25 +1,22 @@
-import bindAll from "lodash.bindall";
 import React from "react";
-import ReactDOM from "react-dom/client"; // React 18에서는 'react-dom/client'에서 import
+import { createRoot } from "react-dom/client";
 import PaintEditor from "..";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import reducer from "./reducers/combine-reducers";
 import { intlInitialState, IntlProvider } from "./reducers/intl.js";
-import styles from "./playground.css";
-// scratch-render-fonts is a playground-only dep. Fonts are expected to be imported
-// as a peer dependency, otherwise there will be two copies of them.
-import { FONTS } from "scratch-render-fonts";
+import "./playground.css";
 
-const appTarget = document.createElement("div");
-appTarget.setAttribute("class", styles.playgroundContainer);
-document.body.appendChild(appTarget);
+// scratch-render-fonts 대신 모킹된 폰트 사용
+// 참고: 실제 폰트가 필요하면 vite-fonts-plugin을 구현해야 함
+
 const store = createStore(
     reducer,
     intlInitialState,
     window.__REDUX_DEVTOOLS_EXTENSION__ &&
         window.__REDUX_DEVTOOLS_EXTENSION__(),
 );
+
 const svgString =
     '<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"' +
     ' x="0px" y="0px" width="32px" height="32px" viewBox="0.5 384.5 32 32"' +
@@ -29,16 +26,27 @@ const svgString =
     '<polyline points="10.689,399.492 3.193,391.997 10.689,384.5 "/>' +
     '<polyline points="30.185,405.995 22.689,413.491 15.192,405.995 "/>' +
     "</svg>";
+
 class Playground extends React.Component {
     constructor(props) {
         super(props);
-        bindAll(this, [
-            "downloadImage",
-            "handleUpdateName",
-            "handleUpdateImage",
-            "onUploadImage",
-            "uploadImage", // 여기에 uploadImage 메서드 바인딩 추가
-        ]);
+
+        // 모든 메서드를 미리 정의합니다
+        this.downloadImage = this.downloadImage.bind(this);
+        this.handleUpdateName = this.handleUpdateName.bind(this);
+        this.handleUpdateImage = this.handleUpdateImage.bind(this);
+        this.onUploadImage = this.onUploadImage.bind(this);
+        this.uploadImage = this.uploadImage.bind(this);
+
+        // bindAll 대신 개별적으로 바인딩합니다
+        // bindAll(this, [
+        //    "downloadImage",
+        //    "handleUpdateName",
+        //    "handleUpdateImage",
+        //    "onUploadImage",
+        //    "uploadImage",
+        // ]);
+
         // Append ?dir=rtl to URL to get RTL layout
         const match = location.search.match(/dir=([^&]+)/);
         const rtl = match && match[1] == "rtl";
@@ -49,14 +57,16 @@ class Playground extends React.Component {
             rotationCenterY: 400,
             imageFormat: "svg", // 'svg', 'png', or 'jpg'
             image: svgString, // svg string or data URI
-            imageId: String(this.id), // imageId를 문자열로 변환
+            imageId: String(this.id),
             rtl: rtl,
         };
         this.reusableCanvas = document.createElement("canvas");
     }
+
     handleUpdateName(name) {
         this.setState({ name });
     }
+
     handleUpdateImage(isVector, image, rotationCenterX, rotationCenterY) {
         this.setState({
             imageFormat: isVector ? "svg" : "png",
@@ -77,7 +87,9 @@ class Playground extends React.Component {
             // paint editor takes dataURI as input
             this.reusableCanvas.width = image.width;
             this.reusableCanvas.height = image.height;
-            const context = this.reusableCanvas.getContext("2d");
+            const context = this.reusableCanvas.getContext("2d", {
+                willReadFrequently: true,
+            });
             context.putImageData(image, 0, 0);
             this.setState({
                 image: this.reusableCanvas.toDataURL("image/png"),
@@ -86,6 +98,7 @@ class Playground extends React.Component {
             });
         }
     }
+
     downloadImage() {
         const downloadLink = document.createElement("a");
         document.body.appendChild(downloadLink);
@@ -118,6 +131,7 @@ class Playground extends React.Component {
         }
         document.body.removeChild(downloadLink);
     }
+
     b64toByteArray(b64Data, sliceSize = 512) {
         // Remove header
         b64Data = b64Data.substring(b64Data.indexOf("base64,") + 7);
@@ -143,9 +157,11 @@ class Playground extends React.Component {
 
         return byteArrays;
     }
+
     uploadImage() {
-        document.getElementById(styles.fileInput).click();
+        document.getElementById("fileInput").click();
     }
+
     onUploadImage(event) {
         var file = event.target.files[0];
         var type =
@@ -176,49 +192,68 @@ class Playground extends React.Component {
             that.setState({
                 image: content,
                 name: file.name.split(".").slice(0, -1).join("."),
-                imageId: String(newId), // imageId를 문자열로 변환
+                imageId: String(newId),
                 imageFormat: type,
                 rotationCenterX: undefined,
                 rotationCenterY: undefined,
             });
         };
     }
+
     render() {
         return (
-            <div className={styles.wrapper}>
+            <div className="wrapper">
                 <PaintEditor
                     {...this.state}
                     onUpdateName={this.handleUpdateName}
                     onUpdateImage={this.handleUpdateImage}
                 />
-                <button
-                    className={styles.playgroundButton}
-                    onClick={this.uploadImage}
-                >
-                    Upload
-                </button>
-                <input
-                    id={styles.fileInput}
-                    type="file"
-                    name="name"
-                    onChange={this.onUploadImage}
-                />
-                <button
-                    className={styles.playgroundButton}
-                    onClick={this.downloadImage}
-                >
-                    Download
-                </button>
+                <div className="playground-controls">
+                    <button
+                        className="playground-button"
+                        onClick={this.uploadImage}
+                    >
+                        Upload
+                    </button>
+                    <input
+                        id="fileInput"
+                        type="file"
+                        name="name"
+                        style={{ display: "none" }}
+                        onChange={this.onUploadImage}
+                    />
+                    <button
+                        className="playground-button"
+                        onClick={this.downloadImage}
+                    >
+                        Download
+                    </button>
+                </div>
             </div>
         );
     }
 }
 
-const root = ReactDOM.createRoot(appTarget);
-root.render(
-    <Provider store={store}>
-        <IntlProvider>
-            <Playground />
-        </IntlProvider>
-    </Provider>,
-);
+// Vite에서는 DOM이 로드된 후에 렌더링하도록 설정
+document.addEventListener("DOMContentLoaded", () => {
+    const appTarget = document.getElementById("app");
+    if (appTarget) {
+        const root = createRoot(appTarget);
+        root.render(
+            <Provider store={store}>
+                <IntlProvider>
+                    <Playground />
+                </IntlProvider>
+            </Provider>,
+        );
+    } else {
+        console.error(
+            '앱을 마운트할 요소를 찾을 수 없습니다. id="app"인 요소가 index.html에 있는지 확인하세요.',
+        );
+    }
+});
+
+// 개발 환경에서 HMR 지원
+if (import.meta.hot) {
+    import.meta.hot.accept();
+}

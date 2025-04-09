@@ -7,16 +7,16 @@ import React from "react";
 
 import styles from "./label.module.css";
 
-const Label = (props) => (
+const Label = ({ children, secondary = false, text }) => (
     <label className={styles.inputGroup}>
         <span
             className={
-                props.secondary ? styles.inputLabelSecondary : styles.inputLabel
+                secondary ? styles.inputLabelSecondary : styles.inputLabel
             }
         >
-            {props.text}
+            {text}
         </span>
-        {props.children}
+        {children}
     </label>
 );
 
@@ -24,10 +24,6 @@ Label.propTypes = {
     children: PropTypes.node,
     secondary: PropTypes.bool,
     text: PropTypes.string.isRequired,
-};
-
-Label.defaultProps = {
-    secondary: false,
 };
 
 export default Label;

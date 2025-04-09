@@ -19,3 +19,4 @@ playground/*
 
 # tests
 /test/results/*
+.idea/
