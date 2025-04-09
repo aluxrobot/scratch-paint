@@ -1,5 +1,14 @@
-module.exports =
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory(require("minilog"), require("prop-types"), require("react"), require("react-intl"), require("react-popover"), require("react-redux"), require("react-responsive"), require("react-style-proptype"), require("redux"));
+	else if(typeof define === 'function' && define.amd)
+		define(["minilog", "prop-types", "react", "react-intl", "react-popover", "react-redux", "react-responsive", "react-style-proptype", "redux"], factory);
+	else if(typeof exports === 'object')
+		exports["ScratchPaint"] = factory(require("minilog"), require("prop-types"), require("react"), require("react-intl"), require("react-popover"), require("react-redux"), require("react-responsive"), require("react-style-proptype"), require("redux"));
+	else
+		root["ScratchPaint"] = factory(root["minilog"], root["prop-types"], root["react"], root["react-intl"], root["react-popover"], root["react-redux"], root["react-responsive"], root["react-style-proptype"], root["redux"]);
+})(this, function(__WEBPACK_EXTERNAL_MODULE_minilog__, __WEBPACK_EXTERNAL_MODULE_prop_types__, __WEBPACK_EXTERNAL_MODULE_react__, __WEBPACK_EXTERNAL_MODULE_react_intl__, __WEBPACK_EXTERNAL_MODULE_react_popover__, __WEBPACK_EXTERNAL_MODULE_react_redux__, __WEBPACK_EXTERNAL_MODULE_react_responsive__, __WEBPACK_EXTERNAL_MODULE_react_style_proptype__, __WEBPACK_EXTERNAL_MODULE_redux__) {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -51731,7 +51740,7 @@ var setZoomLevelId = function setZoomLevelId(zoomLevelId) {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("minilog");
+module.exports = __WEBPACK_EXTERNAL_MODULE_minilog__;
 
 /***/ }),
 
@@ -51742,7 +51751,7 @@ module.exports = require("minilog");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("prop-types");
+module.exports = __WEBPACK_EXTERNAL_MODULE_prop_types__;
 
 /***/ }),
 
@@ -51753,7 +51762,7 @@ module.exports = require("prop-types");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react");
+module.exports = __WEBPACK_EXTERNAL_MODULE_react__;
 
 /***/ }),
 
@@ -51764,7 +51773,7 @@ module.exports = require("react");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-intl");
+module.exports = __WEBPACK_EXTERNAL_MODULE_react_intl__;
 
 /***/ }),
 
@@ -51775,7 +51784,7 @@ module.exports = require("react-intl");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-popover");
+module.exports = __WEBPACK_EXTERNAL_MODULE_react_popover__;
 
 /***/ }),
 
@@ -51786,7 +51795,7 @@ module.exports = require("react-popover");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-redux");
+module.exports = __WEBPACK_EXTERNAL_MODULE_react_redux__;
 
 /***/ }),
 
@@ -51797,7 +51806,7 @@ module.exports = require("react-redux");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-responsive");
+module.exports = __WEBPACK_EXTERNAL_MODULE_react_responsive__;
 
 /***/ }),
 
@@ -51808,7 +51817,7 @@ module.exports = require("react-responsive");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("react-style-proptype");
+module.exports = __WEBPACK_EXTERNAL_MODULE_react_style_proptype__;
 
 /***/ }),
 
@@ -51819,9 +51828,10 @@ module.exports = require("react-style-proptype");
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = require("redux");
+module.exports = __WEBPACK_EXTERNAL_MODULE_redux__;
 
 /***/ })
 
 /******/ });
+});
 //# sourceMappingURL=scratch-paint.js.map
