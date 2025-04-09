@@ -31834,7 +31834,7 @@ InputGroup.propTypes = {
   disabled: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
   rtl: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool
 };
-/* harmony default export */ __webpack_exports__["default"] = (InputGro);
+/* harmony default export */ __webpack_exports__["default"] = (InputGroup);
 
 /***/ }),
 
