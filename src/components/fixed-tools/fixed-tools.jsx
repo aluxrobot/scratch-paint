@@ -22,7 +22,7 @@ import Label from "../forms/label.jsx";
 import LabeledIconButton from "../labeled-icon-button/labeled-icon-button.jsx";
 import layout from "../../lib/layout-constants";
 import { hideLabel } from "../../lib/hide-label";
-import styles from "./fixed-tools.css";
+import styles from "./fixed-tools.module.css";
 
 import groupIcon from "./icons/group.svg";
 import redoIcon from "./icons/redo.svg";
