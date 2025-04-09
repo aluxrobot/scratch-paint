@@ -24471,10 +24471,10 @@ module.exports = exports;
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/paper-canvas.css":
-/*!************************************************************************************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/containers/paper-canvas.css ***!
-  \************************************************************************************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/paper-canvas.module.css":
+/*!*******************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-1!./node_modules/postcss-loader/src??postcss!./src/containers/paper-canvas.module.css ***!
+  \*******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -24482,11 +24482,11 @@ module.exports = exports;
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, ".paper-canvas_paper-canvas_2biXB {\n    top: 1px; /* leave room for the border */\n    left: 1px;\n    width: calc(100% - 2px);\n    height: calc(100% - 2px);\n    margin: auto;\n    position: absolute;\n    background-color: #D9E3F2;\n}\n", ""]);
+exports.push([module.i, ".paper-canvas-module_paper-canvas_2fZn1 {\n    top: 1px; /* leave room for the border */\n    left: 1px;\n    width: calc(100% - 2px);\n    height: calc(100% - 2px);\n    margin: auto;\n    position: absolute;\n    background-color: #D9E3F2;\n}\n", ""]);
 // Exports
 exports.locals = {
-	"paper-canvas": "paper-canvas_paper-canvas_2biXB",
-	"paperCanvas": "paper-canvas_paper-canvas_2biXB"
+	"paper-canvas": "paper-canvas-module_paper-canvas_2fZn1",
+	"paperCanvas": "paper-canvas-module_paper-canvas_2fZn1"
 };
 module.exports = exports;
 
@@ -37670,35 +37670,6 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 
 /***/ }),
 
-/***/ "./src/containers/paper-canvas.css":
-/*!*****************************************!*\
-  !*** ./src/containers/paper-canvas.css ***!
-  \*****************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
-            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../node_modules/postcss-loader/src??postcss!./paper-canvas.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/paper-canvas.css");
-
-            content = content.__esModule ? content.default : content;
-
-            if (typeof content === 'string') {
-              content = [[module.i, content, '']];
-            }
-
-var options = {};
-
-options.insert = "head";
-options.singleton = false;
-
-var update = api(content, options);
-
-
-
-module.exports = content.locals || {};
-
-/***/ }),
-
 /***/ "./src/containers/paper-canvas.jsx":
 /*!*****************************************!*\
   !*** ./src/containers/paper-canvas.jsx ***!
@@ -37732,8 +37703,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _reducers_format__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ../reducers/format */ "./src/reducers/format.js");
 /* harmony import */ var _reducers_view_bounds__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ../reducers/view-bounds */ "./src/reducers/view-bounds.js");
 /* harmony import */ var _reducers_zoom_levels__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ../reducers/zoom-levels */ "./src/reducers/zoom-levels.js");
-/* harmony import */ var _paper_canvas_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./paper-canvas.css */ "./src/containers/paper-canvas.css");
-/* harmony import */ var _paper_canvas_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_paper_canvas_css__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var _paper_canvas_module_css__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./paper-canvas.module.css */ "./src/containers/paper-canvas.module.css");
+/* harmony import */ var _paper_canvas_module_css__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(_paper_canvas_module_css__WEBPACK_IMPORTED_MODULE_19__);
 function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
 function _createForOfIteratorHelper(r, e) { var t = "undefined" != typeof Symbol && r[Symbol.iterator] || r["@@iterator"]; if (!t) { if (Array.isArray(r) || (t = _unsupportedIterableToArray(r)) || e && r && "number" == typeof r.length) { t && (r = t); var _n = 0, F = function F() {}; return { s: F, n: function n() { return _n >= r.length ? { done: !0 } : { done: !1, value: r[_n++] }; }, e: function e(r) { throw r; }, f: F }; } throw new TypeError("Invalid attempt to iterate non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); } var o, a = !0, u = !1; return { s: function s() { t = t.call(r); }, n: function n() { var r = t.next(); return a = r.done, r; }, e: function e(r) { u = !0, o = r; }, f: function f() { try { a || null == t.return || t.return(); } finally { if (u) throw o; } } }; }
 function _unsupportedIterableToArray(r, a) { if (r) { if ("string" == typeof r) return _arrayLikeToArray(r, a); var t = {}.toString.call(r).slice(8, -1); return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? _arrayLikeToArray(r, a) : void 0; } }
@@ -37775,7 +37746,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
     var _this;
     _classCallCheck(this, PaperCanvas);
     _this = _callSuper(this, PaperCanvas, [props]);
-    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(_this, ['clearQueuedImport', 'setCanvas', 'importSvg', 'initializeSvg', 'maybeZoomToFit', 'switchCostume', 'onViewResize', 'recalibrateSize']);
+    lodash_bindall__WEBPACK_IMPORTED_MODULE_0___default()(_this, ["clearQueuedImport", "setCanvas", "importSvg", "initializeSvg", "maybeZoomToFit", "switchCostume", "onViewResize", "recalibrateSize"]);
     return _this;
   }
   _inherits(PaperCanvas, _React$Component);
@@ -37783,7 +37754,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
     key: "componentDidMount",
     value: function componentDidMount() {
       _scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.setup(this.canvas);
-      _scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.view.on('resize', this.onViewResize);
+      _scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.view.on("resize", this.onViewResize);
       Object(_helper_view__WEBPACK_IMPORTED_MODULE_12__["resetZoom"])();
       if (this.props.zoomLevelId) {
         this.props.setZoomLevelId(this.props.zoomLevelId);
@@ -37797,7 +37768,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
       } else {
         this.props.updateViewBounds(_scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.view.matrix);
       }
-      var context = this.canvas.getContext('2d');
+      var context = this.canvas.getContext("2d");
       context.webkitImageSmoothingEnabled = false;
       context.imageSmoothingEnabled = false;
 
@@ -37836,7 +37807,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
         this.queuedImport = null;
       }
       if (this.queuedImageToLoad) {
-        this.queuedImageToLoad.src = '';
+        this.queuedImageToLoad.src = "";
         this.queuedImageToLoad.onload = null;
         this.queuedImageToLoad = null;
       }
@@ -37889,7 +37860,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
         this.recalibrateSize();
         return;
       }
-      if (format === 'jpg' || format === 'png') {
+      if (format === "jpg" || format === "png") {
         // import bitmap
         this.props.changeFormat(_lib_format__WEBPACK_IMPORTED_MODULE_5__["default"].BITMAP_SKIP_CONVERT);
         var mask = new _scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.Shape.Rectangle(Object(_helper_layer__WEBPACK_IMPORTED_MODULE_10__["getRaster"])().getBounds());
@@ -37902,10 +37873,10 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
         imgElement.onload = function () {
           if (!_this2.queuedImageToLoad) return;
           _this2.queuedImageToLoad = null;
-          if (typeof rotationCenterX === 'undefined') {
+          if (typeof rotationCenterX === "undefined") {
             rotationCenterX = imgElement.width / 2;
           }
-          if (typeof rotationCenterY === 'undefined') {
+          if (typeof rotationCenterY === "undefined") {
             rotationCenterY = imgElement.height / 2;
           }
           Object(_helper_layer__WEBPACK_IMPORTED_MODULE_10__["getRaster"])().drawImage(imgElement, _helper_view__WEBPACK_IMPORTED_MODULE_12__["ART_BOARD_WIDTH"] / 2 - rotationCenterX, _helper_view__WEBPACK_IMPORTED_MODULE_12__["ART_BOARD_HEIGHT"] / 2 - rotationCenterY);
@@ -37915,7 +37886,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
           _this2.recalibrateSize();
         };
         imgElement.src = image;
-      } else if (format === 'svg') {
+      } else if (format === "svg") {
         this.props.changeFormat(_lib_format__WEBPACK_IMPORTED_MODULE_5__["default"].VECTOR_SKIP_CONVERT);
         this.importSvg(image, rotationCenterX, rotationCenterY);
       } else {
@@ -37946,19 +37917,19 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
       // Pre-process SVG to prevent parsing errors (discussion from #213)
       // 1. Remove svg: namespace on elements.
       // TODO: remove
-      svg = svg.split(/<\s*svg:/).join('<');
-      svg = svg.split(/<\/\s*svg:/).join('</');
+      svg = svg.split(/<\s*svg:/).join("<");
+      svg = svg.split(/<\/\s*svg:/).join("</");
       // 2. Add root svg namespace if it does not exist.
       var svgAttrs = svg.match(/<svg [^>]*>/);
-      if (svgAttrs && svgAttrs[0].indexOf('xmlns=') === -1) {
-        svg = svg.replace('<svg ', '<svg xmlns="http://www.w3.org/2000/svg" ');
+      if (svgAttrs && svgAttrs[0].indexOf("xmlns=") === -1) {
+        svg = svg.replace("<svg ", '<svg xmlns="http://www.w3.org/2000/svg" ');
       }
 
       // Get the origin which the viewBox is defined relative to. During import, Paper will translate
       // the viewBox to start at (0, 0), and we need to translate it back for some costumes to render
       // correctly.
       var parser = new DOMParser();
-      var svgDom = parser.parseFromString(svg, 'text/xml');
+      var svgDom = parser.parseFromString(svg, "text/xml");
       var viewBox = svgDom.documentElement.attributes.viewBox ? svgDom.documentElement.attributes.viewBox.value.match(/\S+/g) : null;
       if (viewBox) {
         for (var i = 0; i < viewBox.length; i++) {
@@ -37969,7 +37940,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
         expandShapes: true,
         onLoad: function onLoad(item) {
           if (!item) {
-            _log_log__WEBPACK_IMPORTED_MODULE_6__["default"].error('SVG import failed:');
+            _log_log__WEBPACK_IMPORTED_MODULE_6__["default"].error("SVG import failed:");
             _log_log__WEBPACK_IMPORTED_MODULE_6__["default"].info(svg);
             this.props.changeFormat(_lib_format__WEBPACK_IMPORTED_MODULE_5__["default"].VECTOR_SKIP_CONVERT);
             Object(_helper_undo__WEBPACK_IMPORTED_MODULE_7__["performSnapshot"])(paperCanvas.props.undoSnapshot, _lib_format__WEBPACK_IMPORTED_MODULE_5__["default"].VECTOR_SKIP_CONVERT);
@@ -38033,7 +38004,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
       Object(_helper_math__WEBPACK_IMPORTED_MODULE_13__["scaleWithStrokes"])(item, 2, new _scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.Point()); // Import at 2x
 
       // Apply rotation center
-      if (typeof rotationCenterX !== 'undefined' && typeof rotationCenterY !== 'undefined') {
+      if (typeof rotationCenterX !== "undefined" && typeof rotationCenterY !== "undefined") {
         var rotationPoint = new _scratch_paper__WEBPACK_IMPORTED_MODULE_4___default.a.Point(rotationCenterX, rotationCenterY);
         if (viewBox && viewBox.length >= 2 && !isNaN(viewBox[0]) && !isNaN(viewBox[1])) {
           rotationPoint = rotationPoint.subtract(viewBox[0], viewBox[1]);
@@ -38105,7 +38076,7 @@ var PaperCanvas = /*#__PURE__*/function (_React$Component) {
     key: "render",
     value: function render() {
       return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("canvas", {
-        className: _paper_canvas_css__WEBPACK_IMPORTED_MODULE_19___default.a.paperCanvas,
+        className: _paper_canvas_module_css__WEBPACK_IMPORTED_MODULE_19___default.a.paperCanvas,
         ref: this.setCanvas,
         style: {
           cursor: this.props.cursor
@@ -38179,6 +38150,35 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   };
 };
 /* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_3__["connect"])(mapStateToProps, mapDispatchToProps)(PaperCanvas));
+
+/***/ }),
+
+/***/ "./src/containers/paper-canvas.module.css":
+/*!************************************************!*\
+  !*** ./src/containers/paper-canvas.module.css ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var api = __webpack_require__(/*! ../../node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js */ "./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js");
+            var content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--5-1!../../node_modules/postcss-loader/src??postcss!./paper-canvas.module.css */ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/containers/paper-canvas.module.css");
+
+            content = content.__esModule ? content.default : content;
+
+            if (typeof content === 'string') {
+              content = [[module.i, content, '']];
+            }
+
+var options = {};
+
+options.insert = "head";
+options.singleton = false;
+
+var update = api(content, options);
+
+
+
+module.exports = content.locals || {};
 
 /***/ }),
 
