@@ -32,32 +32,31 @@ const colorToBackground = (color, color2, gradientType) => {
     }
 };
 
-const ColorButtonComponent = (props) => (
-    <div className={styles.colorButton} onClick={props.onClick}>
+const ColorButtonComponent = ({
+    color,
+    color2,
+    gradientType,
+    onClick,
+    outline = false,
+}) => (
+    <div className={styles.colorButton} onClick={onClick}>
         <div
             className={classNames(styles.colorButtonSwatch, {
-                [styles.outlineSwatch]:
-                    props.outline && !(props.color === MIXED),
+                [styles.outlineSwatch]: outline && !(color === MIXED),
             })}
             style={{
-                background: colorToBackground(
-                    props.color,
-                    props.color2,
-                    props.gradientType,
-                ),
+                background: colorToBackground(color, color2, gradientType),
             }}
         >
-            {props.color === null &&
-            (props.gradientType === GradientTypes.SOLID ||
-                props.color2 === null) ? (
+            {color === null &&
+            (gradientType === GradientTypes.SOLID || color2 === null) ? (
                 <img
                     className={styles.swatchIcon}
                     draggable={false}
                     src={noFillIcon}
                 />
-            ) : props.color === MIXED ||
-              (props.gradientType !== GradientTypes.SOLID &&
-                  props.color2 === MIXED) ? (
+            ) : color === MIXED ||
+              (gradientType !== GradientTypes.SOLID && color2 === MIXED) ? (
                 <img
                     className={styles.swatchIcon}
                     draggable={false}
@@ -74,11 +73,7 @@ ColorButtonComponent.propTypes = {
     color2: PropTypes.string,
     gradientType: PropTypes.oneOf(Object.keys(GradientTypes)).isRequired,
     onClick: PropTypes.func.isRequired,
-    outline: PropTypes.bool.isRequired,
-};
-
-ColorButtonComponent.defaultProps = {
-    outline: false,
+    outline: PropTypes.bool,
 };
 
 export default ColorButtonComponent;

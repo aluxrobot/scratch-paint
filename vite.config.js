@@ -6,6 +6,7 @@ import autoprefixer from "autoprefixer";
 import postcssImport from "postcss-import";
 import postcssSimpleVars from "postcss-simple-vars";
 import fontPlugin from "./vite-fonts-plugin";
+import cssInjectedByJsPlugin from "vite-plugin-css-injected-by-js";
 
 // ESM에서 __dirname 대체하기
 const __filename = fileURLToPath(import.meta.url);
@@ -16,6 +17,7 @@ export default defineConfig({
     plugins: [
         react(),
         fontPlugin(), // 폰트 로더 플러그인 추가
+        cssInjectedByJsPlugin(), // CSS를 JS에 주입하는 플러그인
     ],
     resolve: {
         alias: {
@@ -31,6 +33,8 @@ export default defineConfig({
         postcss: {
             plugins: [postcssImport(), postcssSimpleVars(), autoprefixer()],
         },
+        // CSS 최소화 설정 추가
+        minify: true,
     },
     build: {
         lib: {
@@ -61,10 +65,19 @@ export default defineConfig({
                     "react-dom": "ReactDOM",
                     // 필요시 다른 전역 변수 매핑 추가
                 },
+                // CSS를 별도 파일로 추출하지 않도록 설정
+                assetFileNames: (assetInfo) => {
+                    if (assetInfo.name.endsWith(".css")) {
+                        return "assets/[name][extname]";
+                    }
+                    return "assets/[name]-[hash][extname]";
+                },
             },
         },
         sourcemap: true,
         minify: "terser",
+        // CSS 번들링 전략 설정
+        cssCodeSplit: false, // 모든 CSS를 하나의 파일로 합침
     },
     server: {
         host: "0.0.0.0",
