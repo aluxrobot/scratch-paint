@@ -1,12 +1,13 @@
 import bindAll from "lodash.bindall";
 import React from "react";
-import ReactDOM from "react-dom/client"; // React 18에서는 'react-dom/client'에서 import
+import { createRoot } from "react-dom/client"; // React 18에서는 'react-dom/client'에서 import
 import PaintEditor from "..";
 import { Provider } from "react-redux";
 import { createStore } from "redux";
 import reducer from "./reducers/combine-reducers";
 import { intlInitialState, IntlProvider } from "./reducers/intl.js";
 import styles from "./playground.css";
+
 // scratch-render-fonts is a playground-only dep. Fonts are expected to be imported
 // as a peer dependency, otherwise there will be two copies of them.
 import { FONTS } from "scratch-render-fonts";
@@ -214,7 +215,7 @@ class Playground extends React.Component {
     }
 }
 
-const root = ReactDOM.createRoot(appTarget);
+const root = createRoot(appTarget);
 root.render(
     <Provider store={store}>
         <IntlProvider>

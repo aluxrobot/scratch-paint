@@ -18,7 +18,7 @@
     "preview": "vite preview",
     "clean": "rimraf ./dist",
     "i18n:push": "tx-push-src scratch-editor paint-editor ./translations/en.json",
-    "i18n:src": "rimraf ./translations/messages && babel src > tmp.js && rimraf tmp.js && ./scripts/build-i18n-source.js ./translations/messages/ ./translations/",
+    "i18n:extract": "formatjs extract 'src/**/*.{js,jsx}' --out-file ./translations/en.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
     "lint": "eslint . --ext .js,.jsx",
     "test": "vitest run",
     "test:watch": "vitest",
@@ -55,6 +55,7 @@
     "scratch-render-fonts": "^1.0.0"
   },
   "devDependencies": {
+    "@formatjs/cli": "^6.2.0",
     "@testing-library/jest-dom": "^6.4.2",
     "@testing-library/react": "^14.3.0",
     "@vitejs/plugin-react": "^4.2.1",
