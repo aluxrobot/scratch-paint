@@ -5,6 +5,7 @@ import { fileURLToPath } from "url";
 import autoprefixer from "autoprefixer";
 import postcssImport from "postcss-import";
 import postcssSimpleVars from "postcss-simple-vars";
+import fontPlugin from "./vite-fonts-plugin";
 
 // ESM에서 __dirname 대체하기
 const __filename = fileURLToPath(import.meta.url);
@@ -12,7 +13,10 @@ const __dirname = path.dirname(__filename);
 
 // https://vitejs.dev/config/
 export default defineConfig({
-    plugins: [react()],
+    plugins: [
+        react(),
+        fontPlugin(), // 폰트 로더 플러그인 추가
+    ],
     resolve: {
         alias: {
             // 필요시 경로 별칭 설정
@@ -65,5 +69,10 @@ export default defineConfig({
     server: {
         host: "0.0.0.0",
         port: process.env.PORT || 8078,
+    },
+    // CSS 및 font 파일에 대한 추가 처리
+    optimizeDeps: {
+        include: ["react", "react-dom"],
+        exclude: ["scratch-render-fonts"],
     },
 });

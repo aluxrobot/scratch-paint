@@ -361,6 +361,11 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.1.tgz#de633db3ec2ef6a3c89e2f19038063e8a122e2c2"
   integrity sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==
 
+"@formatjs/cli@^6.2.0":
+  version "6.6.3"
+  resolved "https://registry.yarnpkg.com/@formatjs/cli/-/cli-6.6.3.tgz#41da2675bcb45b423e169ab8c6240e648cc3ba0c"
+  integrity sha512-vW9EQdHmxQg/+s9K39ZwKcIyyhmEMHOtsv1KyQFtjv+pbE3XmiB5ohoo4wAx3HDsrufrTsplGnQdQ+KB2wY/bA==
+
 "@formatjs/ecma402-abstract@2.2.4":
   version "2.2.4"
   resolved "https://registry.yarnpkg.com/@formatjs/ecma402-abstract/-/ecma402-abstract-2.2.4.tgz#355e42d375678229d46dc8ad7a7139520dd03e7b"
