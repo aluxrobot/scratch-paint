@@ -1,6 +1,6 @@
 {
   "name": "scratch-paint",
-  "version": "3.2.1",
+  "version": "3.2.11",
   "description": "Graphical User Interface for the Scratch 3.0 paint editor, which is used to make and edit sprites for use in projects.",
   "type": "module",
   "main": "./dist/scratch-paint.cjs.js",
@@ -41,13 +41,13 @@
     "prop-types": "^15.8.1"
   },
   "peerDependencies": {
-    "react": "^16.0.0 || ^17.0.0 || ^18.0.0",
-    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-intl": "^6",
-    "react-intl-redux": "^0.7 || ^2.0.0",
+    "react-intl-redux": "^2.0.0",
     "react-popover": "^0.5",
     "react-redux": "^8",
-    "react-responsive": "^8.0.0 || ^9.0.0",
+    "react-responsive": "^9.0.0",
     "react-style-proptype": "^3",
     "react-tooltip": "^4",
     "redux": "^4",
