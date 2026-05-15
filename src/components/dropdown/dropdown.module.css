@@ -20,6 +20,15 @@ $arrow-border-width: 14px;
     height: .5rem;
     vertical-align: middle;
     padding-bottom: .2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dropdown-icon > svg {
+    width: 100%;
+    height: 100%;
+    display: block;
 }
 
 [dir="ltr"] .dropdown-icon {

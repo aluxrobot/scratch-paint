@@ -21,23 +21,24 @@ import Formats, { isBitmap, isVector } from "../../lib/format";
 import { hideLabel } from "../../lib/hide-label";
 import styles from "./mode-tools.module.css";
 
-import copyIcon from "./icons/copy.svg";
-import pasteIcon from "./icons/paste.svg";
-import deleteIcon from "./icons/delete.svg";
-
 import bitBrushIcon from "../bit-brush-mode/brush.svg";
 import bitEraserIcon from "../bit-eraser-mode/eraser.svg";
 import bitLineIcon from "../bit-line-mode/line.svg";
 import brushIcon from "../brush-mode/brush.svg";
-import curvedPointIcon from "./icons/curved-point.svg";
 import eraserIcon from "../eraser-mode/eraser.svg";
-import flipHorizontalIcon from "./icons/flip-horizontal.svg";
-import flipVerticalIcon from "./icons/flip-vertical.svg";
-import straightPointIcon from "./icons/straight-point.svg";
 import bitOvalIcon from "../bit-oval-mode/oval.svg";
 import bitRectIcon from "../bit-rect-mode/rectangle.svg";
 import bitOvalOutlinedIcon from "../bit-oval-mode/oval-outlined.svg";
 import bitRectOutlinedIcon from "../bit-rect-mode/rectangle-outlined.svg";
+
+// SVG 자체가 style="fill: var(--brand)" 로 작성되어 있어 별도 변환 없이 인라인 렌더만 하면 된다.
+import copyIcon from "./icons/copy.svg?raw";
+import pasteIcon from "./icons/paste.svg?raw";
+import deleteIcon from "./icons/delete.svg?raw";
+import curvedPointIcon from "./icons/curved-point.svg?raw";
+import straightPointIcon from "./icons/straight-point.svg?raw";
+import flipHorizontalIcon from "./icons/flip-horizontal.svg?raw";
+import flipVerticalIcon from "./icons/flip-vertical.svg?raw";
 
 import { MAX_STROKE_WIDTH } from "../../reducers/stroke-width";
 
@@ -200,14 +201,14 @@ const ModeToolsComponent = (props) => {
                         <LabeledIconButton
                             disabled={!props.hasSelectedUncurvedPoints}
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={curvedPointIcon}
+                            svgContent={curvedPointIcon}
                             title={props.intl.formatMessage(messages.curved)}
                             onClick={props.onCurvePoints}
                         />
                         <LabeledIconButton
                             disabled={!props.hasSelectedUnpointedPoints}
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={straightPointIcon}
+                            svgContent={straightPointIcon}
                             title={props.intl.formatMessage(messages.pointed)}
                             onClick={props.onPointPoints}
                         />
@@ -217,7 +218,7 @@ const ModeToolsComponent = (props) => {
                     >
                         <LabeledIconButton
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={deleteIcon}
+                            svgContent={deleteIcon}
                             title={props.intl.formatMessage(messages.delete)}
                             onClick={props.onDelete}
                         />
@@ -237,14 +238,14 @@ const ModeToolsComponent = (props) => {
                     >
                         <LabeledIconButton
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={copyIcon}
+                            svgContent={copyIcon}
                             title={props.intl.formatMessage(messages.copy)}
                             onClick={props.onCopyToClipboard}
                         />
                         <LabeledIconButton
                             disabled={!(props.clipboardItems.length > 0)}
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={pasteIcon}
+                            svgContent={pasteIcon}
                             title={props.intl.formatMessage(messages.paste)}
                             onClick={props.onPasteFromClipboard}
                         />
@@ -257,7 +258,7 @@ const ModeToolsComponent = (props) => {
                     >
                         <LabeledIconButton
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={deleteIcon}
+                            svgContent={deleteIcon}
                             title={props.intl.formatMessage(messages.delete)}
                             onClick={props.onDelete}
                         />
@@ -267,7 +268,7 @@ const ModeToolsComponent = (props) => {
                     >
                         <LabeledIconButton
                             hideLabel={props.intl.locale !== "en"}
-                            imgSrc={flipHorizontalIcon}
+                            svgContent={flipHorizontalIcon}
                             title={props.intl.formatMessage(
                                 messages.flipHorizontal,
                             )}
@@ -275,7 +276,7 @@ const ModeToolsComponent = (props) => {
                         />
                         <LabeledIconButton
                             hideLabel={props.intl.locale !== "en"}
-                            imgSrc={flipVerticalIcon}
+                            svgContent={flipVerticalIcon}
                             title={props.intl.formatMessage(
                                 messages.flipVertical,
                             )}

@@ -6,7 +6,7 @@ import React from "react";
 
 import styles from "./dropdown.module.css";
 
-import dropdownIcon from "./dropdown-caret.svg";
+import dropdownIcon from "./dropdown-caret.svg?raw";
 
 class Dropdown extends React.Component {
     constructor(props) {
@@ -62,12 +62,12 @@ class Dropdown extends React.Component {
                     onClick={this.handleToggleOpenState}
                 >
                     {this.props.children}
-                    <img
+                    <span
                         className={classNames(styles.dropdownIcon, {
                             [styles.modCaretUp]: this.state.isOpen,
                         })}
-                        draggable={false}
-                        src={dropdownIcon}
+                        role="img"
+                        dangerouslySetInnerHTML={{ __html: dropdownIcon }}
                     />
                 </div>
             </Popover>

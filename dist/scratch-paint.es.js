@@ -1,4 +1,4 @@
-!function(){"use strict";try{if("undefined"!=typeof document){var e=document.createElement("style");e.appendChild(document.createTextNode('.paper-canvas-module_paper-canvas_5a-1O{top:1px;left:1px;width:calc(100% - 2px);height:calc(100% - 2px);margin:auto;position:absolute;background-color:#d9e3f2}.scrollable-canvas-module_vertical-scrollbar_qGm7V,.scrollable-canvas-module_horizontal-scrollbar_2wpNe{background:#bebebecc;border-radius:4px;width:100%;height:100%}.scrollable-canvas-module_vertical-scrollbar-wrapper_buFhQ{position:absolute;width:12px;right:0;top:4px;height:calc(100% - 16px)}.scrollable-canvas-module_horizontal-scrollbar-wrapper_Ul3ev{position:absolute;height:12px;left:4px;bottom:0;width:calc(100% - 16px)}.scrollable-canvas-module_vertical-scrollbar-hitbox_LAlv-,.scrollable-canvas-module_horizontal-scrollbar-hitbox_QHQur{position:absolute;cursor:pointer;-webkit-box-sizing:border-box;box-sizing:border-box}.scrollable-canvas-module_vertical-scrollbar-hitbox_LAlv-{width:12px;padding-right:4px}.scrollable-canvas-module_horizontal-scrollbar-hitbox_QHQur{height:12px;padding-bottom:4px}.button-module_button_5dzDN{background:none;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.button-module_button_5dzDN:active,.button-module_highlighted_QWwtr.button-module_button_5dzDN{background-color:#855cd659}.button-module_mod-disabled_pZvBA{cursor:auto;opacity:.5}.button-module_mod-disabled_pZvBA:active{background:none}.tool-select-base-module_mod-tool-select_AeqOE{display:inline-block;margin:.25rem;border:none;border-radius:.25rem;outline:none;background:none;padding:.25rem;font-size:.85rem;-webkit-transition:.2s;transition:.2s}.tool-select-base-module_mod-tool-select_AeqOE.tool-select-base-module_is-selected_-1t-e{background-color:#855cd6}.tool-select-base-module_mod-tool-select_AeqOE:focus{outline:none}img.tool-select-base-module_tool-select-icon_W-aTg{width:2rem;height:2rem;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;vertical-align:middle}.tool-select-base-module_mod-tool-select_AeqOE.tool-select-base-module_is-selected_-1t-e .tool-select-base-module_tool-select-icon_W-aTg{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}@media only screen and (max-width: 1256px){.tool-select-base-module_mod-tool-select_AeqOE{margin:0}}.button-group-module_button-group_U0o5m{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;padding:0 .25rem}.color-button-module_color-button_RAkBJ{height:2rem;width:3rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.color-button-module_color-button-swatch_-1i-m{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;cursor:pointer;-webkit-flex-basis:2rem;-ms-flex-preferred-size:2rem;flex-basis:2rem;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;height:100%;border:1px solid rgba(0,0,0,.25)}[dir=ltr] .color-button-module_color-button-swatch_-1i-m{border-top-left-radius:4px;border-bottom-left-radius:4px}[dir=rtl] .color-button-module_color-button-swatch_-1i-m{border-top-right-radius:4px;border-bottom-right-radius:4px}.color-button-module_color-button-arrow_8YMVD{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;-webkit-flex-basis:1rem;-ms-flex-preferred-size:1rem;flex-basis:1rem;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;height:100%;border:1px solid rgba(0,0,0,.25);-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#575e75;font-size:.75rem}[dir=ltr] .color-button-module_color-button-arrow_8YMVD{border-top-right-radius:4px;border-bottom-right-radius:4px;border-left:none}[dir=rtl] .color-button-module_color-button-arrow_8YMVD{border-top-left-radius:4px;border-bottom-left-radius:4px;border-right:none}.color-button-module_swatch-icon_KxtIz{width:1.75rem;margin:auto;z-index:2}.color-button-module_outline-swatch_T54lt:after{content:"";position:absolute;top:.5rem;left:.5rem;width:.75rem;height:.75rem;background:#fff;border:1px solid rgba(0,0,0,.25);z-index:1}.slider-module_container_ZXPL7{margin:8px 8px 20px;height:22px;width:150px;position:relative;outline:none;border-radius:11px}.slider-module_last_HdUTn{margin-bottom:4px}.slider-module_handle_QWvre{left:100px;width:26px;height:26px;margin-top:-2px;position:absolute;background-color:#fff;border-radius:100%;-webkit-box-shadow:0 0 0 4px rgba(0,0,0,.15);box-shadow:0 0 0 4px #00000026;-ms-touch-action:none;touch-action:none}.labeled-icon-button-module_mod-edit-field_fBmD6{background:none;border:none;display:inline-block;padding:.25rem .325rem;outline:none;border-radius:.25rem;min-width:3rem;font-size:.85rem;text-align:center}.labeled-icon-button-module_edit-field-icon_L8596{width:1.5rem;height:1.5rem;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;vertical-align:middle}.labeled-icon-button-module_edit-field-title_x-xqG{display:block;margin-top:.125rem;font-size:.625rem}.Popover-body{background:#fff;border:1px solid #ddd;border-radius:4px;padding:4px;-webkit-box-shadow:0px 0px 8px 1px rgba(0,0,0,.3);box-shadow:0 0 8px 1px #0000004d}.Popover-tipShape{fill:#fff;stroke:#ddd}.color-picker-module_clickable_vQoOa{cursor:pointer}.color-picker-module_swatch-row_C11il{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.color-picker-module_row-header_VEFiI{font-family:Helvetica Neue,Helvetica,sans-serif;font-size:.65rem;color:#575e75;margin:8px}[dir=ltr] .color-picker-module_label-readout_EJJx1{margin-left:10px}[dir=rtl] .color-picker-module_label-readout_EJJx1{margin-right:10px}.color-picker-module_label-name_b7ahh{font-weight:700}.color-picker-module_divider_Pk1G1{border-top:1px solid #ddd;margin:8px}.color-picker-module_swap-button_274u5{margin-left:8px;margin-right:8px}.color-picker-module_swatches_NIw-0{margin:8px}.color-picker-module_swatch_3-1eO{width:1.5rem;height:1.5rem;border:1px solid #ddd;border-radius:4px;-webkit-box-sizing:content-box;box-sizing:content-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.color-picker-module_large-swatch-icon_-RaCx{width:1.75rem;margin:auto}.color-picker-module_large-swatch_DEu6g{width:2rem;height:2rem}.color-picker-module_active-swatch_jXRZ-{border:1px solid #855CD6;-webkit-box-shadow:0px 0px 0px 3px hsla(260,60%,60%,.35);box-shadow:0 0 0 3px #855cd659}.color-picker-module_swatch-icon_WfYEJ{width:1.5rem;height:1.5rem}.color-picker-module_inactive-gradient_tedFz{-webkit-filter:saturate(0%);filter:saturate(0%)}.color-picker-module_gradient-picker-row_ff9uc{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:8px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}[dir=ltr] .color-picker-module_gradient-picker-row_ff9uc>img+img{margin-left:.5rem}[dir=rtl] .color-picker-module_gradient-picker-row_ff9uc>img+img{margin-right:.5rem}[dir=rtl] .color-picker-module_gradient-swatches-row_It35o{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.input-group-module_input-group_yvKQC{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}[dir=ltr] .input-group-module_input-group_yvKQC+.input-group-module_input-group_yvKQC{margin-left:.5rem}[dir=rtl] .input-group-module_input-group_yvKQC+.input-group-module_input-group_yvKQC{margin-right:.5rem}.input-group-module_disabled_Q38tS{opacity:.3;pointer-events:none}.label-module_input-group_bkxru{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}[dir=ltr] .label-module_input-group_bkxru+.label-module_input-group_bkxru{margin-left:.5rem}[dir=rtl] .label-module_input-group_bkxru+.label-module_input-group_bkxru{margin-right:.5rem}.label-module_disabled_7qQB3{opacity:.3;pointer-events:none}.label-module_input-label_n9jCx,.label-module_input-label-secondary_jy6Px{font-size:.625rem;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}[dir=ltr] .label-module_input-label_n9jCx,[dir=ltr] .label-module_input-label-secondary_jy6Px{margin-right:.5rem}[dir=rtl] .label-module_input-label_n9jCx,[dir=ltr] .label-module_input-label-secondary_jy6Px{margin-left:.5rem}.label-module_input-label_n9jCx{font-weight:700}@media only screen and (max-width: 1256px){.label-module_input-group_bkxru{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;margin-top:-1rem}.label-module_input-label_n9jCx{font-weight:400;margin-bottom:.25rem}}.loupe-module_eye-dropper_jY2Do{position:absolute;border-radius:100%;border:1px solid #222}.dropdown-module_dropdown_dEzjq{border:1px solid #E9EEF2;border-radius:5px;overflow:visible;min-width:3.5rem;color:#855cd6;padding:.5rem}.dropdown-module_mod-open_6sEd0{background-color:#e9eef2}.dropdown-module_dropdown-icon_P9Twd{width:.5rem;height:.5rem;vertical-align:middle;padding-bottom:.2rem}[dir=ltr] .dropdown-module_dropdown-icon_P9Twd{margin-left:.5rem}[dir=rtl] .dropdown-module_dropdown-icon_P9Twd{margin-right:.5rem}.dropdown-module_mod-caret-up_JHvLQ{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);padding-bottom:0;padding-top:.2rem}.input-module_input-form_Wf55j{height:2rem;padding:0 .75rem;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:700;color:#575e75;border-width:1px;border-style:solid;border-color:#e9eef2;border-radius:2rem;outline:none;cursor:text;-webkit-transition:.25s ease-out;transition:.25s ease-out;-webkit-box-shadow:none;box-shadow:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.input-module_input-form_Wf55j:focus{border-color:#855cd6;-webkit-box-shadow:0 0 0 .25rem hsla(260,60%,60%,.35);box-shadow:0 0 0 .25rem #855cd659}.input-module_input-small_VKjFX{width:3rem;text-align:center}.input-module_input-small-range_-QRci{width:4rem;text-align:center}.fixed-tools-module_row_wYuyO{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.fixed-tools-module_costume-input_8L5Hb{width:8rem}[dir=ltr] .fixed-tools-module_mod-dashed-border_lMPnR{border-right:1px dashed #D9D9D9;padding-right:.5rem}[dir=rtl] .fixed-tools-module_mod-dashed-border_lMPnR{border-left:1px dashed #D9D9D9;padding-left:.5rem}.fixed-tools-module_mod-unselect_N36O-{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.fixed-tools-module_button-group-button_NWrbW{display:inline-block;border:1px solid #D9D9D9;border-radius:0;padding:.35rem}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW{border-left:none}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW{border-right:none}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW:last-of-type{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW:first-of-type{border-left:1px solid #D9D9D9;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW:last-of-type{border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW:first-of-type{border-right:1px solid #D9D9D9;border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-start-border_-qzXW{border-left:1px solid #D9D9D9}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-start-border_-qzXW{border-right:1px solid #D9D9D9}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-no-end-border_HgkYP{border-right:none}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-no-end-border_HgkYP{border-left:none}.fixed-tools-module_button-group-button-icon_lMNaB{width:1.25rem;height:1.25rem;vertical-align:middle}[dir=rtl] .fixed-tools-module_button-group-button-icon_lMNaB{-webkit-transform:scaleX(-1);-ms-transform:scaleX(-1);transform:scaleX(-1)}.fixed-tools-module_mod-context-menu_4A-ac{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.fixed-tools-module_mod-top-divider_3YIDk{border-top:1px solid #D9D9D9}.fixed-tools-module_mod-menu-item_SEksZ{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 -.25rem;min-width:6.25rem;padding:.75rem;white-space:nowrap;cursor:pointer;-webkit-transition:.1s ease;transition:.1s ease;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;font-family:Helvetica Neue,Helvetica,sans-serif}.fixed-tools-module_mod-disabled_f6-0w{cursor:auto}.fixed-tools-module_mod-menu-item_SEksZ:hover{background:#855cd659}.fixed-tools-module_mod-disabled_f6-0w:hover{background-color:transparent}.fixed-tools-module_menu-item-icon_mZg1G{margin-right:.5rem}[dir=rtl] .fixed-tools-module_menu-item-icon_mZg1G{margin-right:0;margin-left:.5rem}.font-dropdown-module_mod-menu-item_Pwkic{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 -.25rem;min-width:6.25rem;padding:.5rem .75rem;white-space:nowrap;width:8.5rem;cursor:pointer;-webkit-transition:.1s ease;transition:.1s ease;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.font-dropdown-module_mod-menu-item_Pwkic:hover{background:#855cd6;color:#fff}.font-dropdown-module_mod-context-menu_yRoSE{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.font-dropdown-module_mod-unselect_KqovI{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.font-dropdown-module_displayed-font-name_Y4FF5{font-size:.8rem}.font-dropdown-module_font-dropdown_NRZwW{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#575e75;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:1rem;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:8.5rem;height:2rem}.font-dropdown-module_sans-serif_YMR2D{font-family:"Sans Serif"}.font-dropdown-module_serif_8Mriy{font-family:"Serif"}.font-dropdown-module_handwriting_Vd517{font-family:Handwriting}.font-dropdown-module_marker_-sONE{font-family:Marker}.font-dropdown-module_curly_1F58w{font-family:Curly}.font-dropdown-module_pixel_79ZXu{font-family:Pixel}.font-dropdown-module_chinese_hfeSu{font-family:Microsoft YaHei,微软雅黑,STXihei,华文细黑}.font-dropdown-module_japanese_nIqE7{font-family:ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic}.font-dropdown-module_korean_Nj-oB{font-family:Malgun Gothic}.mode-tools-module_mode-tools_6GXBW{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;min-height:3rem;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.mode-tools-module_mode-tools-icon_c6lue{margin-right:.5rem;width:2rem;height:2rem}[dir=ltr] .mode-tools-module_mod-dashed-border_qymRa{border-right:1px dashed #D9D9D9;padding-right:.75rem}[dir=rtl] .mode-tools-module_mod-dashed-border_qymRa{border-left:1px dashed #D9D9D9;padding-left:.75rem}.mode-tools-module_mod-labeled-icon-height_xCmXi{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:2.85rem;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.paint-editor-module_editor-container_M8xn6{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:.75rem}.paint-editor-module_row_szuDt{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.paint-editor-module_editor-container-top_lN2tC{border-bottom:1px dashed #D9D9D9;padding-bottom:.5rem}.paint-editor-module_top-align-row_6c0pC{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:100%;padding-top:1.25rem;min-width:524px}.paint-editor-module_row_szuDt+.paint-editor-module_row_szuDt{margin-top:.5rem}[dir=ltr] .paint-editor-module_mod-dashed-border_Le07T{border-right:1px dashed #D9D9D9;padding-right:.5rem}[dir=rtl] .paint-editor-module_mod-dashed-border_Le07T{border-left:1px dashed #D9D9D9;padding-left:.5rem}.paint-editor-module_mod-labeled-icon-height_fFeK2{height:2.85rem}.paint-editor-module_button-group-button_hArkp{display:inline-block;border:1px solid #D9D9D9;border-radius:0;padding:.35rem}[dir=ltr] .paint-editor-module_button-group-button_hArkp{border-left:none}[dir=rtl] .paint-editor-module_button-group-button_hArkp{border-right:none}[dir=ltr] .paint-editor-module_button-group-button_hArkp:last-of-type{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .paint-editor-module_button-group-button_hArkp:first-of-type{border-left:1px solid #D9D9D9;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .paint-editor-module_button-group-button_hArkp:last-of-type{border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .paint-editor-module_button-group-button_hArkp:first-of-type{border-right:1px solid #D9D9D9;border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-start-border_kexCm{border-left:1px solid #D9D9D9}[dir=rtl] .paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-start-border_kexCm{border-right:1px solid #D9D9D9}[dir=ltr].paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-no-end-border_YRRu4{border-right:none}[dir=rtl].paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-no-end-border_YRRu4{border-left:none}.paint-editor-module_button-group-button-icon_VKZA-{width:1.25rem;height:1.25rem;vertical-align:middle}.paint-editor-module_mod-mode-tools_-8BW9{margin-left:.5rem}[dir=ltr] .paint-editor-module_mod-margin-after_JGH6T{margin-right:.5rem}[dir=rtl] .paint-editor-module_mod-margin-after_JGH6T{margin-left:.5rem}.paint-editor-module_controls-container_y85Jj{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;margin-left:.5rem;margin-right:.5rem}.paint-editor-module_canvas-container_5w3Xr{width:100%;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;min-width:402px;-webkit-box-sizing:content-box;box-sizing:content-box;border:1px solid #e8edf1;border-radius:.25rem;position:relative;overflow:visible}.paint-editor-module_mode-selector_ZorhO{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:7.5rem;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.paint-editor-module_zoom-controls_E-118{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.paint-editor-module_color-picker-wrapper_uUNDx{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}.paint-editor-module_canvas-controls_ARQQQ{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:36px;margin-top:.25rem;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.paint-editor-module_bitmap-button_x4tRq{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-radius:5px;background-color:#855cd6;padding:.5rem;line-height:1.5rem;font-size:.75rem;font-weight:700;color:#fff;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}[dir=ltr] .paint-editor-module_bitmap-button-icon_MFAHt{margin-right:.5rem}[dir=rtl] .paint-editor-module_bitmap-button-icon_MFAHt{margin-left:.5rem}@media only screen and (max-width: 1256px){.paint-editor-module_editor-container_M8xn6{padding:.75rem .25rem}.paint-editor-module_mode-selector_ZorhO{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}.paint-editor-module_controls-container_y85Jj{margin-right:.25rem;margin-left:.25rem}}.paint-editor-module_text-area_HGOX0{background:transparent;border:none;display:none;margin:0;opacity:.8;outline:none;overflow:hidden;padding:0;position:absolute;resize:none;-webkit-text-fill-color:transparent;text-fill-color:transparent}.paint-editor-module_button-text_OO1jf{width:100%}')),document.head.appendChild(e)}}catch(o){console.error("vite-plugin-css-injected-by-js",o)}}();
+!function(){"use strict";try{if("undefined"!=typeof document){var e=document.createElement("style");e.appendChild(document.createTextNode('.paper-canvas-module_paper-canvas_5a-1O{top:1px;left:1px;width:calc(100% - 2px);height:calc(100% - 2px);margin:auto;position:absolute;background-color:#d9e3f2}.scrollable-canvas-module_vertical-scrollbar_qGm7V,.scrollable-canvas-module_horizontal-scrollbar_2wpNe{background:#bebebecc;border-radius:4px;width:100%;height:100%}.scrollable-canvas-module_vertical-scrollbar-wrapper_buFhQ{position:absolute;width:12px;right:0;top:4px;height:calc(100% - 16px)}.scrollable-canvas-module_horizontal-scrollbar-wrapper_Ul3ev{position:absolute;height:12px;left:4px;bottom:0;width:calc(100% - 16px)}.scrollable-canvas-module_vertical-scrollbar-hitbox_LAlv-,.scrollable-canvas-module_horizontal-scrollbar-hitbox_QHQur{position:absolute;cursor:pointer;-webkit-box-sizing:border-box;box-sizing:border-box}.scrollable-canvas-module_vertical-scrollbar-hitbox_LAlv-{width:12px;padding-right:4px}.scrollable-canvas-module_horizontal-scrollbar-hitbox_QHQur{height:12px;padding-bottom:4px}.button-module_button_5dzDN{background:none;cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.button-module_button_5dzDN:active,.button-module_highlighted_QWwtr.button-module_button_5dzDN{background-color:#855cd659}.button-module_mod-disabled_pZvBA{cursor:auto;opacity:.5}.button-module_mod-disabled_pZvBA:active{background:none}.tool-select-base-module_mod-tool-select_AeqOE{display:inline-block;margin:.25rem;border:none;border-radius:.25rem;outline:none;background:none;padding:.25rem;font-size:.85rem;-webkit-transition:.2s;transition:.2s}.tool-select-base-module_mod-tool-select_AeqOE.tool-select-base-module_is-selected_-1t-e{background-color:#855cd6}.tool-select-base-module_mod-tool-select_AeqOE:focus{outline:none}img.tool-select-base-module_tool-select-icon_W-aTg{width:2rem;height:2rem;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;vertical-align:middle}.tool-select-base-module_mod-tool-select_AeqOE.tool-select-base-module_is-selected_-1t-e .tool-select-base-module_tool-select-icon_W-aTg{-webkit-filter:brightness(0) invert(1);filter:brightness(0) invert(1)}@media only screen and (max-width: 1256px){.tool-select-base-module_mod-tool-select_AeqOE{margin:0}}.button-group-module_button-group_U0o5m{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;padding:0 .25rem}.color-button-module_color-button_RAkBJ{height:2rem;width:3rem;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex}.color-button-module_color-button-swatch_-1i-m{position:relative;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;cursor:pointer;-webkit-flex-basis:2rem;-ms-flex-preferred-size:2rem;flex-basis:2rem;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;height:100%;border:1px solid rgba(0,0,0,.25)}[dir=ltr] .color-button-module_color-button-swatch_-1i-m{border-top-left-radius:4px;border-bottom-left-radius:4px}[dir=rtl] .color-button-module_color-button-swatch_-1i-m{border-top-right-radius:4px;border-bottom-right-radius:4px}.color-button-module_color-button-arrow_8YMVD{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:pointer;-webkit-flex-basis:1rem;-ms-flex-preferred-size:1rem;flex-basis:1rem;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0;height:100%;border:1px solid rgba(0,0,0,.25);-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#575e75;font-size:.75rem}[dir=ltr] .color-button-module_color-button-arrow_8YMVD{border-top-right-radius:4px;border-bottom-right-radius:4px;border-left:none}[dir=rtl] .color-button-module_color-button-arrow_8YMVD{border-top-left-radius:4px;border-bottom-left-radius:4px;border-right:none}.color-button-module_swatch-icon_KxtIz{width:1.75rem;margin:auto;z-index:2}.color-button-module_outline-swatch_T54lt:after{content:"";position:absolute;top:.5rem;left:.5rem;width:.75rem;height:.75rem;background:#fff;border:1px solid rgba(0,0,0,.25);z-index:1}.slider-module_container_ZXPL7{margin:8px 8px 20px;height:22px;width:150px;position:relative;outline:none;border-radius:11px}.slider-module_last_HdUTn{margin-bottom:4px}.slider-module_handle_QWvre{left:100px;width:26px;height:26px;margin-top:-2px;position:absolute;background-color:#fff;border-radius:100%;-webkit-box-shadow:0 0 0 4px rgba(0,0,0,.15);box-shadow:0 0 0 4px #00000026;-ms-touch-action:none;touch-action:none}.labeled-icon-button-module_mod-edit-field_fBmD6{background:none;border:none;display:inline-block;padding:.25rem .325rem;outline:none;border-radius:.25rem;min-width:3rem;font-size:.85rem;text-align:center}.labeled-icon-button-module_edit-field-icon_L8596{width:1.5rem;height:1.5rem;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;vertical-align:middle}.labeled-icon-button-module_edit-field-icon-tinted_hLrKT{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.labeled-icon-button-module_edit-field-icon-tinted_hLrKT>svg{width:100%;height:100%;display:block}.labeled-icon-button-module_edit-field-title_x-xqG{display:block;margin-top:.125rem;font-size:.625rem}.Popover-body{background:#fff;border:1px solid #ddd;border-radius:4px;padding:4px;-webkit-box-shadow:0px 0px 8px 1px rgba(0,0,0,.3);box-shadow:0 0 8px 1px #0000004d}.Popover-tipShape{fill:#fff;stroke:#ddd}.color-picker-module_clickable_vQoOa{cursor:pointer}.color-picker-module_swatch-row_C11il{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.color-picker-module_row-header_VEFiI{font-family:Helvetica Neue,Helvetica,sans-serif;font-size:.65rem;color:#575e75;margin:8px}[dir=ltr] .color-picker-module_label-readout_EJJx1{margin-left:10px}[dir=rtl] .color-picker-module_label-readout_EJJx1{margin-right:10px}.color-picker-module_label-name_b7ahh{font-weight:700}.color-picker-module_divider_Pk1G1{border-top:1px solid #ddd;margin:8px}.color-picker-module_swap-button_274u5{margin-left:8px;margin-right:8px}.color-picker-module_swatches_NIw-0{margin:8px}.color-picker-module_swatch_3-1eO{width:1.5rem;height:1.5rem;border:1px solid #ddd;border-radius:4px;-webkit-box-sizing:content-box;box-sizing:content-box;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.color-picker-module_large-swatch-icon_-RaCx{width:1.75rem;margin:auto}.color-picker-module_large-swatch_DEu6g{width:2rem;height:2rem}.color-picker-module_active-swatch_jXRZ-{border:1px solid #855CD6;-webkit-box-shadow:0px 0px 0px 3px hsla(260,60%,60%,.35);box-shadow:0 0 0 3px #855cd659}.color-picker-module_swatch-icon_WfYEJ{width:1.5rem;height:1.5rem}.color-picker-module_inactive-gradient_tedFz{-webkit-filter:saturate(0%);filter:saturate(0%)}.color-picker-module_gradient-picker-row_ff9uc{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;margin:8px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}[dir=ltr] .color-picker-module_gradient-picker-row_ff9uc>img+img{margin-left:.5rem}[dir=rtl] .color-picker-module_gradient-picker-row_ff9uc>img+img{margin-right:.5rem}[dir=rtl] .color-picker-module_gradient-swatches-row_It35o{-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.input-group-module_input-group_yvKQC{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}[dir=ltr] .input-group-module_input-group_yvKQC+.input-group-module_input-group_yvKQC{margin-left:.5rem}[dir=rtl] .input-group-module_input-group_yvKQC+.input-group-module_input-group_yvKQC{margin-right:.5rem}.input-group-module_disabled_Q38tS{opacity:.3;pointer-events:none}.label-module_input-group_bkxru{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}[dir=ltr] .label-module_input-group_bkxru+.label-module_input-group_bkxru{margin-left:.5rem}[dir=rtl] .label-module_input-group_bkxru+.label-module_input-group_bkxru{margin-right:.5rem}.label-module_disabled_7qQB3{opacity:.3;pointer-events:none}.label-module_input-label_n9jCx,.label-module_input-label-secondary_jy6Px{font-size:.625rem;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default}[dir=ltr] .label-module_input-label_n9jCx,[dir=ltr] .label-module_input-label-secondary_jy6Px{margin-right:.5rem}[dir=rtl] .label-module_input-label_n9jCx,[dir=ltr] .label-module_input-label-secondary_jy6Px{margin-left:.5rem}.label-module_input-label_n9jCx{font-weight:700}@media only screen and (max-width: 1256px){.label-module_input-group_bkxru{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;margin-top:-1rem}.label-module_input-label_n9jCx{font-weight:400;margin-bottom:.25rem}}.loupe-module_eye-dropper_jY2Do{position:absolute;border-radius:100%;border:1px solid #222}.dropdown-module_dropdown_dEzjq{border:1px solid #E9EEF2;border-radius:5px;overflow:visible;min-width:3.5rem;color:#855cd6;padding:.5rem}.dropdown-module_mod-open_6sEd0{background-color:#e9eef2}.dropdown-module_dropdown-icon_P9Twd{width:.5rem;height:.5rem;vertical-align:middle;padding-bottom:.2rem;display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.dropdown-module_dropdown-icon_P9Twd>svg{width:100%;height:100%;display:block}[dir=ltr] .dropdown-module_dropdown-icon_P9Twd{margin-left:.5rem}[dir=rtl] .dropdown-module_dropdown-icon_P9Twd{margin-right:.5rem}.dropdown-module_mod-caret-up_JHvLQ{-webkit-transform:rotate(180deg);-ms-transform:rotate(180deg);transform:rotate(180deg);padding-bottom:0;padding-top:.2rem}.input-module_input-form_Wf55j{height:2rem;padding:0 .75rem;font-family:Helvetica Neue,Helvetica,Arial,sans-serif;font-size:.75rem;font-weight:700;color:#575e75;border-width:1px;border-style:solid;border-color:#e9eef2;border-radius:2rem;outline:none;cursor:text;-webkit-transition:.25s ease-out;transition:.25s ease-out;-webkit-box-shadow:none;box-shadow:none;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0}.input-module_input-form_Wf55j:focus{border-color:#855cd6;-webkit-box-shadow:0 0 0 .25rem hsla(260,60%,60%,.35);box-shadow:0 0 0 .25rem #855cd659}.input-module_input-small_VKjFX{width:3rem;text-align:center}.input-module_input-small-range_-QRci{width:4rem;text-align:center}.fixed-tools-module_row_wYuyO{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.fixed-tools-module_costume-input_8L5Hb{width:8rem}[dir=ltr] .fixed-tools-module_mod-dashed-border_lMPnR{border-right:1px dashed #D9D9D9;padding-right:.5rem}[dir=rtl] .fixed-tools-module_mod-dashed-border_lMPnR{border-left:1px dashed #D9D9D9;padding-left:.5rem}.fixed-tools-module_mod-unselect_N36O-{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.fixed-tools-module_button-group-button_NWrbW{display:inline-block;border:1px solid #D9D9D9;border-radius:0;padding:.35rem}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW{border-left:none}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW{border-right:none}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW:last-of-type{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW:first-of-type{border-left:1px solid #D9D9D9;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW:last-of-type{border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW:first-of-type{border-right:1px solid #D9D9D9;border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-start-border_-qzXW{border-left:1px solid #D9D9D9}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-start-border_-qzXW{border-right:1px solid #D9D9D9}[dir=ltr] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-no-end-border_HgkYP{border-right:none}[dir=rtl] .fixed-tools-module_button-group-button_NWrbW.fixed-tools-module_mod-no-end-border_HgkYP{border-left:none}.fixed-tools-module_button-group-button-icon_lMNaB{width:1.25rem;height:1.25rem;vertical-align:middle}[dir=rtl] .fixed-tools-module_button-group-button-icon_lMNaB{-webkit-transform:scaleX(-1);-ms-transform:scaleX(-1);transform:scaleX(-1)}.fixed-tools-module_button-group-button-icon-tinted_vnPxz{display:-webkit-inline-box;display:-webkit-inline-flex;display:-ms-inline-flexbox;display:inline-flex;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}.fixed-tools-module_button-group-button-icon-tinted_vnPxz>svg{width:100%;height:100%;display:block}.fixed-tools-module_mod-context-menu_4A-ac{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.fixed-tools-module_mod-top-divider_3YIDk{border-top:1px solid #D9D9D9}.fixed-tools-module_mod-menu-item_SEksZ{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 -.25rem;min-width:6.25rem;padding:.75rem;white-space:nowrap;cursor:pointer;-webkit-transition:.1s ease;transition:.1s ease;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;font-family:Helvetica Neue,Helvetica,sans-serif}.fixed-tools-module_mod-disabled_f6-0w{cursor:auto}.fixed-tools-module_mod-menu-item_SEksZ:hover{background:#855cd659}.fixed-tools-module_mod-disabled_f6-0w:hover{background-color:transparent}.fixed-tools-module_menu-item-icon_mZg1G{margin-right:.5rem}[dir=rtl] .fixed-tools-module_menu-item-icon_mZg1G{margin-right:0;margin-left:.5rem}.font-dropdown-module_mod-menu-item_Pwkic{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;margin:0 -.25rem;min-width:6.25rem;padding:.5rem .75rem;white-space:nowrap;width:8.5rem;cursor:pointer;-webkit-transition:.1s ease;transition:.1s ease;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.font-dropdown-module_mod-menu-item_Pwkic:hover{background:#855cd6;color:#fff}.font-dropdown-module_mod-context-menu_yRoSE{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column}.font-dropdown-module_mod-unselect_KqovI{-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.font-dropdown-module_displayed-font-name_Y4FF5{font-size:.8rem}.font-dropdown-module_font-dropdown_NRZwW{-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;color:#575e75;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:1rem;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;width:8.5rem;height:2rem}.font-dropdown-module_sans-serif_YMR2D{font-family:"Sans Serif"}.font-dropdown-module_serif_8Mriy{font-family:"Serif"}.font-dropdown-module_handwriting_Vd517{font-family:Handwriting}.font-dropdown-module_marker_-sONE{font-family:Marker}.font-dropdown-module_curly_1F58w{font-family:Curly}.font-dropdown-module_pixel_79ZXu{font-family:Pixel}.font-dropdown-module_chinese_hfeSu{font-family:Microsoft YaHei,微软雅黑,STXihei,华文细黑}.font-dropdown-module_japanese_nIqE7{font-family:ヒラギノ角ゴ Pro W3,Hiragino Kaku Gothic Pro,Osaka,メイリオ,Meiryo,ＭＳ Ｐゴシック,MS PGothic}.font-dropdown-module_korean_Nj-oB{font-family:Malgun Gothic}.mode-tools-module_mode-tools_6GXBW{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;min-height:3rem;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.mode-tools-module_mode-tools-icon_c6lue{margin-right:.5rem;width:2rem;height:2rem}[dir=ltr] .mode-tools-module_mod-dashed-border_qymRa{border-right:1px dashed #D9D9D9;padding-right:.75rem}[dir=rtl] .mode-tools-module_mod-dashed-border_qymRa{border-left:1px dashed #D9D9D9;padding-left:.75rem}.mode-tools-module_mod-labeled-icon-height_xCmXi{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:2.85rem;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.paint-editor-module_editor-container_M8xn6{width:100%;height:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;padding:.75rem}.paint-editor-module_row_szuDt{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center}.paint-editor-module_editor-container-top_lN2tC{border-bottom:1px dashed #D9D9D9;padding-bottom:.5rem}.paint-editor-module_top-align-row_6c0pC{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;height:100%;padding-top:1.25rem;min-width:524px}.paint-editor-module_row_szuDt+.paint-editor-module_row_szuDt{margin-top:.5rem}[dir=ltr] .paint-editor-module_mod-dashed-border_Le07T{border-right:1px dashed #D9D9D9;padding-right:.5rem}[dir=rtl] .paint-editor-module_mod-dashed-border_Le07T{border-left:1px dashed #D9D9D9;padding-left:.5rem}.paint-editor-module_mod-labeled-icon-height_fFeK2{height:2.85rem}.paint-editor-module_button-group-button_hArkp{display:inline-block;border:1px solid #D9D9D9;border-radius:0;padding:.35rem}[dir=ltr] .paint-editor-module_button-group-button_hArkp{border-left:none}[dir=rtl] .paint-editor-module_button-group-button_hArkp{border-right:none}[dir=ltr] .paint-editor-module_button-group-button_hArkp:last-of-type{border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .paint-editor-module_button-group-button_hArkp:first-of-type{border-left:1px solid #D9D9D9;border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .paint-editor-module_button-group-button_hArkp:last-of-type{border-top-left-radius:.25rem;border-bottom-left-radius:.25rem}[dir=rtl] .paint-editor-module_button-group-button_hArkp:first-of-type{border-right:1px solid #D9D9D9;border-top-right-radius:.25rem;border-bottom-right-radius:.25rem}[dir=ltr] .paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-start-border_kexCm{border-left:1px solid #D9D9D9}[dir=rtl] .paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-start-border_kexCm{border-right:1px solid #D9D9D9}[dir=ltr].paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-no-end-border_YRRu4{border-right:none}[dir=rtl].paint-editor-module_button-group-button_hArkp.paint-editor-module_mod-no-end-border_YRRu4{border-left:none}.paint-editor-module_button-group-button-icon_VKZA-{width:1.25rem;height:1.25rem;vertical-align:middle}.paint-editor-module_mod-mode-tools_-8BW9{margin-left:.5rem}[dir=ltr] .paint-editor-module_mod-margin-after_JGH6T{margin-right:.5rem}[dir=rtl] .paint-editor-module_mod-margin-after_JGH6T{margin-left:.5rem}.paint-editor-module_controls-container_y85Jj{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-flow:column;-ms-flex-flow:column;flex-flow:column;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;margin-left:.5rem;margin-right:.5rem}.paint-editor-module_canvas-container_5w3Xr{width:100%;-webkit-box-flex:1;-webkit-flex-grow:1;-ms-flex-positive:1;flex-grow:1;min-width:402px;-webkit-box-sizing:content-box;box-sizing:content-box;border:1px solid #e8edf1;border-radius:.25rem;position:relative;overflow:visible}.paint-editor-module_mode-selector_ZorhO{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;max-width:7.5rem;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-flex-wrap:wrap;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:start;-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start;-webkit-align-content:flex-start;-ms-flex-line-pack:start;align-content:flex-start;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.paint-editor-module_zoom-controls_E-118{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse}.paint-editor-module_color-picker-wrapper_uUNDx{position:absolute;top:0;left:0;width:100%;height:100%;pointer-events:none}.paint-editor-module_canvas-controls_ARQQQ{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;height:36px;margin-top:.25rem;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between}.paint-editor-module_bitmap-button_x4tRq{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;border-radius:5px;background-color:#855cd6;padding:.5rem;line-height:1.5rem;font-size:.75rem;font-weight:700;color:#fff;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center}[dir=ltr] .paint-editor-module_bitmap-button-icon_MFAHt{margin-right:.5rem}[dir=rtl] .paint-editor-module_bitmap-button-icon_MFAHt{margin-left:.5rem}@media only screen and (max-width: 1256px){.paint-editor-module_editor-container_M8xn6{padding:.75rem .25rem}.paint-editor-module_mode-selector_ZorhO{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start}.paint-editor-module_controls-container_y85Jj{margin-right:.25rem;margin-left:.25rem}}.paint-editor-module_text-area_HGOX0{background:transparent;border:none;display:none;margin:0;opacity:.8;outline:none;overflow:hidden;padding:0;position:absolute;resize:none;-webkit-text-fill-color:transparent;text-fill-color:transparent}.paint-editor-module_button-text_OO1jf{width:100%}')),document.head.appendChild(e)}}catch(o){console.error("vite-plugin-css-injected-by-js",o)}}();
 import React from "react";
 import PropTypes, { PropTypes as PropTypes$1 } from "prop-types";
 import minilog from "minilog";
@@ -24563,9 +24563,9 @@ const GradientTypes = keyMirror$1({
   VERTICAL: null,
   RADIAL: null
 });
-const hexRegex = /^#([0-9a-f]{3}){1,2}$/i;
+const hexRegex$1 = /^#([0-9a-f]{3}){1,2}$/i;
 const isValidHexColor = (color) => {
-  if (!hexRegex.test(color) && color !== null && color !== MIXED) {
+  if (!hexRegex$1.test(color) && color !== null && color !== MIXED) {
     log.warn(`Invalid hex color code: ${color}`);
     return false;
   }
@@ -24639,8 +24639,11 @@ const CHANGE_FILL_COLOR = "scratch-paint/fill-style/CHANGE_FILL_COLOR";
 const CHANGE_FILL_COLOR_2 = "scratch-paint/fill-style/CHANGE_FILL_COLOR_2";
 const CHANGE_FILL_GRADIENT_TYPE = "scratch-paint/fill-style/CHANGE_FILL_GRADIENT_TYPE";
 const CLEAR_FILL_GRADIENT = "scratch-paint/fill-style/CLEAR_FILL_GRADIENT";
+const CHANGE_FILL_DEFAULT_COLOR = "scratch-paint/fill-style/CHANGE_FILL_DEFAULT_COLOR";
 const DEFAULT_COLOR$1 = "#9966FF";
-const reducer$g = makeColorStyleReducer({
+const hexRegex = /^#([0-9a-f]{3}){1,2}$/i;
+const isValidHex = (color) => typeof color === "string" && hexRegex.test(color);
+const baseReducer = makeColorStyleReducer({
   changePrimaryColorAction: CHANGE_FILL_COLOR,
   changeSecondaryColorAction: CHANGE_FILL_COLOR_2,
   changeGradientTypeAction: CHANGE_FILL_GRADIENT_TYPE,
@@ -24650,6 +24653,21 @@ const reducer$g = makeColorStyleReducer({
   selectionSecondaryColorKey: "fillColor2",
   selectionGradientTypeKey: "fillGradientType"
 });
+const reducer$g = function(state, action) {
+  if (typeof state === "undefined") {
+    state = { ...baseReducer(void 0, { type: "@@INIT" }), defaultColor: DEFAULT_COLOR$1 };
+  }
+  if (action.type === CHANGE_FILL_DEFAULT_COLOR) {
+    if (!isValidHex(action.color)) return state;
+    const userHasPicked = state.primary !== state.defaultColor;
+    return {
+      ...state,
+      defaultColor: action.color,
+      primary: userHasPicked ? state.primary : action.color
+    };
+  }
+  return baseReducer(state, action);
+};
 const changeFillColor = function(fillColor) {
   return {
     type: CHANGE_FILL_COLOR,
@@ -24665,6 +24683,12 @@ const changeFillColor2 = function(fillColor) {
 const clearFillGradient = function() {
   return {
     type: CLEAR_FILL_GRADIENT
+  };
+};
+const changeFillDefaultColor = function(fillColor) {
+  return {
+    type: CHANGE_FILL_DEFAULT_COLOR,
+    color: fillColor
   };
 };
 const MIXED = "scratch-paint/style-path/mixed";
@@ -29693,10 +29717,12 @@ SliderComponent.defaultProps = {
 };
 const modEditField = "labeled-icon-button-module_mod-edit-field_fBmD6";
 const editFieldIcon = "labeled-icon-button-module_edit-field-icon_L8596";
+const editFieldIconTinted = "labeled-icon-button-module_edit-field-icon-tinted_hLrKT";
 const editFieldTitle = "labeled-icon-button-module_edit-field-title_x-xqG";
 const styles$a = {
   modEditField,
   editFieldIcon,
+  editFieldIconTinted,
   editFieldTitle
 };
 const LabeledIconButton = ({
@@ -29705,6 +29731,7 @@ const LabeledIconButton = ({
   imgAlt,
   imgSrc,
   onClick,
+  svgContent,
   title,
   ...props
 }) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
@@ -29714,7 +29741,16 @@ const LabeledIconButton = ({
     onClick,
     ...props,
     children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
+      svgContent ? /* @__PURE__ */ jsxRuntimeExports.jsx(
+        "span",
+        {
+          "aria-label": imgAlt || title,
+          className: classNames(styles$a.editFieldIcon, styles$a.editFieldIconTinted),
+          role: "img",
+          title,
+          dangerouslySetInnerHTML: { __html: svgContent }
+        }
+      ) : /* @__PURE__ */ jsxRuntimeExports.jsx(
         "img",
         {
           alt: imgAlt || title,
@@ -29733,8 +29769,9 @@ LabeledIconButton.propTypes = {
   hideLabel: PropTypes.bool,
   highlighted: PropTypes.bool,
   imgAlt: PropTypes.string,
-  imgSrc: PropTypes.string.isRequired,
+  imgSrc: PropTypes.string,
   onClick: PropTypes.func.isRequired,
+  svgContent: PropTypes.string,
   title: PropTypes.string.isRequired
 };
 const clickable = "color-picker-module_clickable_vQoOa";
@@ -31623,7 +31660,7 @@ const styles$5 = {
   dropdownIcon: dropdownIcon$1,
   modCaretUp
 };
-const dropdownIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='8px'%20height='5px'%20viewBox='0%200%208%205'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3edropdown-caret%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='dropdown-caret'%20fill='%23855CD6'%3e%3cpath%20d='M4,5%20C3.72520708,5%203.45163006,4.89695045%203.24127973,4.68965311%20L0.314613572,1.80666227%20C-0.104871191,1.39326583%20-0.104871191,0.724642023%200.314613572,0.310047331%20C0.732882438,-0.10334911%207.26711756,-0.10334911%207.68538643,0.310047331%20C8.10487119,0.723443772%208.10487119,1.39326583%207.68538643,1.80666227%20L4.75993617,4.68965311%20C4.54958583,4.89695045%204.27600882,5%204,5'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
+const dropdownIcon = '<svg width="8px" height="5px" viewBox="0 0 8 5" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>dropdown-caret</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="dropdown-caret" style="fill: var(--brand, #855CD6)">\n            <path d="M4,5 C3.72520708,5 3.45163006,4.89695045 3.24127973,4.68965311 L0.314613572,1.80666227 C-0.104871191,1.39326583 -0.104871191,0.724642023 0.314613572,0.310047331 C0.732882438,-0.10334911 7.26711756,-0.10334911 7.68538643,0.310047331 C8.10487119,0.723443772 8.10487119,1.39326583 7.68538643,1.80666227 L4.75993617,4.68965311 C4.54958583,4.89695045 4.27600882,5 4,5"></path>\n        </g>\n    </g>\n</svg>\n';
 class Dropdown extends React.Component {
   constructor(props) {
     super(props);
@@ -31677,13 +31714,13 @@ class Dropdown extends React.Component {
             children: [
               this.props.children,
               /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
+                "span",
                 {
                   className: classNames(styles$5.dropdownIcon, {
                     [styles$5.modCaretUp]: this.state.isOpen
                   }),
-                  draggable: false,
-                  src: dropdownIcon
+                  role: "img",
+                  dangerouslySetInnerHTML: { __html: dropdownIcon }
                 }
               )
             ]
@@ -31770,6 +31807,7 @@ const buttonGroupButton$1 = "fixed-tools-module_button-group-button_NWrbW";
 const modStartBorder = "fixed-tools-module_mod-start-border_-qzXW";
 const modNoEndBorder = "fixed-tools-module_mod-no-end-border_HgkYP";
 const buttonGroupButtonIcon$1 = "fixed-tools-module_button-group-button-icon_lMNaB";
+const buttonGroupButtonIconTinted = "fixed-tools-module_button-group-button-icon-tinted_vnPxz";
 const modContextMenu$1 = "fixed-tools-module_mod-context-menu_4A-ac";
 const modMenuItem$1 = "fixed-tools-module_mod-menu-item_SEksZ";
 const modDisabled = "fixed-tools-module_mod-disabled_f6-0w";
@@ -31783,19 +31821,20 @@ const styles$3 = {
   modStartBorder,
   modNoEndBorder,
   buttonGroupButtonIcon: buttonGroupButtonIcon$1,
+  buttonGroupButtonIconTinted,
   modContextMenu: modContextMenu$1,
   modMenuItem: modMenuItem$1,
   modDisabled,
   menuItemIcon
 };
-const groupIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3egroup%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='group'%20stroke-width='0.75'%3e%3cg%20id='group-icon'%20transform='translate(2.000000,%202.000000)'%3e%3crect%20id='Rectangle-2'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='0'%20y='0'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-2'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='13'%20y='0'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='0'%20y='13'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-3'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='13'%20y='13'%20width='3'%20height='3'%3e%3c/rect%3e%3cpath%20d='M1.5,3%20L1.5,13'%20id='Line'%20stroke='%23855CD6'%20stroke-linecap='square'%3e%3c/path%3e%3cpath%20d='M14.5,3%20L14.5,13'%20id='Line-Copy'%20stroke='%23855CD6'%20stroke-linecap='square'%3e%3c/path%3e%3cpath%20d='M13,1.5%20L3,1.5'%20id='Line-Copy-2'%20stroke='%23855CD6'%20stroke-linecap='square'%3e%3c/path%3e%3cpath%20d='M13,14.5%20L3,14.5'%20id='Line-Copy-3'%20stroke='%23855CD6'%20stroke-linecap='square'%3e%3c/path%3e%3cg%20id='Group'%20transform='translate(8.000000,%208.000000)%20rotate(180.000000)%20translate(-8.000000,%20-8.000000)%20translate(4.000000,%204.000000)'%20stroke='%23575E75'%3e%3crect%20id='Rectangle-3-Copy'%20fill='%23FFFFFF'%20transform='translate(5.500000,%205.500000)%20rotate(180.000000)%20translate(-5.500000,%20-5.500000)%20'%20x='3'%20y='3'%20width='5'%20height='5'%20rx='0.5'%3e%3c/rect%3e%3crect%20id='Rectangle-3'%20fill='%23575E75'%20transform='translate(2.500000,%202.500000)%20rotate(180.000000)%20translate(-2.500000,%20-2.500000)%20'%20x='0'%20y='0'%20width='5'%20height='5'%20rx='0.5'%3e%3c/rect%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const redoIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3eredo%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='redo'%20fill='%23855CD6'%3e%3cpath%20d='M17.5581635,12.7700651%20L13.8403972,16.4941315%20C13.5610922,16.7671364%2013.1830854,16.9211391%2012.7903784,16.9211391%20C12.3990715,16.9211391%2012.0210647,16.7671364%2011.7403597,16.4941315%20L8.02399342,12.7700651%20C7.5969858,12.3430574%207.47098355,11.7060461%207.70198767,11.1530362%20C7.93299179,10.6000263%208.46500128,10.24302%209.06701202,10.24302%20L10.4040359,10.24302%20C10.3690352,9.92101423%2010.2780336,9.55700774%2010.1240309,9.17200087%20C10.07573,9.05999887%2010.0260291,8.94799688%209.97002813,8.83599488%20C9.89302676,8.70999263%209.90072689,8.67499201%209.79502501,8.52098926%20C9.62702201,8.26898476%209.47301926,8.07998139%209.29031601,7.86297752%20C8.9200094,7.4639704%208.47200141,7.12096429%207.99599292,6.86895979%20C7.5129843,6.6169553%207.00897531,6.46295255%206.56096732,6.37895105%20C6.11995945,6.30194968%205.71395221,6.29494955%205.47594796,6.29494955%20C5.35694584,6.28794943%205.2029431,6.31594993%205.12594172,6.32295005%20C5.04194022,6.32995018%204.99293935,6.3369503%204.99293935,6.3369503%20C4.49593048,6.38595117%204.04792249,6.02194468%203.99892162,5.52493582%20C3.95692087,5.10492832%204.20192524,4.72692158%204.57293186,4.58691908%20C4.57293186,4.58691908%204.62193273,4.56591871%204.6989341,4.53791821%20C4.78993573,4.50991771%204.87393723,4.46091684%205.06994072,4.40491584%20C5.46194772,4.28591371%205.95895658,4.15991147%206.60996819,4.09691034%20C7.25397968,4.04090934%208.03099354,4.05490959%208.85070816,4.22291259%20C9.66902276,4.39791571%2010.5300381,4.72692158%2011.3280524,5.20293007%20C11.7060591,5.44793444%2012.1120663,5.73493956%2012.427072,6.01494456%20C12.5670745,6.11994643%2012.8050787,6.35795068%2012.9450812,6.5049533%20C13.1060841,6.67295629%2013.2530867,6.84095929%2013.4007893,7.01596241%20C13.9670994,7.7159749%2014.3871069,8.47198839%2014.6601118,9.15800062%20C14.8211147,9.55000762%2014.9331167,9.92101423%2015.0171182,10.24302%20L16.5151449,10.24302%20C17.1171556,10.24302%2017.6491651,10.6000263%2017.8801692,11.1530362%20C18.1111734,11.7060461%2017.9851711,12.3430574%2017.5581635,12.7700651'%20id='Fill-1'%20transform='translate(10.994247,%2010.494247)%20rotate(-45.000000)%20translate(-10.994247,%20-10.494247)%20'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const sendBackIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3esend-back%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='send-back'%3e%3cg%20transform='translate(10.000000,%2010.000000)%20rotate(180.000000)%20translate(-10.000000,%20-10.000000)%20translate(2.000000,%203.000000)'%3e%3cpath%20d='M12.3476736,5.92549723%20L10.2407376,5.92549723%20L9.33601611,12.7635981%20C9.23807603,13.5476661%208.54025295,14.1003698%207.78121732,13.9846876%20C7.16909181,13.8947126%206.69163391,13.3805697%206.6169546,12.7635981%20L5.7122331,5.92549723%20L3.65426714,5.92549723%20C3.0678509,5.92549723%202.78504892,5.19284356%203.190276,4.76867564%20L7.53514286,0.192803597%20C7.79223558,-0.0642678658%208.20970517,-0.0642678658%208.45333113,0.192803597%20L12.812889,4.76867564%20C13.2168918,5.19284356%2012.9230716,5.92549723%2012.3476736,5.92549723'%20id='Fill-1'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M12,8%20L16,8'%20id='Stroke-6'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M12,10%20L15,10'%20id='Stroke-6-Copy'%20stroke='%23575E75'%20opacity='0.75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M12,12%20L14,12'%20id='Stroke-6-Copy-2'%20stroke='%23575E75'%20opacity='0.5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M0,8%20L4,8'%20id='Stroke-10'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M1,10%20L4,10'%20id='Stroke-10-Copy'%20stroke='%23575E75'%20opacity='0.75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M2,12%20L4,12'%20id='Stroke-10-Copy-2'%20stroke='%23575E75'%20opacity='0.5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const sendBackwardIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3esend-backward%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='send-backward'%3e%3cg%20id='send-forward'%20transform='translate(10.000000,%2010.000000)%20rotate(180.000000)%20translate(-10.000000,%20-10.000000)%20translate(2.000000,%203.000000)'%3e%3cpath%20d='M12.3476736,5.92549723%20L10.2407376,5.92549723%20L9.33601611,12.7635981%20C9.23807603,13.5476661%208.54025295,14.1003698%207.78121732,13.9846876%20C7.16909181,13.8947126%206.69163391,13.3805697%206.6169546,12.7635981%20L5.7122331,5.92549723%20L3.65426714,5.92549723%20C3.0678509,5.92549723%202.78504892,5.19284356%203.190276,4.76867564%20L7.53514286,0.192803597%20C7.79223558,-0.0642678658%208.20970517,-0.0642678658%208.45333113,0.192803597%20L12.812889,4.76867564%20C13.2168918,5.19284356%2012.9230716,5.92549723%2012.3476736,5.92549723'%20id='Fill-1'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M12,8%20L16,8'%20id='Stroke-6'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M0,8%20L4,8'%20id='Stroke-10'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const sendForwardIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3esend-forward%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='send-forward'%3e%3cg%20transform='translate(2.000000,%203.000000)'%3e%3cpath%20d='M12.3476736,5.92549723%20L10.2407376,5.92549723%20L9.33601611,12.7635981%20C9.23807603,13.5476661%208.54025295,14.1003698%207.78121732,13.9846876%20C7.16909181,13.8947126%206.69163391,13.3805697%206.6169546,12.7635981%20L5.7122331,5.92549723%20L3.65426714,5.92549723%20C3.0678509,5.92549723%202.78504892,5.19284356%203.190276,4.76867564%20L7.53514286,0.192803597%20C7.79223558,-0.0642678658%208.20970517,-0.0642678658%208.45333113,0.192803597%20L12.812889,4.76867564%20C13.2168918,5.19284356%2012.9230716,5.92549723%2012.3476736,5.92549723'%20id='Fill-1'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M12,8%20L16,8'%20id='Stroke-6'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M0,8%20L4,8'%20id='Stroke-10'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const sendFrontIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3esend-front%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='send-front'%3e%3cg%20transform='translate(2.000000,%203.000000)'%3e%3cpath%20d='M12.3476736,5.92549723%20L10.2407376,5.92549723%20L9.33601611,12.7635981%20C9.23807603,13.5476661%208.54025295,14.1003698%207.78121732,13.9846876%20C7.16909181,13.8947126%206.69163391,13.3805697%206.6169546,12.7635981%20L5.7122331,5.92549723%20L3.65426714,5.92549723%20C3.0678509,5.92549723%202.78504892,5.19284356%203.190276,4.76867564%20L7.53514286,0.192803597%20C7.79223558,-0.0642678658%208.20970517,-0.0642678658%208.45333113,0.192803597%20L12.812889,4.76867564%20C13.2168918,5.19284356%2012.9230716,5.92549723%2012.3476736,5.92549723'%20id='Fill-1'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M12,8%20L16,8'%20id='Stroke-6'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M12,10%20L15,10'%20id='Stroke-6-Copy'%20stroke='%23575E75'%20opacity='0.75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M12,12%20L14,12'%20id='Stroke-6-Copy-2'%20stroke='%23575E75'%20opacity='0.5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M0,8%20L4,8'%20id='Stroke-10'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M1,10%20L4,10'%20id='Stroke-10-Copy'%20stroke='%23575E75'%20opacity='0.75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M2,12%20L4,12'%20id='Stroke-10-Copy-2'%20stroke='%23575E75'%20opacity='0.5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const undoIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3eundo%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='undo'%20fill='%23855CD6'%3e%3cpath%20d='M15.5581635,12.7700651%20L11.8403972,16.4941315%20C11.5610922,16.7671364%2011.1830854,16.9211391%2010.7903784,16.9211391%20C10.3990715,16.9211391%2010.0210647,16.7671364%209.74035971,16.4941315%20L6.02399342,12.7700651%20C5.5969858,12.3430574%205.47098355,11.7060461%205.70198767,11.1530362%20C5.93299179,10.6000263%206.46500128,10.24302%207.06701202,10.24302%20L8.40403587,10.24302%20C8.36903525,9.92101423%208.27803362,9.55700774%208.12403088,9.17200087%20C8.07573002,9.05999887%208.02602913,8.94799688%207.97002813,8.83599488%20C7.89302676,8.70999263%207.90072689,8.67499201%207.79502501,8.52098926%20C7.62702201,8.26898476%207.47301926,8.07998139%207.29031601,7.86297752%20C6.9200094,7.4639704%206.47200141,7.12096429%205.99599292,6.86895979%20C5.5129843,6.6169553%205.00897531,6.46295255%204.56096732,6.37895105%20C4.11995945,6.30194968%203.71395221,6.29494955%203.47594796,6.29494955%20C3.35694584,6.28794943%203.2029431,6.31594993%203.12594172,6.32295005%20C3.04194022,6.32995018%202.99293935,6.3369503%202.99293935,6.3369503%20C2.49593048,6.38595117%202.04792249,6.02194468%201.99892162,5.52493582%20C1.95692087,5.10492832%202.20192524,4.72692158%202.57293186,4.58691908%20C2.57293186,4.58691908%202.62193273,4.56591871%202.6989341,4.53791821%20C2.78993573,4.50991771%202.87393723,4.46091684%203.06994072,4.40491584%20C3.46194772,4.28591371%203.95895658,4.15991147%204.60996819,4.09691034%20C5.25397968,4.04090934%206.03099354,4.05490959%206.85070816,4.22291259%20C7.66902276,4.39791571%208.53003812,4.72692158%209.32805235,5.20293007%20C9.7060591,5.44793444%2010.1120663,5.73493956%2010.427072,6.01494456%20C10.5670745,6.11994643%2010.8050787,6.35795068%2010.9450812,6.5049533%20C11.1060841,6.67295629%2011.2530867,6.84095929%2011.4007893,7.01596241%20C11.9670994,7.7159749%2012.3871069,8.47198839%2012.6601118,9.15800062%20C12.8211147,9.55000762%2012.9331167,9.92101423%2013.0171182,10.24302%20L14.5151449,10.24302%20C15.1171556,10.24302%2015.6491651,10.6000263%2015.8801692,11.1530362%20C16.1111734,11.7060461%2015.9851711,12.3430574%2015.5581635,12.7700651'%20id='Fill-1'%20transform='translate(8.994247,%2010.494247)%20scale(-1,%201)%20rotate(-45.000000)%20translate(-8.994247,%20-10.494247)%20'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const ungroupIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3eungroup%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='ungroup'%20stroke-width='0.75'%3e%3cg%20id='ungroup-icon'%20transform='translate(10.000000,%2010.000000)%20rotate(180.000000)%20translate(-10.000000,%20-10.000000)%20translate(2.000000,%202.000000)'%3e%3crect%20id='Rectangle-3-Copy'%20stroke='%23575E75'%20fill='%23FFFFFF'%20x='6.5'%20y='6.5'%20width='8'%20height='8'%20rx='0.5'%3e%3c/rect%3e%3crect%20id='Rectangle-3'%20stroke='%23575E75'%20fill='%23575E75'%20x='1.5'%20y='1.5'%20width='8'%20height='8'%20rx='0.5'%3e%3c/rect%3e%3crect%20id='Rectangle-2'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='0'%20y='0'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-2'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='8'%20y='0'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='0'%20y='8'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-3'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='8'%20y='8'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-4'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='13'%20y='5'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-5'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='13'%20y='13'%20width='3'%20height='3'%3e%3c/rect%3e%3crect%20id='Rectangle-2-Copy-6'%20stroke='%23855CD6'%20fill='%23FFFFFF'%20stroke-linecap='round'%20stroke-linejoin='round'%20x='5'%20y='13'%20width='3'%20height='3'%3e%3c/rect%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
+const groupIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>group</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="group" stroke-width="0.75">\n            <g id="group-icon" transform="translate(2.000000, 2.000000)">\n                <rect id="Rectangle-2" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-2" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="13" y="0" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="0" y="13" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-3" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="13" y="13" width="3" height="3"></rect>\n                <path d="M1.5,3 L1.5,13" id="Line" style="stroke: var(--brand, #855CD6)" stroke-linecap="square"></path>\n                <path d="M14.5,3 L14.5,13" id="Line-Copy" style="stroke: var(--brand, #855CD6)" stroke-linecap="square"></path>\n                <path d="M13,1.5 L3,1.5" id="Line-Copy-2" style="stroke: var(--brand, #855CD6)" stroke-linecap="square"></path>\n                <path d="M13,14.5 L3,14.5" id="Line-Copy-3" style="stroke: var(--brand, #855CD6)" stroke-linecap="square"></path>\n                <g id="Group" transform="translate(8.000000, 8.000000) rotate(180.000000) translate(-8.000000, -8.000000) translate(4.000000, 4.000000)" stroke="#575E75">\n                    <rect id="Rectangle-3-Copy" fill="#FFFFFF" transform="translate(5.500000, 5.500000) rotate(180.000000) translate(-5.500000, -5.500000) " x="3" y="3" width="5" height="5" rx="0.5"></rect>\n                    <rect id="Rectangle-3" fill="#575E75" transform="translate(2.500000, 2.500000) rotate(180.000000) translate(-2.500000, -2.500000) " x="0" y="0" width="5" height="5" rx="0.5"></rect>\n                </g>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const redoIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>redo</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="redo" style="fill: var(--brand, #855CD6)">\n            <path d="M17.5581635,12.7700651 L13.8403972,16.4941315 C13.5610922,16.7671364 13.1830854,16.9211391 12.7903784,16.9211391 C12.3990715,16.9211391 12.0210647,16.7671364 11.7403597,16.4941315 L8.02399342,12.7700651 C7.5969858,12.3430574 7.47098355,11.7060461 7.70198767,11.1530362 C7.93299179,10.6000263 8.46500128,10.24302 9.06701202,10.24302 L10.4040359,10.24302 C10.3690352,9.92101423 10.2780336,9.55700774 10.1240309,9.17200087 C10.07573,9.05999887 10.0260291,8.94799688 9.97002813,8.83599488 C9.89302676,8.70999263 9.90072689,8.67499201 9.79502501,8.52098926 C9.62702201,8.26898476 9.47301926,8.07998139 9.29031601,7.86297752 C8.9200094,7.4639704 8.47200141,7.12096429 7.99599292,6.86895979 C7.5129843,6.6169553 7.00897531,6.46295255 6.56096732,6.37895105 C6.11995945,6.30194968 5.71395221,6.29494955 5.47594796,6.29494955 C5.35694584,6.28794943 5.2029431,6.31594993 5.12594172,6.32295005 C5.04194022,6.32995018 4.99293935,6.3369503 4.99293935,6.3369503 C4.49593048,6.38595117 4.04792249,6.02194468 3.99892162,5.52493582 C3.95692087,5.10492832 4.20192524,4.72692158 4.57293186,4.58691908 C4.57293186,4.58691908 4.62193273,4.56591871 4.6989341,4.53791821 C4.78993573,4.50991771 4.87393723,4.46091684 5.06994072,4.40491584 C5.46194772,4.28591371 5.95895658,4.15991147 6.60996819,4.09691034 C7.25397968,4.04090934 8.03099354,4.05490959 8.85070816,4.22291259 C9.66902276,4.39791571 10.5300381,4.72692158 11.3280524,5.20293007 C11.7060591,5.44793444 12.1120663,5.73493956 12.427072,6.01494456 C12.5670745,6.11994643 12.8050787,6.35795068 12.9450812,6.5049533 C13.1060841,6.67295629 13.2530867,6.84095929 13.4007893,7.01596241 C13.9670994,7.7159749 14.3871069,8.47198839 14.6601118,9.15800062 C14.8211147,9.55000762 14.9331167,9.92101423 15.0171182,10.24302 L16.5151449,10.24302 C17.1171556,10.24302 17.6491651,10.6000263 17.8801692,11.1530362 C18.1111734,11.7060461 17.9851711,12.3430574 17.5581635,12.7700651" id="Fill-1" transform="translate(10.994247, 10.494247) rotate(-45.000000) translate(-10.994247, -10.494247) "></path>\n        </g>\n    </g>\n</svg>\n';
+const sendBackIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-back</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="send-back">\n            <g transform="translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)">\n                <path d="M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723" id="Fill-1" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M12,8 L16,8" id="Stroke-6" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M12,10 L15,10" id="Stroke-6-Copy" stroke="#575E75" opacity="0.75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M12,12 L14,12" id="Stroke-6-Copy-2" stroke="#575E75" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M0,8 L4,8" id="Stroke-10" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M1,10 L4,10" id="Stroke-10-Copy" stroke="#575E75" opacity="0.75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M2,12 L4,12" id="Stroke-10-Copy-2" stroke="#575E75" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const sendBackwardIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-backward</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="send-backward">\n            <g id="send-forward" transform="translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)">\n                <path d="M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723" id="Fill-1" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M12,8 L16,8" id="Stroke-6" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M0,8 L4,8" id="Stroke-10" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const sendForwardIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-forward</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="send-forward">\n            <g transform="translate(2.000000, 3.000000)">\n                <path d="M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723" id="Fill-1" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M12,8 L16,8" id="Stroke-6" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M0,8 L4,8" id="Stroke-10" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const sendFrontIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>send-front</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="send-front">\n            <g transform="translate(2.000000, 3.000000)">\n                <path d="M12.3476736,5.92549723 L10.2407376,5.92549723 L9.33601611,12.7635981 C9.23807603,13.5476661 8.54025295,14.1003698 7.78121732,13.9846876 C7.16909181,13.8947126 6.69163391,13.3805697 6.6169546,12.7635981 L5.7122331,5.92549723 L3.65426714,5.92549723 C3.0678509,5.92549723 2.78504892,5.19284356 3.190276,4.76867564 L7.53514286,0.192803597 C7.79223558,-0.0642678658 8.20970517,-0.0642678658 8.45333113,0.192803597 L12.812889,4.76867564 C13.2168918,5.19284356 12.9230716,5.92549723 12.3476736,5.92549723" id="Fill-1" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M12,8 L16,8" id="Stroke-6" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M12,10 L15,10" id="Stroke-6-Copy" stroke="#575E75" opacity="0.75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M12,12 L14,12" id="Stroke-6-Copy-2" stroke="#575E75" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M0,8 L4,8" id="Stroke-10" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M1,10 L4,10" id="Stroke-10-Copy" stroke="#575E75" opacity="0.75" stroke-linecap="round" stroke-linejoin="round"></path>\n                <path d="M2,12 L4,12" id="Stroke-10-Copy-2" stroke="#575E75" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const undoIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>undo</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="undo" style="fill: var(--brand, #855CD6)">\n            <path d="M15.5581635,12.7700651 L11.8403972,16.4941315 C11.5610922,16.7671364 11.1830854,16.9211391 10.7903784,16.9211391 C10.3990715,16.9211391 10.0210647,16.7671364 9.74035971,16.4941315 L6.02399342,12.7700651 C5.5969858,12.3430574 5.47098355,11.7060461 5.70198767,11.1530362 C5.93299179,10.6000263 6.46500128,10.24302 7.06701202,10.24302 L8.40403587,10.24302 C8.36903525,9.92101423 8.27803362,9.55700774 8.12403088,9.17200087 C8.07573002,9.05999887 8.02602913,8.94799688 7.97002813,8.83599488 C7.89302676,8.70999263 7.90072689,8.67499201 7.79502501,8.52098926 C7.62702201,8.26898476 7.47301926,8.07998139 7.29031601,7.86297752 C6.9200094,7.4639704 6.47200141,7.12096429 5.99599292,6.86895979 C5.5129843,6.6169553 5.00897531,6.46295255 4.56096732,6.37895105 C4.11995945,6.30194968 3.71395221,6.29494955 3.47594796,6.29494955 C3.35694584,6.28794943 3.2029431,6.31594993 3.12594172,6.32295005 C3.04194022,6.32995018 2.99293935,6.3369503 2.99293935,6.3369503 C2.49593048,6.38595117 2.04792249,6.02194468 1.99892162,5.52493582 C1.95692087,5.10492832 2.20192524,4.72692158 2.57293186,4.58691908 C2.57293186,4.58691908 2.62193273,4.56591871 2.6989341,4.53791821 C2.78993573,4.50991771 2.87393723,4.46091684 3.06994072,4.40491584 C3.46194772,4.28591371 3.95895658,4.15991147 4.60996819,4.09691034 C5.25397968,4.04090934 6.03099354,4.05490959 6.85070816,4.22291259 C7.66902276,4.39791571 8.53003812,4.72692158 9.32805235,5.20293007 C9.7060591,5.44793444 10.1120663,5.73493956 10.427072,6.01494456 C10.5670745,6.11994643 10.8050787,6.35795068 10.9450812,6.5049533 C11.1060841,6.67295629 11.2530867,6.84095929 11.4007893,7.01596241 C11.9670994,7.7159749 12.3871069,8.47198839 12.6601118,9.15800062 C12.8211147,9.55000762 12.9331167,9.92101423 13.0171182,10.24302 L14.5151449,10.24302 C15.1171556,10.24302 15.6491651,10.6000263 15.8801692,11.1530362 C16.1111734,11.7060461 15.9851711,12.3430574 15.5581635,12.7700651" id="Fill-1" transform="translate(8.994247, 10.494247) scale(-1, 1) rotate(-45.000000) translate(-8.994247, -10.494247) "></path>\n        </g>\n    </g>\n</svg>\n';
+const ungroupIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>ungroup</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="ungroup" stroke-width="0.75">\n            <g id="ungroup-icon" transform="translate(10.000000, 10.000000) rotate(180.000000) translate(-10.000000, -10.000000) translate(2.000000, 2.000000)">\n                <rect id="Rectangle-3-Copy" stroke="#575E75" fill="#FFFFFF" x="6.5" y="6.5" width="8" height="8" rx="0.5"></rect>\n                <rect id="Rectangle-3" stroke="#575E75" fill="#575E75" x="1.5" y="1.5" width="8" height="8" rx="0.5"></rect>\n                <rect id="Rectangle-2" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="0" y="0" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-2" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="8" y="0" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="0" y="8" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-3" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="8" y="8" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-4" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="13" y="5" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-5" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="13" y="13" width="3" height="3"></rect>\n                <rect id="Rectangle-2-Copy-6" style="stroke: var(--brand, #855CD6)" fill="#FFFFFF" stroke-linecap="round" stroke-linejoin="round" x="5" y="13" width="3" height="3"></rect>\n            </g>\n        </g>\n    </g>\n</svg>\n';
 const BufferedInput = BufferedInputHOC(Input);
 const messages$2 = defineMessages({
   costume: {
@@ -31883,15 +31922,16 @@ const FixedToolsComponent = (props) => {
           disabled: undoDisabled,
           onClick: props.onUndo,
           children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
+            "span",
             {
-              alt: props.intl.formatMessage(messages$2.undo),
+              "aria-label": props.intl.formatMessage(messages$2.undo),
               className: classNames(
                 styles$3.buttonGroupButtonIcon,
+                styles$3.buttonGroupButtonIconTinted,
                 styles$3.undoIcon
               ),
-              draggable: false,
-              src: undoIcon
+              role: "img",
+              dangerouslySetInnerHTML: { __html: undoIcon }
             }
           )
         }
@@ -31905,12 +31945,15 @@ const FixedToolsComponent = (props) => {
           disabled: redoDisabled,
           onClick: props.onRedo,
           children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-            "img",
+            "span",
             {
-              alt: props.intl.formatMessage(messages$2.redo),
-              className: styles$3.buttonGroupButtonIcon,
-              draggable: false,
-              src: redoIcon
+              "aria-label": props.intl.formatMessage(messages$2.redo),
+              className: classNames(
+                styles$3.buttonGroupButtonIcon,
+                styles$3.buttonGroupButtonIconTinted
+              ),
+              role: "img",
+              dangerouslySetInnerHTML: { __html: redoIcon }
             }
           )
         }
@@ -31922,7 +31965,7 @@ const FixedToolsComponent = (props) => {
         {
           disabled: !shouldShowGroup(),
           hideLabel: hideLabel(props.intl.locale),
-          imgSrc: groupIcon,
+          svgContent: groupIcon,
           title: props.intl.formatMessage(messages$2.group),
           onClick: props.onGroup
         }
@@ -31932,7 +31975,7 @@ const FixedToolsComponent = (props) => {
         {
           disabled: !shouldShowUngroup(),
           hideLabel: hideLabel(props.intl.locale),
-          imgSrc: ungroupIcon,
+          svgContent: ungroupIcon,
           title: props.intl.formatMessage(messages$2.ungroup),
           onClick: props.onUngroup
         }
@@ -31944,7 +31987,7 @@ const FixedToolsComponent = (props) => {
         {
           disabled: !shouldShowBringForward(),
           hideLabel: hideLabel(props.intl.locale),
-          imgSrc: sendForwardIcon,
+          svgContent: sendForwardIcon,
           title: props.intl.formatMessage(messages$2.forward),
           onClick: props.onSendForward
         }
@@ -31954,7 +31997,7 @@ const FixedToolsComponent = (props) => {
         {
           disabled: !shouldShowSendBackward(),
           hideLabel: hideLabel(props.intl.locale),
-          imgSrc: sendBackwardIcon,
+          svgContent: sendBackwardIcon,
           title: props.intl.formatMessage(messages$2.backward),
           onClick: props.onSendBackward
         }
@@ -31966,7 +32009,7 @@ const FixedToolsComponent = (props) => {
         {
           disabled: !shouldShowBringForward(),
           hideLabel: hideLabel(props.intl.locale),
-          imgSrc: sendFrontIcon,
+          svgContent: sendFrontIcon,
           title: props.intl.formatMessage(messages$2.front),
           onClick: props.onSendToFront
         }
@@ -31976,7 +32019,7 @@ const FixedToolsComponent = (props) => {
         {
           disabled: !shouldShowSendBackward(),
           hideLabel: hideLabel(props.intl.locale),
-          imgSrc: sendBackIcon,
+          svgContent: sendBackIcon,
           title: props.intl.formatMessage(messages$2.back),
           onClick: props.onSendToBack
         }
@@ -32006,11 +32049,13 @@ const FixedToolsComponent = (props) => {
                   onClick: props.onSendToFront,
                   children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "img",
+                      "span",
                       {
                         className: styles$3.menuItemIcon,
-                        draggable: false,
-                        src: sendFrontIcon
+                        role: "img",
+                        dangerouslySetInnerHTML: {
+                          __html: sendFrontIcon
+                        }
                       }
                     ),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: props.intl.formatMessage(
@@ -32032,11 +32077,13 @@ const FixedToolsComponent = (props) => {
                   onClick: props.onSendToBack,
                   children: [
                     /* @__PURE__ */ jsxRuntimeExports.jsx(
-                      "img",
+                      "span",
                       {
                         className: styles$3.menuItemIcon,
-                        draggable: false,
-                        src: sendBackIcon
+                        role: "img",
+                        dangerouslySetInnerHTML: {
+                          __html: sendBackIcon
+                        }
                       }
                     ),
                     /* @__PURE__ */ jsxRuntimeExports.jsx("span", { children: props.intl.formatMessage(
@@ -33335,15 +33382,15 @@ const styles$1 = {
   modDashedBorder: modDashedBorder$1,
   modLabeledIconHeight: modLabeledIconHeight$1
 };
-const copyIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2048.2%20(47327)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3ecopy%20v2%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='copy-v2'%3e%3cg%20id='copy'%20transform='translate(3.000000,%202.000000)'%3e%3cpolyline%20id='Path-3'%20stroke-opacity='0.5'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-dasharray='1,2'%20points='0.503173828%203%200.503173828%2015.5%2013%2015.5'%3e%3c/polyline%3e%3cpath%20d='M2,1.00684547%20C2,0.450780073%202.45303631,0%202.99703014,0%20L10,0%20L10,2.34995317%20C10,3.26124887%2010.7336617,4%2011.6500468,4%20L14,4%20L14,13.0046024%20C14,13.5543453%2013.544239,14%2012.9975267,14%20L3.00247329,14%20C2.44882258,14%202,13.5500512%202,12.9931545%20L2,1.00684547%20Z'%20id='Rectangle-4'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M11,0%20L14,3%20L11.9989566,3%20C11.4472481,3%2011,2.55733967%2011,2.00104344%20L11,0%20Z'%20id='Rectangle-5'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M9.8115942,9.1884058%20L8.6884058,9.1884058%20L8.6884058,10.3115942%20C8.6884058,10.6859903%208.38647343,11%208,11%20C7.61352657,11%207.3115942,10.6859903%207.3115942,10.3115942%20L7.3115942,9.1884058%20L6.1884058,9.1884058%20C5.81400966,9.1884058%205.5,8.88647343%205.5,8.5%20C5.5,8.11352657%205.81400966,7.8115942%206.1884058,7.8115942%20L7.3115942,7.8115942%20L7.3115942,6.6884058%20C7.3115942,6.31280193%207.61352657,6%208,6%20C8.38647343,6%208.6884058,6.31280193%208.6884058,6.6884058%20L8.6884058,7.8115942%20L9.8115942,7.8115942%20C10.1859903,7.8115942%2010.5,8.11352657%2010.5,8.5%20C10.5,8.88647343%2010.1859903,9.1884058%209.8115942,9.1884058%20Z'%20id='Fill-1'%20stroke='%23FFFFFF'%20stroke-width='0.25'%20fill='%23FFFFFF'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const pasteIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2048.2%20(47327)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3epaste%20v2%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='paste-v2'%3e%3cg%20id='paste'%20transform='translate(3.000000,%202.000000)'%3e%3cpolyline%20id='Path-3'%20stroke-opacity='0.5'%20stroke='%23575E75'%20stroke-linecap='round'%20stroke-linejoin='round'%20stroke-dasharray='1,2'%20transform='translate(6.748413,%206.750000)%20scale(1,%20-1)%20translate(-6.748413,%20-6.750000)%20'%20points='0.5%200.5%200.5%2013%2012.9968262%2013'%3e%3c/polyline%3e%3cpath%20d='M2,3.00684547%20C2,2.45078007%202.45303631,2%202.99703014,2%20L10,2%20L10,4.34995317%20C10,5.26124887%2010.7336617,6%2011.6500468,6%20L14,6%20L14,15.0046024%20C14,15.5543453%2013.544239,16%2012.9975267,16%20L3.00247329,16%20C2.44882258,16%202,15.5500512%202,14.9931545%20L2,3.00684547%20Z'%20id='Rectangle-4'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M11,2%20L14,5%20L11.9989566,5%20C11.4472481,5%2011,4.55733967%2011,4.00104344%20L11,2%20Z'%20id='Rectangle-5'%20fill='%23855CD6'%3e%3c/path%3e%3cpath%20d='M8.34791833,12.8771885%20C8.26180668,12.9633001%208.14699113,13.0063559%208.03217559,13.0063559%20C7.9030081,13.0063559%207.78819256,12.9633001%207.70208091,12.8771885%20L5.86503222,11.0401398%20C5.73586474,10.8966203%205.69280891,10.7100451%205.76456862,10.5378218%20C5.83632834,10.3655985%205.99419971,10.2651349%206.18077497,10.2651349%20L6.92707599,10.2651349%20L7.28587456,7.66743321%20C7.31457845,7.46650601%207.41504205,7.27993075%207.57291342,7.16511521%20C7.73078479,7.03594773%207.94606393,6.97853995%208.13263919,7.00724384%20C8.47708582,7.06321642%208.74977273,7.33733852%208.79282856,7.66743321%20L9.16597907,10.2651349%20L9.86922427,10.2651349%20C10.0557995,10.2651349%2010.2136709,10.3799504%2010.2854306,10.5521737%20C10.3571903,10.7100451%2010.3141345,10.9109723%2010.184967,11.0401398%20L8.34791833,12.8771885%20Z'%20id='Fill-1'%20fill='%23FFFFFF'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const deleteIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2050.2%20(55047)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3edelete%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='delete'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Delete-Icon'%20transform='translate(2.000000,%201.500000)'%20fill='%23855CD6'%20fill-rule='nonzero'%3e%3cpath%20d='M2,3.25%20L14,3.25%20C14.4437164,3.25%2014.7904293,3.63311343%2014.7462779,4.07462779%20L13.6363275,15.1741315%20C13.5468672,16.0687347%2012.7940775,16.75%2011.8950124,16.75%20L4.10498756,16.75%20C3.20592253,16.75%202.45313279,16.0687347%202.36367248,15.1741315%20L1.25372211,4.07462779%20C1.20957067,3.63311343%201.55628356,3.25%202,3.25%20Z%20M8.75,12%20L8.75,7%20C8.75,6.58578644%208.41421356,6.25%208,6.25%20C7.58578644,6.25%207.25,6.58578644%207.25,7%20L7.25,12%20C7.25,12.4142136%207.58578644,12.75%208,12.75%20C8.41421356,12.75%208.75,12.4142136%208.75,12%20Z%20M11.25,12%20L11.25,7%20C11.25,6.58578644%2010.9142136,6.25%2010.5,6.25%20C10.0857864,6.25%209.75,6.58578644%209.75,7%20L9.75,12%20C9.75,12.4142136%2010.0857864,12.75%2010.5,12.75%20C10.9142136,12.75%2011.25,12.4142136%2011.25,12%20Z%20M6.25,12%20L6.25,7%20C6.25,6.58578644%205.91421356,6.25%205.5,6.25%20C5.08578644,6.25%204.75,6.58578644%204.75,7%20L4.75,12%20C4.75,12.4142136%205.08578644,12.75%205.5,12.75%20C5.91421356,12.75%206.25,12.4142136%206.25,12%20Z%20M1.5,4%20L14.5,4%20L1.5,4%20Z%20M1.5,3%20L14.5,3%20C15.0522847,3%2015.5,3.44771525%2015.5,4%20C15.5,4.55228475%2015.0522847,5%2014.5,5%20L1.5,5%20C0.94771525,5%200.5,4.55228475%200.5,4%20C0.5,3.44771525%200.94771525,3%201.5,3%20Z%20M9.25,3.25%20L9.25,2%20C9.25,1.86192881%209.13807119,1.75%209,1.75%20L7,1.75%20C6.86192881,1.75%206.75,1.86192881%206.75,2%20L6.75,3.25%20L9.25,3.25%20Z%20M7,0.25%20L9,0.25%20C9.96649831,0.25%2010.75,1.03350169%2010.75,2%20L10.75,4.75%20L5.25,4.75%20L5.25,2%20C5.25,1.03350169%206.03350169,0.25%207,0.25%20Z'%20id='Combined-Shape'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const curvedPointIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3ecurved-point%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='curved-point'%3e%3cpath%20d='M2,15%20C2,10.5818452%205.58151214,7%2010.000744,7%20C14.4184879,7%2018,10.5818452%2018,15'%20id='Stroke-3'%20stroke='%23855CD6'%20stroke-width='0.75'%20fill-opacity='0.25'%20fill='%23855CD6'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3cpath%20d='M3,7%20L17,7'%20id='Stroke-7'%20stroke='%23855CD6'%20stroke-width='0.75'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3c/path%3e%3ccircle%20id='Oval-4'%20fill-opacity='0.25'%20fill='%23855CD6'%20cx='10'%20cy='7'%20r='3'%3e%3c/circle%3e%3ccircle%20id='Oval-4'%20fill='%23855CD6'%20cx='10'%20cy='7'%20r='2'%3e%3c/circle%3e%3ccircle%20id='Oval-5'%20fill='%23855CD6'%20cx='3'%20cy='7'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-5-Copy'%20fill='%23855CD6'%20cx='17'%20cy='7'%20r='1'%3e%3c/circle%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const flipHorizontalIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3eflip-horizontal%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='flip-horizontal'%3e%3cg%20transform='translate(2.000000,%203.000000)'%3e%3ccircle%20id='Oval'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='0.75'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='13.25'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-Copy'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='3.875'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-Copy-2'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='7'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-Copy-3'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='10.125'%20r='1'%3e%3c/circle%3e%3cpath%20d='M16,3.08425423%20L16,10.9157458%20C16,11.4342626%2015.2574491,11.6956996%2014.8235798,11.3282353%20L10.2019293,7.41103711%20C9.93269025,7.18445835%209.93269025,6.81408922%2010.2019293,6.58751046%20L14.8235798,2.67176469%20C15.2574491,2.30430042%2016,2.56573745%2016,3.08425423'%20id='Fill-11'%20fill='%23855CD6'%20opacity='0.5'%3e%3c/path%3e%3cpath%20d='M0,10.9157458%20L0,3.08425423%20C0,2.56573745%200.742550911,2.30430042%201.17470525,2.67176469%20L5.79807074,6.58896289%20C6.06730975,6.81554165%206.06730975,7.18591078%205.79807074,7.41248954%20L1.17470525,11.3282353%20C0.742550911,11.6956996%200,11.4342626%200,10.9157458'%20id='Fill-14'%20fill='%23855CD6'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const flipVerticalIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3eflip-vertical%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='flip-vertical'%3e%3cg%20id='flip-horizontal'%20transform='translate(10.000000,%2010.000000)%20rotate(90.000000)%20translate(-10.000000,%20-10.000000)%20translate(2.000000,%203.000000)'%3e%3ccircle%20id='Oval'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='0.75'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='13.25'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-Copy'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='3.875'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-Copy-2'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='7'%20r='1'%3e%3c/circle%3e%3ccircle%20id='Oval-Copy-3'%20fill='%23575E75'%20opacity='0.5'%20cx='8'%20cy='10.125'%20r='1'%3e%3c/circle%3e%3cpath%20d='M16,3.08425423%20L16,10.9157458%20C16,11.4342626%2015.2574491,11.6956996%2014.8235798,11.3282353%20L10.2019293,7.41103711%20C9.93269025,7.18445835%209.93269025,6.81408922%2010.2019293,6.58751046%20L14.8235798,2.67176469%20C15.2574491,2.30430042%2016,2.56573745%2016,3.08425423'%20id='Fill-11'%20fill='%23855CD6'%20opacity='0.5'%3e%3c/path%3e%3cpath%20d='M0,10.9157458%20L0,3.08425423%20C0,2.56573745%200.742550911,2.30430042%201.17470525,2.67176469%20L5.79807074,6.58896289%20C6.06730975,6.81554165%206.06730975,7.18591078%205.79807074,7.41248954%20L1.17470525,11.3282353%20C0.742550911,11.6956996%200,11.4342626%200,10.9157458'%20id='Fill-14'%20fill='%23855CD6'%3e%3c/path%3e%3c/g%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
-const straightPointIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'%20standalone='no'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2043.2%20(39069)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3estraight-point%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='Page-1'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='straight-point'%20fill='%23855CD6'%3e%3cpolyline%20id='Path-2'%20stroke='%23855CD6'%20stroke-width='0.75'%20fill-opacity='0.25'%20stroke-linecap='round'%20stroke-linejoin='round'%20points='2%2015%2010%207%2018%2015'%3e%3c/polyline%3e%3ccircle%20id='Oval-4'%20fill-opacity='0.25'%20cx='10'%20cy='7'%20r='3'%3e%3c/circle%3e%3ccircle%20id='Oval-4'%20cx='10'%20cy='7'%20r='2'%3e%3c/circle%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
 const bitOvalOutlinedIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2050.2%20(55047)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3eoval-outlined%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='oval-outlined'%20stroke='none'%20stroke-width='1'%20fill='none'%20fill-rule='evenodd'%3e%3cg%20id='Group'%20transform='translate(4.000000,%204.000000)'%20fill='%23575E75'%3e%3cpolygon%20id='Fill-1'%20points='0%209.33333333%201.33333333%209.33333333%201.33333333%202.66666667%200%202.66666667'%3e%3c/polygon%3e%3cpolygon%20id='Fill-2'%20points='1.33333333%202.66666667%202.66666667%202.66666667%202.66666667%201.33333333%201.33333333%201.33333333'%3e%3c/polygon%3e%3cpolygon%20id='Fill-3'%20points='1.33333333%2010.6666667%202.66666667%2010.6666667%202.66666667%209.33333333%201.33333333%209.33333333'%3e%3c/polygon%3e%3cpolygon%20id='Fill-4'%20points='2.66666667%201.33333333%209.33333333%201.33333333%209.33333333%200%202.66666667%200'%3e%3c/polygon%3e%3cpolygon%20id='Fill-5'%20points='9.33333333%202.66666667%2010.6666667%202.66666667%2010.6666667%201.33333333%209.33333333%201.33333333'%3e%3c/polygon%3e%3cpolygon%20id='Fill-6'%20points='10.6666667%209.33333333%2012%209.33333333%2012%202.66666667%2010.6666667%202.66666667'%3e%3c/polygon%3e%3cpolygon%20id='Fill-7'%20points='9.33333333%2010.6666667%2010.6666667%2010.6666667%2010.6666667%209.33333333%209.33333333%209.33333333'%3e%3c/polygon%3e%3cpolygon%20id='Fill-8'%20points='2.66666667%2012%209.33333333%2012%209.33333333%2010.6666667%202.66666667%2010.6666667'%3e%3c/polygon%3e%3c/g%3e%3c/g%3e%3c/svg%3e";
 const bitRectOutlinedIcon = "data:image/svg+xml,%3c?xml%20version='1.0'%20encoding='UTF-8'?%3e%3csvg%20width='20px'%20height='20px'%20viewBox='0%200%2020%2020'%20version='1.1'%20xmlns='http://www.w3.org/2000/svg'%20xmlns:xlink='http://www.w3.org/1999/xlink'%3e%3c!--%20Generator:%20Sketch%2050.2%20(55047)%20-%20http://www.bohemiancoding.com/sketch%20--%3e%3ctitle%3erectange-outlined%3c/title%3e%3cdesc%3eCreated%20with%20Sketch.%3c/desc%3e%3cdefs%3e%3c/defs%3e%3cg%20id='rectange-outlined'%20stroke='none'%20stroke-width='1.33333333'%20fill='none'%20fill-rule='evenodd'%3e%3crect%20id='rectangle-icon'%20stroke='%23575E75'%20x='4.5'%20y='4.5'%20width='11'%20height='11'%3e%3c/rect%3e%3c/g%3e%3c/svg%3e";
+const copyIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\n    <title>copy v2</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="copy-v2">\n            <g id="copy" transform="translate(3.000000, 2.000000)">\n                <polyline id="Path-3" stroke-opacity="0.5" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,2" points="0.503173828 3 0.503173828 15.5 13 15.5"></polyline>\n                <path d="M2,1.00684547 C2,0.450780073 2.45303631,0 2.99703014,0 L10,0 L10,2.34995317 C10,3.26124887 10.7336617,4 11.6500468,4 L14,4 L14,13.0046024 C14,13.5543453 13.544239,14 12.9975267,14 L3.00247329,14 C2.44882258,14 2,13.5500512 2,12.9931545 L2,1.00684547 Z" id="Rectangle-4" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M11,0 L14,3 L11.9989566,3 C11.4472481,3 11,2.55733967 11,2.00104344 L11,0 Z" id="Rectangle-5" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M9.8115942,9.1884058 L8.6884058,9.1884058 L8.6884058,10.3115942 C8.6884058,10.6859903 8.38647343,11 8,11 C7.61352657,11 7.3115942,10.6859903 7.3115942,10.3115942 L7.3115942,9.1884058 L6.1884058,9.1884058 C5.81400966,9.1884058 5.5,8.88647343 5.5,8.5 C5.5,8.11352657 5.81400966,7.8115942 6.1884058,7.8115942 L7.3115942,7.8115942 L7.3115942,6.6884058 C7.3115942,6.31280193 7.61352657,6 8,6 C8.38647343,6 8.6884058,6.31280193 8.6884058,6.6884058 L8.6884058,7.8115942 L9.8115942,7.8115942 C10.1859903,7.8115942 10.5,8.11352657 10.5,8.5 C10.5,8.88647343 10.1859903,9.1884058 9.8115942,9.1884058 Z" id="Fill-1" stroke="#FFFFFF" stroke-width="0.25" fill="#FFFFFF"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const pasteIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->\n    <title>paste v2</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="paste-v2">\n            <g id="paste" transform="translate(3.000000, 2.000000)">\n                <polyline id="Path-3" stroke-opacity="0.5" stroke="#575E75" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="1,2" transform="translate(6.748413, 6.750000) scale(1, -1) translate(-6.748413, -6.750000) " points="0.5 0.5 0.5 13 12.9968262 13"></polyline>\n                <path d="M2,3.00684547 C2,2.45078007 2.45303631,2 2.99703014,2 L10,2 L10,4.34995317 C10,5.26124887 10.7336617,6 11.6500468,6 L14,6 L14,15.0046024 C14,15.5543453 13.544239,16 12.9975267,16 L3.00247329,16 C2.44882258,16 2,15.5500512 2,14.9931545 L2,3.00684547 Z" id="Rectangle-4" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M11,2 L14,5 L11.9989566,5 C11.4472481,5 11,4.55733967 11,4.00104344 L11,2 Z" id="Rectangle-5" style="fill: var(--brand, #855CD6)"></path>\n                <path d="M8.34791833,12.8771885 C8.26180668,12.9633001 8.14699113,13.0063559 8.03217559,13.0063559 C7.9030081,13.0063559 7.78819256,12.9633001 7.70208091,12.8771885 L5.86503222,11.0401398 C5.73586474,10.8966203 5.69280891,10.7100451 5.76456862,10.5378218 C5.83632834,10.3655985 5.99419971,10.2651349 6.18077497,10.2651349 L6.92707599,10.2651349 L7.28587456,7.66743321 C7.31457845,7.46650601 7.41504205,7.27993075 7.57291342,7.16511521 C7.73078479,7.03594773 7.94606393,6.97853995 8.13263919,7.00724384 C8.47708582,7.06321642 8.74977273,7.33733852 8.79282856,7.66743321 L9.16597907,10.2651349 L9.86922427,10.2651349 C10.0557995,10.2651349 10.2136709,10.3799504 10.2854306,10.5521737 C10.3571903,10.7100451 10.3141345,10.9109723 10.184967,11.0401398 L8.34791833,12.8771885 Z" id="Fill-1" fill="#FFFFFF"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const deleteIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->\n    <title>delete</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="delete" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="Delete-Icon" transform="translate(2.000000, 1.500000)" style="fill: var(--brand, #855CD6)" fill-rule="nonzero">\n            <path d="M2,3.25 L14,3.25 C14.4437164,3.25 14.7904293,3.63311343 14.7462779,4.07462779 L13.6363275,15.1741315 C13.5468672,16.0687347 12.7940775,16.75 11.8950124,16.75 L4.10498756,16.75 C3.20592253,16.75 2.45313279,16.0687347 2.36367248,15.1741315 L1.25372211,4.07462779 C1.20957067,3.63311343 1.55628356,3.25 2,3.25 Z M8.75,12 L8.75,7 C8.75,6.58578644 8.41421356,6.25 8,6.25 C7.58578644,6.25 7.25,6.58578644 7.25,7 L7.25,12 C7.25,12.4142136 7.58578644,12.75 8,12.75 C8.41421356,12.75 8.75,12.4142136 8.75,12 Z M11.25,12 L11.25,7 C11.25,6.58578644 10.9142136,6.25 10.5,6.25 C10.0857864,6.25 9.75,6.58578644 9.75,7 L9.75,12 C9.75,12.4142136 10.0857864,12.75 10.5,12.75 C10.9142136,12.75 11.25,12.4142136 11.25,12 Z M6.25,12 L6.25,7 C6.25,6.58578644 5.91421356,6.25 5.5,6.25 C5.08578644,6.25 4.75,6.58578644 4.75,7 L4.75,12 C4.75,12.4142136 5.08578644,12.75 5.5,12.75 C5.91421356,12.75 6.25,12.4142136 6.25,12 Z M1.5,4 L14.5,4 L1.5,4 Z M1.5,3 L14.5,3 C15.0522847,3 15.5,3.44771525 15.5,4 C15.5,4.55228475 15.0522847,5 14.5,5 L1.5,5 C0.94771525,5 0.5,4.55228475 0.5,4 C0.5,3.44771525 0.94771525,3 1.5,3 Z M9.25,3.25 L9.25,2 C9.25,1.86192881 9.13807119,1.75 9,1.75 L7,1.75 C6.86192881,1.75 6.75,1.86192881 6.75,2 L6.75,3.25 L9.25,3.25 Z M7,0.25 L9,0.25 C9.96649831,0.25 10.75,1.03350169 10.75,2 L10.75,4.75 L5.25,4.75 L5.25,2 C5.25,1.03350169 6.03350169,0.25 7,0.25 Z" id="Combined-Shape"></path>\n        </g>\n    </g>\n</svg>\n';
+const curvedPointIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>curved-point</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="curved-point">\n            <path d="M2,15 C2,10.5818452 5.58151214,7 10.000744,7 C14.4184879,7 18,10.5818452 18,15" id="Stroke-3" stroke="#855CD6" stroke-width="0.75" fill-opacity="0.25" style="fill: var(--brand, #855CD6)" stroke-linecap="round" stroke-linejoin="round"></path>\n            <path d="M3,7 L17,7" id="Stroke-7" stroke="#855CD6" stroke-width="0.75" stroke-linecap="round" stroke-linejoin="round"></path>\n            <circle id="Oval-4" fill-opacity="0.25" style="fill: var(--brand, #855CD6)" cx="10" cy="7" r="3"></circle>\n            <circle id="Oval-4" style="fill: var(--brand, #855CD6)" cx="10" cy="7" r="2"></circle>\n            <circle id="Oval-5" style="fill: var(--brand, #855CD6)" cx="3" cy="7" r="1"></circle>\n            <circle id="Oval-5-Copy" style="fill: var(--brand, #855CD6)" cx="17" cy="7" r="1"></circle>\n        </g>\n    </g>\n</svg>\n';
+const straightPointIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>straight-point</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="straight-point" style="fill: var(--brand, #855CD6)">\n            <polyline id="Path-2" stroke="#855CD6" stroke-width="0.75" fill-opacity="0.25" stroke-linecap="round" stroke-linejoin="round" points="2 15 10 7 18 15"></polyline>\n            <circle id="Oval-4" fill-opacity="0.25" cx="10" cy="7" r="3"></circle>\n            <circle id="Oval-4" cx="10" cy="7" r="2"></circle>\n        </g>\n    </g>\n</svg>\n';
+const flipHorizontalIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>flip-horizontal</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="flip-horizontal">\n            <g transform="translate(2.000000, 3.000000)">\n                <circle id="Oval" fill="#575E75" opacity="0.5" cx="8" cy="0.75" r="1"></circle>\n                <circle id="Oval" fill="#575E75" opacity="0.5" cx="8" cy="13.25" r="1"></circle>\n                <circle id="Oval-Copy" fill="#575E75" opacity="0.5" cx="8" cy="3.875" r="1"></circle>\n                <circle id="Oval-Copy-2" fill="#575E75" opacity="0.5" cx="8" cy="7" r="1"></circle>\n                <circle id="Oval-Copy-3" fill="#575E75" opacity="0.5" cx="8" cy="10.125" r="1"></circle>\n                <path d="M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423" id="Fill-11" style="fill: var(--brand, #855CD6)" opacity="0.5"></path>\n                <path d="M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458" id="Fill-14" style="fill: var(--brand, #855CD6)"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
+const flipVerticalIcon = '<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">\n    <!-- Generator: Sketch 43.2 (39069) - http://www.bohemiancoding.com/sketch -->\n    <title>flip-vertical</title>\n    <desc>Created with Sketch.</desc>\n    <defs></defs>\n    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">\n        <g id="flip-vertical">\n            <g id="flip-horizontal" transform="translate(10.000000, 10.000000) rotate(90.000000) translate(-10.000000, -10.000000) translate(2.000000, 3.000000)">\n                <circle id="Oval" fill="#575E75" opacity="0.5" cx="8" cy="0.75" r="1"></circle>\n                <circle id="Oval" fill="#575E75" opacity="0.5" cx="8" cy="13.25" r="1"></circle>\n                <circle id="Oval-Copy" fill="#575E75" opacity="0.5" cx="8" cy="3.875" r="1"></circle>\n                <circle id="Oval-Copy-2" fill="#575E75" opacity="0.5" cx="8" cy="7" r="1"></circle>\n                <circle id="Oval-Copy-3" fill="#575E75" opacity="0.5" cx="8" cy="10.125" r="1"></circle>\n                <path d="M16,3.08425423 L16,10.9157458 C16,11.4342626 15.2574491,11.6956996 14.8235798,11.3282353 L10.2019293,7.41103711 C9.93269025,7.18445835 9.93269025,6.81408922 10.2019293,6.58751046 L14.8235798,2.67176469 C15.2574491,2.30430042 16,2.56573745 16,3.08425423" id="Fill-11" style="fill: var(--brand, #855CD6)" opacity="0.5"></path>\n                <path d="M0,10.9157458 L0,3.08425423 C0,2.56573745 0.742550911,2.30430042 1.17470525,2.67176469 L5.79807074,6.58896289 C6.06730975,6.81554165 6.06730975,7.18591078 5.79807074,7.41248954 L1.17470525,11.3282353 C0.742550911,11.6956996 0,11.4342626 0,10.9157458" id="Fill-14" style="fill: var(--brand, #855CD6)"></path>\n            </g>\n        </g>\n    </g>\n</svg>\n';
 const LiveInput$1 = LiveInputHOC(Input);
 const ModeToolsComponent = (props) => {
   const messages2 = defineMessages({
@@ -33484,7 +33531,7 @@ const ModeToolsComponent = (props) => {
                 {
                   disabled: !props.hasSelectedUncurvedPoints,
                   hideLabel: hideLabel(props.intl.locale),
-                  imgSrc: curvedPointIcon,
+                  svgContent: curvedPointIcon,
                   title: props.intl.formatMessage(messages2.curved),
                   onClick: props.onCurvePoints
                 }
@@ -33494,7 +33541,7 @@ const ModeToolsComponent = (props) => {
                 {
                   disabled: !props.hasSelectedUnpointedPoints,
                   hideLabel: hideLabel(props.intl.locale),
-                  imgSrc: straightPointIcon,
+                  svgContent: straightPointIcon,
                   title: props.intl.formatMessage(messages2.pointed),
                   onClick: props.onPointPoints
                 }
@@ -33510,7 +33557,7 @@ const ModeToolsComponent = (props) => {
               LabeledIconButton,
               {
                 hideLabel: hideLabel(props.intl.locale),
-                imgSrc: deleteIcon,
+                svgContent: deleteIcon,
                 title: props.intl.formatMessage(messages2.delete),
                 onClick: props.onDelete
               }
@@ -33533,7 +33580,7 @@ const ModeToolsComponent = (props) => {
                 LabeledIconButton,
                 {
                   hideLabel: hideLabel(props.intl.locale),
-                  imgSrc: copyIcon,
+                  svgContent: copyIcon,
                   title: props.intl.formatMessage(messages2.copy),
                   onClick: props.onCopyToClipboard
                 }
@@ -33543,7 +33590,7 @@ const ModeToolsComponent = (props) => {
                 {
                   disabled: !(props.clipboardItems.length > 0),
                   hideLabel: hideLabel(props.intl.locale),
-                  imgSrc: pasteIcon,
+                  svgContent: pasteIcon,
                   title: props.intl.formatMessage(messages2.paste),
                   onClick: props.onPasteFromClipboard
                 }
@@ -33562,7 +33609,7 @@ const ModeToolsComponent = (props) => {
               LabeledIconButton,
               {
                 hideLabel: hideLabel(props.intl.locale),
-                imgSrc: deleteIcon,
+                svgContent: deleteIcon,
                 title: props.intl.formatMessage(messages2.delete),
                 onClick: props.onDelete
               }
@@ -33578,7 +33625,7 @@ const ModeToolsComponent = (props) => {
                 LabeledIconButton,
                 {
                   hideLabel: props.intl.locale !== "en",
-                  imgSrc: flipHorizontalIcon,
+                  svgContent: flipHorizontalIcon,
                   title: props.intl.formatMessage(
                     messages2.flipHorizontal
                   ),
@@ -33589,7 +33636,7 @@ const ModeToolsComponent = (props) => {
                 LabeledIconButton,
                 {
                   hideLabel: props.intl.locale !== "en",
-                  imgSrc: flipVerticalIcon,
+                  svgContent: flipVerticalIcon,
                   title: props.intl.formatMessage(
                     messages2.flipVertical
                   ),
@@ -36178,262 +36225,271 @@ const messages = defineMessages({
     id: "paint.paintEditor.vector"
   }
 });
-const PaintEditorComponent = (props) => /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.editorContainer, dir: props.rtl ? "rtl" : "ltr", children: [
-  props.canvas !== null ? (
-    // eslint-disable-line no-negated-condition
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.editorContainerTop, children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: styles.row, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-        FixedToolsContainer,
-        {
-          canRedo: props.canRedo,
-          canUndo: props.canUndo,
-          name: props.name,
-          onRedo: props.onRedo,
-          onUndo: props.onUndo,
-          onUpdateImage: props.onUpdateImage,
-          onUpdateName: props.onUpdateName
-        }
-      ) }),
-      isVector(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.row, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          InputGroup,
-          {
-            className: classNames(
-              styles.row,
-              styles.modDashedBorder,
-              styles.modLabeledIconHeight
-            ),
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                FillColorIndicatorComponent,
-                {
-                  className: styles.modMarginAfter,
-                  onUpdateImage: props.onUpdateImage
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                StrokeColorIndicatorComponent,
-                {
-                  onUpdateImage: props.onUpdateImage
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                StrokeWidthIndicatorComponent,
-                {
-                  onUpdateImage: props.onUpdateImage
-                }
-              )
-            ]
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(InputGroup, { className: styles.modModeTools, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          ModeToolsContainer,
-          {
-            onUpdateImage: props.onUpdateImage
-          }
-        ) })
-      ] }) : isBitmap(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.row, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          InputGroup,
-          {
-            className: classNames(
-              styles.row,
-              styles.modDashedBorder,
-              styles.modLabeledIconHeight
-            ),
-            children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              FillColorIndicatorComponent,
+const PaintEditorComponent = (props) => /* @__PURE__ */ jsxRuntimeExports.jsxs(
+  "div",
+  {
+    className: styles.editorContainer,
+    dir: props.rtl ? "rtl" : "ltr",
+    style: props.defaultColor ? { "--brand": props.defaultColor } : void 0,
+    children: [
+      props.canvas !== null ? (
+        // eslint-disable-line no-negated-condition
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.editorContainerTop, children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: styles.row, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+            FixedToolsContainer,
+            {
+              canRedo: props.canRedo,
+              canUndo: props.canUndo,
+              name: props.name,
+              onRedo: props.onRedo,
+              onUndo: props.onUndo,
+              onUpdateImage: props.onUpdateImage,
+              onUpdateName: props.onUpdateName
+            }
+          ) }),
+          isVector(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.row, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              InputGroup,
               {
-                className: styles.modMarginAfter,
+                className: classNames(
+                  styles.row,
+                  styles.modDashedBorder,
+                  styles.modLabeledIconHeight
+                ),
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    FillColorIndicatorComponent,
+                    {
+                      className: styles.modMarginAfter,
+                      onUpdateImage: props.onUpdateImage
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    StrokeColorIndicatorComponent,
+                    {
+                      onUpdateImage: props.onUpdateImage
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    StrokeWidthIndicatorComponent,
+                    {
+                      onUpdateImage: props.onUpdateImage
+                    }
+                  )
+                ]
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(InputGroup, { className: styles.modModeTools, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              ModeToolsContainer,
+              {
                 onUpdateImage: props.onUpdateImage
               }
-            )
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(InputGroup, { className: styles.modModeTools, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-          ModeToolsContainer,
-          {
-            onUpdateImage: props.onUpdateImage
-          }
-        ) })
-      ] }) : null
-    ] })
-  ) : null,
-  /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.topAlignRow, children: [
-    props.canvas !== null && isVector(props.format) ? (
-      // eslint-disable-line no-negated-condition
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.modeSelector, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(SelectMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(ReshapeMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BrushMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(EraserMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(FillMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          TextMode$1,
-          {
-            textArea: props.textArea,
-            onUpdateImage: props.onUpdateImage
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(LineMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(OvalMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(RectMode$1, { onUpdateImage: props.onUpdateImage })
-      ] })
-    ) : null,
-    props.canvas !== null && isBitmap(props.format) ? (
-      // eslint-disable-line no-negated-condition
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.modeSelector, children: [
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitBrushMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitLineMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitOvalMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitRectMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(
-          TextMode$1,
-          {
-            isBitmap: true,
-            textArea: props.textArea,
-            onUpdateImage: props.onUpdateImage
-          }
-        ),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitFillMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitEraserMode$1, { onUpdateImage: props.onUpdateImage }),
-        /* @__PURE__ */ jsxRuntimeExports.jsx(BitSelectMode$1, { onUpdateImage: props.onUpdateImage })
-      ] })
-    ) : null,
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.controlsContainer, children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsxs(
-        ScrollableCanvas$1,
-        {
-          canvas: props.canvas,
-          hideScrollbars: props.isEyeDropping,
-          style: styles.canvasContainer,
-          children: [
+            ) })
+          ] }) : isBitmap(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.row, children: [
             /* @__PURE__ */ jsxRuntimeExports.jsx(
-              PaperCanvas$1,
+              InputGroup,
               {
-                canvasRef: props.setCanvas,
-                image: props.image,
-                imageFormat: props.imageFormat,
-                imageId: props.imageId,
-                rotationCenterX: props.rotationCenterX,
-                rotationCenterY: props.rotationCenterY,
-                zoomLevelId: props.zoomLevelId,
+                className: classNames(
+                  styles.row,
+                  styles.modDashedBorder,
+                  styles.modLabeledIconHeight
+                ),
+                children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  FillColorIndicatorComponent,
+                  {
+                    className: styles.modMarginAfter,
+                    onUpdateImage: props.onUpdateImage
+                  }
+                )
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(InputGroup, { className: styles.modModeTools, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+              ModeToolsContainer,
+              {
+                onUpdateImage: props.onUpdateImage
+              }
+            ) })
+          ] }) : null
+        ] })
+      ) : null,
+      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.topAlignRow, children: [
+        props.canvas !== null && isVector(props.format) ? (
+          // eslint-disable-line no-negated-condition
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.modeSelector, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(SelectMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(ReshapeMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BrushMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(EraserMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(FillMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              TextMode$1,
+              {
+                textArea: props.textArea,
                 onUpdateImage: props.onUpdateImage
               }
             ),
-            /* @__PURE__ */ jsxRuntimeExports.jsx(
-              "textarea",
-              {
-                className: styles.textArea,
-                ref: props.setTextArea,
-                spellCheck: false
-              }
-            ),
-            props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { className: styles.colorPickerWrapper, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-              LoupeComponent,
-              {
-                colorInfo: props.colorInfo,
-                pixelRatio: paper.project.view.pixelRatio
-              }
-            ) }) : null
-          ]
-        }
-      ),
-      /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.canvasControls, children: [
-        isVector(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          ButtonComponent,
-          {
-            className: styles.bitmapButton,
-            onClick: props.onSwitchToBitmap,
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
-                {
-                  className: styles.bitmapButtonIcon,
-                  draggable: false,
-                  src: bitmapIcon
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: styles.buttonText, children: props.intl.formatMessage(messages.bitmap) })
-            ]
-          }
-        ) : isBitmap(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
-          ButtonComponent,
-          {
-            className: styles.bitmapButton,
-            onClick: props.onSwitchToVector,
-            children: [
-              /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
-                {
-                  className: styles.bitmapButtonIcon,
-                  draggable: false,
-                  src: bitmapIcon
-                }
-              ),
-              /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: styles.buttonText, children: props.intl.formatMessage(messages.vector) })
-            ]
-          }
+            /* @__PURE__ */ jsxRuntimeExports.jsx(LineMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(OvalMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(RectMode$1, { onUpdateImage: props.onUpdateImage })
+          ] })
         ) : null,
-        /* @__PURE__ */ jsxRuntimeExports.jsx(InputGroup, { className: styles.zoomControls, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(ButtonGroup, { children: [
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            ButtonComponent,
+        props.canvas !== null && isBitmap(props.format) ? (
+          // eslint-disable-line no-negated-condition
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.modeSelector, children: [
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitBrushMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitLineMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitOvalMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitRectMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(
+              TextMode$1,
+              {
+                isBitmap: true,
+                textArea: props.textArea,
+                onUpdateImage: props.onUpdateImage
+              }
+            ),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitFillMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitEraserMode$1, { onUpdateImage: props.onUpdateImage }),
+            /* @__PURE__ */ jsxRuntimeExports.jsx(BitSelectMode$1, { onUpdateImage: props.onUpdateImage })
+          ] })
+        ) : null,
+        /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.controlsContainer, children: [
+          /* @__PURE__ */ jsxRuntimeExports.jsxs(
+            ScrollableCanvas$1,
             {
-              className: styles.buttonGroupButton,
-              onClick: props.onZoomOut,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
-                {
-                  alt: "Zoom Out",
-                  className: styles.buttonGroupButtonIcon,
-                  draggable: false,
-                  src: zoomOutIcon
-                }
-              )
+              canvas: props.canvas,
+              hideScrollbars: props.isEyeDropping,
+              style: styles.canvasContainer,
+              children: [
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  PaperCanvas$1,
+                  {
+                    canvasRef: props.setCanvas,
+                    image: props.image,
+                    imageFormat: props.imageFormat,
+                    imageId: props.imageId,
+                    rotationCenterX: props.rotationCenterX,
+                    rotationCenterY: props.rotationCenterY,
+                    zoomLevelId: props.zoomLevelId,
+                    onUpdateImage: props.onUpdateImage
+                  }
+                ),
+                /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  "textarea",
+                  {
+                    className: styles.textArea,
+                    ref: props.setTextArea,
+                    spellCheck: false
+                  }
+                ),
+                props.isEyeDropping && props.colorInfo !== null && !props.colorInfo.hideLoupe ? /* @__PURE__ */ jsxRuntimeExports.jsx(Box, { className: styles.colorPickerWrapper, children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                  LoupeComponent,
+                  {
+                    colorInfo: props.colorInfo,
+                    pixelRatio: paper.project.view.pixelRatio
+                  }
+                ) }) : null
+              ]
             }
           ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            ButtonComponent,
-            {
-              className: styles.buttonGroupButton,
-              onClick: props.onZoomReset,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
+          /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: styles.canvasControls, children: [
+            isVector(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              ButtonComponent,
+              {
+                className: styles.bitmapButton,
+                onClick: props.onSwitchToBitmap,
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      className: styles.bitmapButtonIcon,
+                      draggable: false,
+                      src: bitmapIcon
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: styles.buttonText, children: props.intl.formatMessage(messages.bitmap) })
+                ]
+              }
+            ) : isBitmap(props.format) ? /* @__PURE__ */ jsxRuntimeExports.jsxs(
+              ButtonComponent,
+              {
+                className: styles.bitmapButton,
+                onClick: props.onSwitchToVector,
+                children: [
+                  /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      className: styles.bitmapButtonIcon,
+                      draggable: false,
+                      src: bitmapIcon
+                    }
+                  ),
+                  /* @__PURE__ */ jsxRuntimeExports.jsx("span", { className: styles.buttonText, children: props.intl.formatMessage(messages.vector) })
+                ]
+              }
+            ) : null,
+            /* @__PURE__ */ jsxRuntimeExports.jsx(InputGroup, { className: styles.zoomControls, children: /* @__PURE__ */ jsxRuntimeExports.jsxs(ButtonGroup, { children: [
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                ButtonComponent,
                 {
-                  alt: "Zoom Reset",
-                  className: styles.buttonGroupButtonIcon,
-                  draggable: false,
-                  src: zoomResetIcon
+                  className: styles.buttonGroupButton,
+                  onClick: props.onZoomOut,
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      alt: "Zoom Out",
+                      className: styles.buttonGroupButtonIcon,
+                      draggable: false,
+                      src: zoomOutIcon
+                    }
+                  )
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                ButtonComponent,
+                {
+                  className: styles.buttonGroupButton,
+                  onClick: props.onZoomReset,
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      alt: "Zoom Reset",
+                      className: styles.buttonGroupButtonIcon,
+                      draggable: false,
+                      src: zoomResetIcon
+                    }
+                  )
+                }
+              ),
+              /* @__PURE__ */ jsxRuntimeExports.jsx(
+                ButtonComponent,
+                {
+                  className: styles.buttonGroupButton,
+                  onClick: props.onZoomIn,
+                  children: /* @__PURE__ */ jsxRuntimeExports.jsx(
+                    "img",
+                    {
+                      alt: "Zoom In",
+                      className: styles.buttonGroupButtonIcon,
+                      draggable: false,
+                      src: zoomInIcon
+                    }
+                  )
                 }
               )
-            }
-          ),
-          /* @__PURE__ */ jsxRuntimeExports.jsx(
-            ButtonComponent,
-            {
-              className: styles.buttonGroupButton,
-              onClick: props.onZoomIn,
-              children: /* @__PURE__ */ jsxRuntimeExports.jsx(
-                "img",
-                {
-                  alt: "Zoom In",
-                  className: styles.buttonGroupButtonIcon,
-                  draggable: false,
-                  src: zoomInIcon
-                }
-              )
-            }
-          )
-        ] }) })
+            ] }) })
+          ] })
+        ] })
       ] })
-    ] })
-  ] })
-] });
+    ]
+  }
+);
 PaintEditorComponent.propTypes = {
   canRedo: PropTypes.func.isRequired,
   canUndo: PropTypes.func.isRequired,
   canvas: PropTypes.instanceOf(Element),
   colorInfo: LoupeComponent.propTypes.colorInfo,
+  defaultColor: PropTypes.string,
   format: PropTypes.oneOf(Object.keys(Formats)),
   image: PropTypes.oneOfType([
     PropTypes.string,
@@ -37092,6 +37148,7 @@ class PaintEditor extends React.Component {
         canUndo: this.props.shouldShowUndo,
         canvas: this.state.canvas,
         colorInfo: this.state.colorInfo,
+        defaultColor: this.props.defaultColor,
         format: this.props.format,
         image: this.props.image,
         imageFormat: this.props.imageFormat,
@@ -37122,6 +37179,7 @@ PaintEditor.propTypes = {
   changeColorToEyeDropper: PropTypes.func,
   changeMode: PropTypes.func.isRequired,
   clearSelectedItems: PropTypes.func.isRequired,
+  defaultColor: PropTypes.string,
   format: PropTypes.oneOf(Object.keys(Formats)),
   // Internal, up-to-date data format
   fontInlineFn: PropTypes.func,
@@ -37162,6 +37220,7 @@ PaintEditor.propTypes = {
 };
 const mapStateToProps = (state) => ({
   changeColorToEyeDropper: state.scratchPaint.color.eyeDropper.callback,
+  defaultColor: state.scratchPaint.color.fillColor.defaultColor,
   format: state.scratchPaint.format,
   isEyeDropping: state.scratchPaint.color.eyeDropper.active,
   mode: state.scratchPaint.mode,
@@ -37235,6 +37294,7 @@ const scratchPaintReducer = combineReducers({
 });
 export {
   scratchPaintReducer as ScratchPaintReducer,
+  changeFillDefaultColor,
   paintEditor as default
 };
 //# sourceMappingURL=scratch-paint.es.js.map

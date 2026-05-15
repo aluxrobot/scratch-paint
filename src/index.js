@@ -8,5 +8,6 @@ import "./css/units.css";
 // 개별 컴포넌트 CSS 모듈은 자동으로 번들링됩니다
 import PaintEditor from "./containers/paint-editor.jsx";
 import ScratchPaintReducer from "./reducers/scratch-paint-reducer";
+import { changeFillDefaultColor } from "./reducers/fill-style";
 
-export { PaintEditor as default, ScratchPaintReducer };
+export { PaintEditor as default, ScratchPaintReducer, changeFillDefaultColor };

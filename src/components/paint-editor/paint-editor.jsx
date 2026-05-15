@@ -58,7 +58,11 @@ const messages = defineMessages({
 });
 
 const PaintEditorComponent = (props) => (
-    <div className={styles.editorContainer} dir={props.rtl ? "rtl" : "ltr"}>
+    <div
+        className={styles.editorContainer}
+        dir={props.rtl ? "rtl" : "ltr"}
+        style={props.defaultColor ? { "--brand": props.defaultColor } : undefined}
+    >
         {props.canvas !== null ? ( // eslint-disable-line no-negated-condition
             <div className={styles.editorContainerTop}>
                 {/* First row */}
@@ -276,6 +280,7 @@ PaintEditorComponent.propTypes = {
     canUndo: PropTypes.func.isRequired,
     canvas: PropTypes.instanceOf(Element),
     colorInfo: Loupe.propTypes.colorInfo,
+    defaultColor: PropTypes.string,
     format: PropTypes.oneOf(Object.keys(Formats)),
     image: PropTypes.oneOfType([
         PropTypes.string,
