@@ -102,11 +102,22 @@
     user-select: none;
 }
 
-[dir="ltr"] .gradient-picker-row > img + img {
+.gradient-type-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+}
+
+.gradient-type-icon > svg {
+    display: block;
+}
+
+[dir="ltr"] .gradient-picker-row > .gradient-type-icon + .gradient-type-icon {
     margin-left: calc(2 * $grid-unit);
 }
 
-[dir="rtl"] .gradient-picker-row > img + img {
+[dir="rtl"] .gradient-picker-row > .gradient-type-icon + .gradient-type-icon {
     margin-right: calc(2 * $grid-unit);
 }
 
