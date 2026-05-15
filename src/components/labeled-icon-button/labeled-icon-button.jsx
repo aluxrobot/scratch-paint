@@ -16,6 +16,7 @@ const LabeledIconButton = ({
     imgAlt,
     imgSrc,
     onClick,
+    svgContent,
     title,
     ...props
 }) => (
@@ -24,13 +25,23 @@ const LabeledIconButton = ({
         onClick={onClick}
         {...props}
     >
-        <img
-            alt={imgAlt || title}
-            className={styles.editFieldIcon}
-            draggable={false}
-            src={imgSrc}
-            title={title}
-        />
+        {svgContent ? (
+            <span
+                aria-label={imgAlt || title}
+                className={classNames(styles.editFieldIcon, styles.editFieldIconTinted)}
+                role="img"
+                title={title}
+                dangerouslySetInnerHTML={{ __html: svgContent }}
+            />
+        ) : (
+            <img
+                alt={imgAlt || title}
+                className={styles.editFieldIcon}
+                draggable={false}
+                src={imgSrc}
+                title={title}
+            />
+        )}
         {!hideLabel && <span className={styles.editFieldTitle}>{title}</span>}
     </Button>
 );
@@ -40,8 +51,9 @@ LabeledIconButton.propTypes = {
     hideLabel: PropTypes.bool,
     highlighted: PropTypes.bool,
     imgAlt: PropTypes.string,
-    imgSrc: PropTypes.string.isRequired,
+    imgSrc: PropTypes.string,
     onClick: PropTypes.func.isRequired,
+    svgContent: PropTypes.string,
     title: PropTypes.string.isRequired,
 };
 

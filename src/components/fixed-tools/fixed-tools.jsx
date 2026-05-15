@@ -24,14 +24,15 @@ import layout from "../../lib/layout-constants";
 import { hideLabel } from "../../lib/hide-label";
 import styles from "./fixed-tools.module.css";
 
-import groupIcon from "./icons/group.svg";
-import redoIcon from "./icons/redo.svg";
-import sendBackIcon from "./icons/send-back.svg";
-import sendBackwardIcon from "./icons/send-backward.svg";
-import sendForwardIcon from "./icons/send-forward.svg";
-import sendFrontIcon from "./icons/send-front.svg";
-import undoIcon from "./icons/undo.svg";
-import ungroupIcon from "./icons/ungroup.svg";
+// SVG 자체가 style="fill: var(--brand)" 로 작성되어 있어 별도 변환 없이 인라인 렌더만 하면 된다.
+import groupIcon from "./icons/group.svg?raw";
+import redoIcon from "./icons/redo.svg?raw";
+import sendBackIcon from "./icons/send-back.svg?raw";
+import sendBackwardIcon from "./icons/send-backward.svg?raw";
+import sendForwardIcon from "./icons/send-forward.svg?raw";
+import sendFrontIcon from "./icons/send-front.svg?raw";
+import undoIcon from "./icons/undo.svg?raw";
+import ungroupIcon from "./icons/ungroup.svg?raw";
 
 const BufferedInput = BufferedInputHOC(Input);
 const messages = defineMessages({
@@ -125,14 +126,15 @@ const FixedToolsComponent = (props) => {
                         disabled={undoDisabled}
                         onClick={props.onUndo}
                     >
-                        <img
-                            alt={props.intl.formatMessage(messages.undo)}
+                        <span
+                            aria-label={props.intl.formatMessage(messages.undo)}
                             className={classNames(
                                 styles.buttonGroupButtonIcon,
+                                styles.buttonGroupButtonIconTinted,
                                 styles.undoIcon,
                             )}
-                            draggable={false}
-                            src={undoIcon}
+                            role="img"
+                            dangerouslySetInnerHTML={{ __html: undoIcon }}
                         />
                     </Button>
                     <Button
@@ -142,11 +144,14 @@ const FixedToolsComponent = (props) => {
                         disabled={redoDisabled}
                         onClick={props.onRedo}
                     >
-                        <img
-                            alt={props.intl.formatMessage(messages.redo)}
-                            className={styles.buttonGroupButtonIcon}
-                            draggable={false}
-                            src={redoIcon}
+                        <span
+                            aria-label={props.intl.formatMessage(messages.redo)}
+                            className={classNames(
+                                styles.buttonGroupButtonIcon,
+                                styles.buttonGroupButtonIconTinted,
+                            )}
+                            role="img"
+                            dangerouslySetInnerHTML={{ __html: redoIcon }}
                         />
                     </Button>
                 </ButtonGroup>
@@ -158,14 +163,14 @@ const FixedToolsComponent = (props) => {
                     <LabeledIconButton
                         disabled={!shouldShowGroup()}
                         hideLabel={hideLabel(props.intl.locale)}
-                        imgSrc={groupIcon}
+                        svgContent={groupIcon}
                         title={props.intl.formatMessage(messages.group)}
                         onClick={props.onGroup}
                     />
                     <LabeledIconButton
                         disabled={!shouldShowUngroup()}
                         hideLabel={hideLabel(props.intl.locale)}
-                        imgSrc={ungroupIcon}
+                        svgContent={ungroupIcon}
                         title={props.intl.formatMessage(messages.ungroup)}
                         onClick={props.onUngroup}
                     />
@@ -178,14 +183,14 @@ const FixedToolsComponent = (props) => {
                     <LabeledIconButton
                         disabled={!shouldShowBringForward()}
                         hideLabel={hideLabel(props.intl.locale)}
-                        imgSrc={sendForwardIcon}
+                        svgContent={sendForwardIcon}
                         title={props.intl.formatMessage(messages.forward)}
                         onClick={props.onSendForward}
                     />
                     <LabeledIconButton
                         disabled={!shouldShowSendBackward()}
                         hideLabel={hideLabel(props.intl.locale)}
-                        imgSrc={sendBackwardIcon}
+                        svgContent={sendBackwardIcon}
                         title={props.intl.formatMessage(messages.backward)}
                         onClick={props.onSendBackward}
                     />
@@ -198,14 +203,14 @@ const FixedToolsComponent = (props) => {
                         <LabeledIconButton
                             disabled={!shouldShowBringForward()}
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={sendFrontIcon}
+                            svgContent={sendFrontIcon}
                             title={props.intl.formatMessage(messages.front)}
                             onClick={props.onSendToFront}
                         />
                         <LabeledIconButton
                             disabled={!shouldShowSendBackward()}
                             hideLabel={hideLabel(props.intl.locale)}
-                            imgSrc={sendBackIcon}
+                            svgContent={sendBackIcon}
                             title={props.intl.formatMessage(messages.back)}
                             onClick={props.onSendToBack}
                         />
@@ -244,10 +249,12 @@ const FixedToolsComponent = (props) => {
                                         disabled={!shouldShowBringForward()}
                                         onClick={props.onSendToFront}
                                     >
-                                        <img
+                                        <span
                                             className={styles.menuItemIcon}
-                                            draggable={false}
-                                            src={sendFrontIcon}
+                                            role="img"
+                                            dangerouslySetInnerHTML={{
+                                                __html: sendFrontIcon,
+                                            }}
                                         />
                                         <span>
                                             {props.intl.formatMessage(
@@ -266,10 +273,12 @@ const FixedToolsComponent = (props) => {
                                         disabled={!shouldShowSendBackward()}
                                         onClick={props.onSendToBack}
                                     >
-                                        <img
+                                        <span
                                             className={styles.menuItemIcon}
-                                            draggable={false}
-                                            src={sendBackIcon}
+                                            role="img"
+                                            dangerouslySetInnerHTML={{
+                                                __html: sendBackIcon,
+                                            }}
                                         />
                                         <span>
                                             {props.intl.formatMessage(

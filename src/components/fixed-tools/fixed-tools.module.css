@@ -90,6 +90,19 @@ $border-radius: 0.25rem;
     transform: scaleX(-1);
 }
 
+/* undo/redo 아이콘 - 인라인 SVG 레이아웃만 잡는다. 색은 SVG 자체가 var(--brand) 를 본다. */
+.button-group-button-icon-tinted {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-group-button-icon-tinted > svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
 .mod-context-menu {
     display: flex;
     flex-direction: column;

@@ -14,11 +14,12 @@ import { MIXED } from "../../helper/style-path";
 import eyeDropperIcon from "./icons/eye-dropper.svg";
 import noFillIcon from "../color-button/no-fill.svg";
 import mixedFillIcon from "../color-button/mixed-fill.svg";
-import fillHorzGradientIcon from "./icons/fill-horz-gradient-enabled.svg";
-import fillRadialIcon from "./icons/fill-radial-enabled.svg";
-import fillSolidIcon from "./icons/fill-solid-enabled.svg";
-import fillVertGradientIcon from "./icons/fill-vert-gradient-enabled.svg";
-import swapIcon from "./icons/swap.svg";
+// SVG 자체가 style="fill: var(--brand)" 로 작성되어 있어 인라인 렌더만 하면 brand 색상이 cascade 된다.
+import fillHorzGradientIcon from "./icons/fill-horz-gradient-enabled.svg?raw";
+import fillRadialIcon from "./icons/fill-radial-enabled.svg?raw";
+import fillSolidIcon from "./icons/fill-solid-enabled.svg?raw";
+import fillVertGradientIcon from "./icons/fill-vert-gradient-enabled.svg?raw";
+import swapIcon from "./icons/swap.svg?raw";
 import Modes from "../../lib/modes";
 
 const hsvToHex = (h, s, v) =>
@@ -86,58 +87,78 @@ class ColorPickerComponent extends React.Component {
                     <div>
                         <div className={styles.row}>
                             <div className={styles.gradientPickerRow}>
-                                <img
-                                    className={classNames({
-                                        [styles.inactiveGradient]:
-                                            this.props.gradientType !==
-                                            GradientTypes.SOLID,
-                                        [styles.clickable]: true,
-                                    })}
-                                    draggable={false}
-                                    src={fillSolidIcon}
+                                <span
+                                    className={classNames(
+                                        styles.gradientTypeIcon,
+                                        {
+                                            [styles.inactiveGradient]:
+                                                this.props.gradientType !==
+                                                GradientTypes.SOLID,
+                                            [styles.clickable]: true,
+                                        },
+                                    )}
+                                    role="button"
                                     onClick={
                                         this.props.onChangeGradientTypeSolid
                                     }
+                                    dangerouslySetInnerHTML={{
+                                        __html: fillSolidIcon,
+                                    }}
                                 />
-                                <img
-                                    className={classNames({
-                                        [styles.inactiveGradient]:
-                                            this.props.gradientType !==
-                                            GradientTypes.HORIZONTAL,
-                                        [styles.clickable]: true,
-                                    })}
-                                    draggable={false}
-                                    src={fillHorzGradientIcon}
+                                <span
+                                    className={classNames(
+                                        styles.gradientTypeIcon,
+                                        {
+                                            [styles.inactiveGradient]:
+                                                this.props.gradientType !==
+                                                GradientTypes.HORIZONTAL,
+                                            [styles.clickable]: true,
+                                        },
+                                    )}
+                                    role="button"
                                     onClick={
                                         this.props
                                             .onChangeGradientTypeHorizontal
                                     }
+                                    dangerouslySetInnerHTML={{
+                                        __html: fillHorzGradientIcon,
+                                    }}
                                 />
-                                <img
-                                    className={classNames({
-                                        [styles.inactiveGradient]:
-                                            this.props.gradientType !==
-                                            GradientTypes.VERTICAL,
-                                        [styles.clickable]: true,
-                                    })}
-                                    draggable={false}
-                                    src={fillVertGradientIcon}
+                                <span
+                                    className={classNames(
+                                        styles.gradientTypeIcon,
+                                        {
+                                            [styles.inactiveGradient]:
+                                                this.props.gradientType !==
+                                                GradientTypes.VERTICAL,
+                                            [styles.clickable]: true,
+                                        },
+                                    )}
+                                    role="button"
                                     onClick={
                                         this.props.onChangeGradientTypeVertical
                                     }
+                                    dangerouslySetInnerHTML={{
+                                        __html: fillVertGradientIcon,
+                                    }}
                                 />
-                                <img
-                                    className={classNames({
-                                        [styles.inactiveGradient]:
-                                            this.props.gradientType !==
-                                            GradientTypes.RADIAL,
-                                        [styles.clickable]: true,
-                                    })}
-                                    draggable={false}
-                                    src={fillRadialIcon}
+                                <span
+                                    className={classNames(
+                                        styles.gradientTypeIcon,
+                                        {
+                                            [styles.inactiveGradient]:
+                                                this.props.gradientType !==
+                                                GradientTypes.RADIAL,
+                                            [styles.clickable]: true,
+                                        },
+                                    )}
+                                    role="button"
                                     onClick={
                                         this.props.onChangeGradientTypeRadial
                                     }
+                                    dangerouslySetInnerHTML={{
+                                        __html: fillRadialIcon,
+                                    }}
                                 />
                             </div>
                         </div>
@@ -188,7 +209,7 @@ class ColorPickerComponent extends React.Component {
                                     </div>
                                     <LabeledIconButton
                                         className={styles.swapButton}
-                                        imgSrc={swapIcon}
+                                        svgContent={swapIcon}
                                         title={this.props.intl.formatMessage(
                                             messages.swap,
                                         )}
